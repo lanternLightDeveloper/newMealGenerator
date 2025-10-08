@@ -84,213 +84,65 @@
 </script>
 
 <main>
-	<div class="controls">
-		<div class="checkbox-group">
+	<section class="block-Selection-List">
+		<article class="controls">
 			<label><input type="checkbox" bind:checked={includeStarch} /> Include Starch</label>
 			<label><input type="checkbox" bind:checked={includeVeg} /> Include Vegetable</label>
 			<label><input type="checkbox" bind:checked={includeSandwiches} /> Include Sandwiches</label>
 			<label><input type="checkbox" bind:checked={includeSoup} /> Include Soup</label>
 			<label><input type="checkbox" bind:checked={includeMain} /> Include Main</label>
 			<label><input type="checkbox" bind:checked={includeDessert} /> Include Dessert</label>
-		</div>
+		</article>
 
-		<div class="buttons">
-			<button class="generate-btn" onclick={generateMeal}>Generate Meal</button>
-			<button class="save-btn" onclick={saveMealAsText} disabled={!Object.keys(meal).length}>
-				Save Meal as .TXT
+		<article>
+			<button class="btn-Fill" onclick={generateMeal}><span> Generate Meal </span></button>
+			<button class="btn-Fill" onclick={saveMealAsText} disabled={!Object.keys(meal).length}>
+				<span> Save Meal as .TXT </span>
 			</button>
-		</div>
-	</div>
+		</article>
+	</section>
 
-	<section class="recipeGrid">
+	<section class="grid-Main">
 		{#if meal.starch}
-			<div class="recipe-card-container">
+			<div>
+				<button class="btn-Ghost" onclick={() => reroll('starch')}>Reroll Starch</button>
 				<RecipeCard Recipes={meal.starch} />
-				<button class="reroll-btn" onclick={() => reroll('starch')}>Reroll Starch</button>
 			</div>
 		{/if}
 
 		{#if meal.veg}
-			<div class="recipe-card-container">
+			<div>
+				<button class="btn-Ghost" onclick={() => reroll('veg')}>Reroll Vegetable</button>
 				<RecipeCard Recipes={meal.veg} />
-				<button class="reroll-btn" onclick={() => reroll('veg')}>Reroll Vegetable</button>
 			</div>
 		{/if}
 
 		{#if meal.sandwiches}
-			<div class="recipe-card-container">
+			<div>
+				<button class="btn-Ghost" onclick={() => reroll('sandwiches')}>Reroll Sandwich</button>
 				<RecipeCard Recipes={meal.sandwiches} />
-				<button class="reroll-btn" onclick={() => reroll('sandwiches')}>Reroll Sandwich</button>
 			</div>
 		{/if}
 
 		{#if meal.soup}
-			<div class="recipe-card-container">
+			<div>
+				<button class="btn-Ghost" onclick={() => reroll('soup')}>Reroll Soup</button>
 				<RecipeCard Recipes={meal.soup} />
-				<button class="reroll-btn" onclick={() => reroll('soup')}>Reroll Soup</button>
 			</div>
 		{/if}
 
 		{#if meal.main}
-			<div class="recipe-card-container">
+			<div>
+				<button class="btn-Ghost" onclick={() => reroll('main')}>Reroll Main</button>
 				<RecipeCard Recipes={meal.main} />
-				<button class="reroll-btn" onclick={() => reroll('main')}>Reroll Main</button>
 			</div>
 		{/if}
 
 		{#if meal.dessert}
-			<div class="recipe-card-container">
+			<div>
+				<button class="btn-Ghost" onclick={() => reroll('dessert')}>Reroll Dessert</button>
 				<RecipeCard Recipes={meal.dessert} />
-				<button class="reroll-btn" onclick={() => reroll('dessert')}>Reroll Dessert</button>
 			</div>
 		{/if}
 	</section>
 </main>
-
-<style>
-	/* minimal styles */
-	main {
-		padding: 1rem;
-		font-family: system-ui, sans-serif;
-	}
-
-	.controls {
-		display: flex;
-		flex-direction: column;
-		gap: 1rem;
-		padding: 1rem;
-		border-radius: 12px;
-		max-width: 700px;
-		margin: 0 auto 2rem auto;
-	}
-
-	.checkbox-group {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-		gap: 0.8rem;
-	}
-
-	.checkbox-group label {
-		display: flex;
-		align-items: center;
-		gap: 0.5rem;
-		padding: 0.5rem 0.75rem;
-		background-color: var(--accent-1);
-		border-radius: 8px;
-		cursor: pointer;
-		transition: background 0.2s;
-	}
-
-	.checkbox-group label:hover {
-		background-color: var(--hover);
-	}
-
-	.buttons {
-		display: flex;
-		gap: 1rem;
-		flex-wrap: wrap;
-	}
-
-	button {
-		padding: 0.6rem 1.2rem;
-		border: none;
-		border-radius: 8px;
-		font-weight: 600;
-		cursor: pointer;
-		transition:
-			background 0.2s,
-			transform 0.1s;
-	}
-
-	.generate-btn {
-		background-color: var(--accent-2);
-		color: white;
-	}
-
-	.generate-btn:hover {
-		background-color: var(--hover-2);
-		transform: scale(1.03);
-	}
-
-	.save-btn {
-		background-color: var(--accent-2);
-		color: var(--txt-1);
-		border: var(--bord);
-	}
-
-	.save-btn:hover {
-		background-color: var(--hover-2);
-		transform: scale(1.03);
-	}
-
-	button:disabled,
-	button:disabled:hover {
-		background-color: #cccccc;
-		cursor: not-allowed;
-		transform: none;
-	}
-	.recipeGrid {
-		display: grid;
-		grid-template-columns: 1fr;
-		gap: 1.5rem; /* space between cards */
-		width: 100%;
-		margin: 0 auto;
-		padding: 1rem;
-
-		@media screen and (min-width: 600px) {
-			grid-template-columns: 1fr 1fr; /* 2 columns on tablets */
-		}
-
-		@media screen and (min-width: 1024px) {
-			grid-template-columns: 1fr 1fr 1fr; /* 3 columns on desktops */
-		}
-	}
-
-	.recipe-card-container {
-		position: relative;
-		display: flex;
-		flex-direction: column;
-		border-radius: 12px;
-		padding: 1rem;
-		transition:
-			transform 0.15s,
-			box-shadow 0.2s;
-	}
-
-	.recipe-card-container:hover {
-		transform: translateY(-3px);
-	}
-
-	.recipe-card-container .reroll-btn {
-		position: absolute;
-		align-self: center;
-		background-color: var(--accent-2);
-		color: white;
-		border: none;
-		border-radius: 6px;
-		padding: 0.3rem 0.6rem;
-		cursor: pointer;
-		transition:
-			background 0.2s,
-			transform 0.1s;
-	}
-
-	.reroll-btn {
-		background-color: #ff9800;
-		width: fit-content;
-		height: fit-content;
-		color: white;
-		border: none;
-		border-radius: 6px;
-		padding: 0.4rem 0.8rem;
-		cursor: pointer;
-		transition:
-			background 0.2s,
-			transform 0.1s;
-	}
-
-	.reroll-btn:hover {
-		background-color: var(--hover-2);
-		transform: scale(1.05);
-	}
-</style>

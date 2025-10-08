@@ -44,7 +44,7 @@
 		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 		margin: 1rem auto;
 		width: fit-content;
-		max-width: 90%;
+		max-width: 100%;
 	}
 
 	h2,
@@ -52,6 +52,13 @@
 	p {
 		margin: 0;
 		padding: 0;
+	}
+
+	ol {
+		li {
+			margin: 0 1.25rem;
+			padding: 0;
+		}
 	}
 
 	h2 {
@@ -76,6 +83,7 @@
 
 	.tags li {
 		background: #444;
+		margin-top: 0.25rem;
 		padding: 0.25rem 0.75rem;
 		border-radius: 9999px;
 		font-size: 0.85rem;

@@ -28,10 +28,10 @@
 /* --space-Full: cqh(15%) cqw(15%); */
 
 /* Border & Radius */
---rad-Sm:           1rem;
+--rad-Sm:           .5rem;
 --rad-Lg:           2.25rem;
 --bord:             2px solid var(--border-color);
---bord-2:             2px dashed var(--border-color);
+--bord-2:             2px solid var(--border-color-2);
 
 /* Shadows & lights */
 --glow-Box:       6px 4px 8px var(--hover), 0 4px 6px var(--hover);

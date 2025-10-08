@@ -12,7 +12,7 @@
 
     --error:oklch(75.862% 0.17676 60.629); /* Orange bright  */
 
-    --gradient: linear-gradient(to bottom right,var(--bg-1),   color-mix(in srgb, var(--bg-2) 90%, var(--bg-2) 10%),var(--bg-2));
+    --gradient: linear-gradient(to bottom right,var(--accent-1),   color-mix(in srgb, var(--accent-1) 90%, var(--accent-2) 10%),var(--accent-2));
     --gradientFlip:linear-gradient(0deg,var(--bg-1), var(--bg-1),  color-mix(in srgb, var(--bg-1) 90%, var(--accent-1) 10%),var(--accent-1));
   
 
@@ -21,6 +21,7 @@
     --hover-2: color-mix(in oklch, var(--accent-2) 80%, white 20%);
     --color-active: color-mix(in oklch, var(--accent-1 ) 80%, white 25%);
     --border-color: color-mix(in oklch, var(--accent-1) 100%, var(--bg-1) 50%);
+    --border-color-2: color-mix(in oklch, var(--accent-2) 100%, var(--bg-1) 50%);
     --shadow:color-mix(in oklch, var(--bg-1) 70%, var(--bg-1) 10%);
     --hallow:color-mix(in oklch, var(--accent-3) 100%, transparent 100%);
     --hallow-2:color-mix(in oklch, var(--txt-2) 100%, transparent 100%);
