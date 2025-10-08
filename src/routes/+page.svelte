@@ -104,6 +104,7 @@
 
 <main>
 	<section class="block-Selection-List">
+		<p>Select to include</p>
 		<article class="controls">
 			<label>
 				<input type="checkbox" bind:checked={glutenFreeOnly} /> Gluten-Free Only
@@ -112,12 +113,12 @@
 				<input type="checkbox" bind:checked={vegetarianFriendly} /> Vegetarian Friendly
 			</label>
 
-			<label><input type="checkbox" bind:checked={includeStarch} /> Include Starch</label>
-			<label><input type="checkbox" bind:checked={includeVeg} /> Include Vegetable</label>
-			<label><input type="checkbox" bind:checked={includeSandwiches} /> Include Sandwiches</label>
-			<label><input type="checkbox" bind:checked={includeSoup} /> Include Soup</label>
-			<label><input type="checkbox" bind:checked={includeMain} /> Include Main</label>
-			<label><input type="checkbox" bind:checked={includeDessert} /> Include Dessert</label>
+			<label><input type="checkbox" bind:checked={includeStarch} /> Starch</label>
+			<label><input type="checkbox" bind:checked={includeVeg} /> Vegetable</label>
+			<label><input type="checkbox" bind:checked={includeSandwiches} /> Sandwiches</label>
+			<label><input type="checkbox" bind:checked={includeSoup} /> Soup</label>
+			<label><input type="checkbox" bind:checked={includeMain} /> Main</label>
+			<label><input type="checkbox" bind:checked={includeDessert} /> Dessert</label>
 		</article>
 
 		<article>
