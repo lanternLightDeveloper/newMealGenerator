@@ -14,6 +14,8 @@
 	let includeSoup = $state(true);
 	let includeMain = $state(true);
 	let includeDessert = $state(true);
+	let glutenFreeOnly = $state(false);
+	let vegetarianFriendly = $state(false);
 
 	let meal = $state<{
 		starch?: Recipe;
@@ -27,16 +29,24 @@
 	function generateMeal() {
 		const newMeal: typeof meal = {};
 
-		if (includeStarch && Starch.length)
-			newMeal.starch = Starch[Math.floor(Math.random() * Starch.length)];
-		if (includeVeg && Vegetables.length)
-			newMeal.veg = Vegetables[Math.floor(Math.random() * Vegetables.length)];
-		if (includeSandwiches && Sandwiches.length)
-			newMeal.sandwiches = Sandwiches[Math.floor(Math.random() * Sandwiches.length)];
-		if (includeSoup && Soups.length) newMeal.soup = Soups[Math.floor(Math.random() * Soups.length)];
-		if (includeMain && Mains.length) newMeal.main = Mains[Math.floor(Math.random() * Mains.length)];
-		if (includeDessert && Desserts.length)
-			newMeal.dessert = Desserts[Math.floor(Math.random() * Desserts.length)];
+		function getRandomRecipe(list) {
+			let filtered = list;
+			if (glutenFreeOnly) {
+				filtered = list.filter((r) => r.tags?.includes('gluten-free'));
+			}
+			if (vegetarianFriendly) {
+				filtered = list.filter((r) => r.tags?.includes('vegetarian'));
+			}
+			if (!filtered.length) return null; // no matching recipes
+			return filtered[Math.floor(Math.random() * filtered.length)];
+		}
+
+		if (includeStarch && Starch.length) newMeal.starch = getRandomRecipe(Starch);
+		if (includeVeg && Vegetables.length) newMeal.veg = getRandomRecipe(Vegetables);
+		if (includeSandwiches && Sandwiches.length) newMeal.sandwiches = getRandomRecipe(Sandwiches);
+		if (includeSoup && Soups.length) newMeal.soup = getRandomRecipe(Soups);
+		if (includeMain && Mains.length) newMeal.main = getRandomRecipe(Mains);
+		if (includeDessert && Desserts.length) newMeal.dessert = getRandomRecipe(Desserts);
 
 		meal = newMeal;
 	}
@@ -78,7 +88,16 @@
 
 		const list = sources[category];
 		if (list && list.length) {
-			meal = { ...meal, [category]: list[Math.floor(Math.random() * list.length)] };
+			let filtered = list;
+			if (glutenFreeOnly) {
+				filtered = list.filter((r) => r.tags?.includes('gluten-free'));
+			}
+			if (vegetarianFriendly) {
+				filtered = list.filter((r) => r.tags?.includes('vegetarian'));
+			}
+			if (filtered.length) {
+				meal = { ...meal, [category]: filtered[Math.floor(Math.random() * filtered.length)] };
+			}
 		}
 	}
 </script>
@@ -86,6 +105,13 @@
 <main>
 	<section class="block-Selection-List">
 		<article class="controls">
+			<label>
+				<input type="checkbox" bind:checked={glutenFreeOnly} /> Gluten-Free Only
+			</label>
+			<label>
+				<input type="checkbox" bind:checked={vegetarianFriendly} /> Vegetarian Friendly
+			</label>
+
 			<label><input type="checkbox" bind:checked={includeStarch} /> Include Starch</label>
 			<label><input type="checkbox" bind:checked={includeVeg} /> Include Vegetable</label>
 			<label><input type="checkbox" bind:checked={includeSandwiches} /> Include Sandwiches</label>
