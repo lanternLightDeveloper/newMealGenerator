@@ -1,6 +1,6 @@
 {
-	"name": "newrecipegenerator",
-	"version": "0.0.1",
+			"name": "table-tango",
+			"version": "2.2.1",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",
