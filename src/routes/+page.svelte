@@ -136,10 +136,11 @@
 				<p>Select to include</p>
 				<article class="controls">
 					<p class="double-Block">Keywords</p>
-
+					<br />
 					<label for="MakeGf">
 						<a style="color: var(--txt-1);" href="/MakeGf">Gluten free guide</a>
 					</label>
+
 					<label for="MakeVeg">
 						<a style="color: var(--txt-1);" href="/MakeVeg">Vegetarian swap guide</a>
 					</label>
@@ -160,7 +161,7 @@
 					</label>
 
 					<br />
-					<p>Meal Options</p>
+					<p class="double-Block">Meal Options</p>
 					<br />
 					<label><input type="checkbox" bind:checked={includeStarch} /> Starch</label>
 					<label><input type="checkbox" bind:checked={includeVeg} /> Vegetable</label>
