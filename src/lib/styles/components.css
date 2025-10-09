@@ -268,8 +268,20 @@
 			list-style: disc;
 			margin: 1.5rem 5vw;
 		}
+
+		table {
+		border-collapse: collapse;
 	}
-		
+
+	th,
+	td {
+		border: var(--bord);
+		padding: 0.5rem;
+		vertical-align: top;
+	}
+	}
+
+	
 
 	@media only screen and (min-width: 768px) { 
 		gap: var(--size-4);
