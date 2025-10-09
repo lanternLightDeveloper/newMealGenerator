@@ -15,7 +15,17 @@ export const Vegetables: Recipe[] = [
 			'Transfer to a serving dish and sprinkle with fresh thyme leaves before serving.',
 			'Enjoy your sweet and savory glazed carrots!'
 		],
-		tags: ['side', 'carrot', 'glazed', 'roasted', 'easy', 'vegetarian', 'gluten-free'],
+		tags: [
+			'side',
+			'carrot',
+			'glazed',
+			'roasted',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '180 calories, 22g carbs, 9g fat, 1g protein',
 		time: 30
 	},
@@ -34,7 +44,7 @@ export const Vegetables: Recipe[] = [
 			'Add cream, salt, and pepper, and blend until smooth and creamy.',
 			'Adjust seasoning and serve warm as a silky side dish.'
 		],
-		tags: ['side', 'carrot', 'ginger', 'puree', 'smooth', 'vegetarian', 'gluten-free'],
+		tags: ['side', 'carrot', 'ginger', 'puree', 'smooth', 'vegetarian', 'gluten-free', 'fast'],
 		nutrition: '140 calories, 12g carbs, 9g fat, 2g protein',
 		time: 25
 	},
@@ -63,7 +73,7 @@ export const Vegetables: Recipe[] = [
 			'Season with salt and pepper to taste, and fold in chopped parsley before serving.',
 			'Serve warm or at room temperature for a fragrant side dish.'
 		],
-		tags: ['carrot', 'couscous', 'spiced', 'side', 'quick', 'vegetarian', 'gluten-free'],
+		tags: ['carrot', 'couscous', 'spiced', 'side', 'quick', 'vegetarian', 'gluten-free', 'fast'],
 		nutrition: '230 calories, 38g carbs, 7g fat, 4g protein',
 		time: 20
 	},
@@ -89,7 +99,18 @@ export const Vegetables: Recipe[] = [
 			'Just before serving, sprinkle with chopped fresh mint leaves.',
 			'Serve cold as a refreshing side salad.'
 		],
-		tags: ['carrot', 'salad', 'mint', 'orange', 'fresh', 'side', 'vegetarian', 'gluten-free'],
+		tags: [
+			'carrot',
+			'salad',
+			'mint',
+			'orange',
+			'fresh',
+			'side',
+			'vegetarian',
+			'gluten-free',
+			'easy',
+			'fast'
+		],
 		nutrition: '120 calories, 15g carbs, 6g fat, 1g protein',
 		time: 15
 	},
@@ -106,7 +127,18 @@ export const Vegetables: Recipe[] = [
 			'Roast for 25 minutes, turning halfway through, until golden and crisp on the edges.',
 			'Serve warm as a rustic, aromatic side dish.'
 		],
-		tags: ['carrot', 'roasted', 'garlic', 'herbs', 'side', 'vegetarian', 'easy'],
+		tags: [
+			'carrot',
+			'roasted',
+			'garlic',
+			'herbs',
+			'side',
+			'vegetarian',
+			'easy',
+			'gluten-free',
+			'fast',
+			'easy'
+		],
 		nutrition: '160 calories, 18g carbs, 8g fat, 2g protein',
 		time: 30
 	},
@@ -128,7 +160,17 @@ export const Vegetables: Recipe[] = [
 			'Spread on a baking sheet and roast for 20 minutes, stirring halfway.',
 			'Drizzle with lemon juice before serving.'
 		],
-		tags: ['roasted', 'garlic', 'vegan', 'quick', 'side', 'vegetarian', 'gluten-free'],
+		tags: [
+			'roasted',
+			'garlic',
+			'vegan',
+			'quick',
+			'side',
+			'vegetarian',
+			'gluten-free',
+			'fast',
+			'easy'
+		],
 		nutrition: '110 calories, 8g fat, 8g carbs, 4g protein',
 		time: 25
 	},
@@ -173,7 +215,7 @@ export const Vegetables: Recipe[] = [
 			'In a skillet, melt butter and toast almonds until golden.',
 			'Toss broccoli with almonds, lemon juice, salt, and pepper.'
 		],
-		tags: ['stovetop', 'buttery', 'nutty', 'quick', 'vegetarian', 'gluten-free'],
+		tags: ['stovetop', 'buttery', 'nutty', 'quick', 'vegetarian', 'gluten-free', 'fast', 'easy'],
 		nutrition: '130 calories, 9g fat, 8g carbs, 4g protein',
 		time: 15
 	},
@@ -214,7 +256,7 @@ export const Vegetables: Recipe[] = [
 			'Toss with broccoli, bacon, cranberries, and sunflower seeds.',
 			'Chill 30 minutes before serving.'
 		],
-		tags: ['cold', 'salad', 'sweet-savory', 'make-ahead'],
+		tags: ['cold', 'salad', 'sweet-savory', 'make-ahead', 'fast'],
 		nutrition: '230 calories, 17g fat, 12g carbs, 6g protein',
 		time: 35
 	},
@@ -235,7 +277,7 @@ export const Vegetables: Recipe[] = [
 			'Add broccoli and broth, simmer 10 minutes until tender.',
 			'Blend until smooth, stir in milk, and season to taste.'
 		],
-		tags: ['soup', 'creamy', 'comfort', 'vegetarian', 'gluten-free'],
+		tags: ['soup', 'creamy', 'comfort', 'vegetarian', 'gluten-free', 'fast'],
 		nutrition: '160 calories, 8g fat, 15g carbs, 6g protein',
 		time: 25
 	},
@@ -257,7 +299,7 @@ export const Vegetables: Recipe[] = [
 			'Add broccoli and sauté until tender-crisp.',
 			'Season with salt and pepper before serving.'
 		],
-		tags: ['stovetop', 'vegan', 'garlic', 'healthy'],
+		tags: ['stovetop', 'vegan', 'garlic', 'healthy', 'fast'],
 		nutrition: '140 calories, 9g fat, 11g carbs, 5g protein',
 		time: 15
 	},
@@ -278,7 +320,16 @@ export const Vegetables: Recipe[] = [
 			'Place on baking sheet, drizzle with olive oil, sprinkle with Parmesan.',
 			'Roast 10–12 minutes until crisp-tender and lightly golden.'
 		],
-		tags: ['asparagus', 'prosciutto', 'baked', 'italian', 'elegant', 'vegetarian', 'gluten-free'],
+		tags: [
+			'asparagus',
+			'prosciutto',
+			'baked',
+			'italian',
+			'elegant',
+			'vegetarian',
+			'gluten-free',
+			'fast'
+		],
 		nutrition: '210 calories, 4g carbs, 16g fat, 12g protein',
 		time: 20
 	},
@@ -307,7 +358,8 @@ export const Vegetables: Recipe[] = [
 			'vegan',
 			'fancy',
 			'vegetarian',
-			'gluten-free'
+			'gluten-free',
+			'fast'
 		],
 		nutrition: '260 calories, 14g carbs, 20g fat, 5g protein',
 		time: 30
@@ -329,7 +381,7 @@ export const Vegetables: Recipe[] = [
 			'Toss carrots in glaze until glossy and fragrant.',
 			'Serve warm.'
 		],
-		tags: ['carrots', 'glazed', 'honey', 'refined', 'vegetarian', 'gluten-free'],
+		tags: ['carrots', 'glazed', 'honey', 'refined', 'vegetarian', 'gluten-free', 'fast'],
 		nutrition: '180 calories, 22g carbs, 9g fat, 2g protein',
 		time: 20
 	},
@@ -352,7 +404,16 @@ export const Vegetables: Recipe[] = [
 			'Add cream, Parmesan, and nutmeg, simmer until thickened.',
 			'Stir spinach back in and cook 2 minutes more.'
 		],
-		tags: ['spinach', 'creamy', 'classic', 'steakhouse', 'luxury', 'vegetarian', 'gluten-free'],
+		tags: [
+			'spinach',
+			'creamy',
+			'classic',
+			'steakhouse',
+			'luxury',
+			'vegetarian',
+			'gluten-free',
+			'fast'
+		],
 		nutrition: '290 calories, 10g carbs, 26g fat, 6g protein',
 		time: 25
 	},
@@ -395,7 +456,17 @@ export const Vegetables: Recipe[] = [
 			'Whisk olive oil, balsamic, honey, salt, and pepper for dressing.',
 			'Toss beets in dressing, top with goat cheese and pistachios before serving.'
 		],
-		tags: ['salad', 'beet', 'goat cheese', 'refined', 'cold', 'vegetarian', 'gluten-free'],
+		tags: [
+			'salad',
+			'beet',
+			'goat cheese',
+			'refined',
+			'cold',
+			'vegetarian',
+			'gluten-free',
+			'fast',
+			'easy'
+		],
 		nutrition: '260 calories, 14g carbs, 20g fat, 7g protein',
 		time: 30
 	},
@@ -418,7 +489,7 @@ export const Vegetables: Recipe[] = [
 			'Spread on a baking sheet and roast 20-25 minutes until tender and slightly caramelized.',
 			'Serve warm.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'roasted'],
+		tags: ['side', 'vegetarian', 'gluten-free', 'roasted', 'fast'],
 		nutrition: '150 calories, 9g fat, 18g carbs, 5g protein',
 		time: 30
 	},
@@ -460,7 +531,7 @@ export const Vegetables: Recipe[] = [
 			'Sauté garlic in butter, add green beans and toss to coat.',
 			'Sprinkle with toasted almonds and season to taste.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'sautéed'],
+		tags: ['side', 'sautéed', 'vegetarian', 'gluten-free', 'economic', 'fast'],
 		nutrition: '180 calories, 12g fat, 12g carbs, 6g protein',
 		time: 20
 	},
@@ -506,7 +577,7 @@ export const Vegetables: Recipe[] = [
 			'Add vegetables and stir-fry 5-7 minutes until tender-crisp.',
 			'Drizzle with soy sauce and serve.'
 		],
-		tags: ['side', 'vegetarian', 'stir-fried', 'gluten-free option'],
+		tags: ['side', 'vegetarian', 'stir-fried', 'gluten-free', 'fast'],
 		nutrition: '140 calories, 7g fat, 18g carbs, 4g protein',
 		time: 20
 	},
@@ -526,7 +597,7 @@ export const Vegetables: Recipe[] = [
 			'Roast 20-25 minutes until caramelized.',
 			'Drizzle with balsamic glaze before serving.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'roasted'],
+		tags: ['side', 'roasted', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '150 calories, 7g fat, 18g carbs, 5g protein',
 		time: 30
 	},
@@ -570,7 +641,7 @@ export const Vegetables: Recipe[] = [
 			'Heat sesame oil in skillet, add vegetables and honey, sauté 5 minutes.',
 			'Sprinkle with sesame seeds and season to taste.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'sautéed', 'asian-inspired'],
+		tags: ['side', 'vegetarian', 'gluten-free', 'sautéed', 'asian-inspired', 'easy', 'fast'],
 		nutrition: '160 calories, 7g fat, 22g carbs, 4g protein',
 		time: 20
 	},
@@ -592,7 +663,16 @@ export const Vegetables: Recipe[] = [
 			'Toss all vegetables with olive oil, oregano, salt, and pepper.',
 			'Roast 25-30 minutes until tender, stirring halfway through.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'roasted', 'mediterranean'],
+		tags: [
+			'side',
+			'roasted',
+			'mediterranean',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '150 calories, 10g fat, 18g carbs, 4g protein',
 		time: 35
 	},
@@ -613,7 +693,7 @@ export const Vegetables: Recipe[] = [
 			'Toss vegetables with olive oil, maple syrup, salt, and pepper.',
 			'Roast 25-30 minutes until caramelized, stirring halfway through.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'roasted', 'sweet'],
+		tags: ['side', 'vegetarian', 'gluten-free', 'roasted', 'sweet', 'fast', 'easy'],
 		nutrition: '180 calories, 7g fat, 30g carbs, 2g protein',
 		time: 35
 	},
@@ -635,7 +715,7 @@ export const Vegetables: Recipe[] = [
 			'Add zucchini, squash, and tomatoes, cook 5-7 minutes until tender.',
 			'Season with salt and pepper, garnish with basil, and serve.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'sautéed'],
+		tags: ['side', 'vegetarian', 'gluten-free', 'sautéed', 'fast'],
 		nutrition: '140 calories, 7g fat, 15g carbs, 3g protein',
 		time: 20
 	},
@@ -658,7 +738,7 @@ export const Vegetables: Recipe[] = [
 			'Sauté all vegetables with herbs, salt, and pepper for 10-12 minutes until tender.',
 			'Serve warm.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'sautéed', 'french'],
+		tags: ['side', 'vegetarian', 'gluten-free', 'sautéed', 'french', 'fast'],
 		nutrition: '160 calories, 10g fat, 18g carbs, 4g protein',
 		time: 25
 	},
@@ -680,7 +760,7 @@ export const Vegetables: Recipe[] = [
 			'Toss vegetables with olive oil, balsamic vinegar, salt, and pepper.',
 			'Roast 20-25 minutes, sprinkle with pine nuts before serving.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'roasted'],
+		tags: ['side', 'vegetarian', 'gluten-free', 'roasted', 'fast'],
 		nutrition: '160 calories, 9g fat, 18g carbs, 5g protein',
 		time: 30
 	},
@@ -704,7 +784,7 @@ export const Vegetables: Recipe[] = [
 			'Add vegetables and stir-fry 5-7 minutes until crisp-tender.',
 			'Drizzle with soy sauce and serve.'
 		],
-		tags: ['side', 'vegetarian', 'stir-fried', 'gluten-free option'],
+		tags: ['side', 'vegetarian', 'stir-fried', 'gluten-free', 'fast'],
 		nutrition: '150 calories, 7g fat, 18g carbs, 4g protein',
 		time: 20
 	},
@@ -726,7 +806,7 @@ export const Vegetables: Recipe[] = [
 			'Toss vegetables with olive oil, herbs, salt, and pepper.',
 			'Roast 25-30 minutes until tender and slightly caramelized.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'roasted'],
+		tags: ['side', 'vegetarian', 'gluten-free', 'roasted', 'fast', 'easy'],
 		nutrition: '160 calories, 10g fat, 18g carbs, 4g protein',
 		time: 35
 	},
@@ -748,7 +828,7 @@ export const Vegetables: Recipe[] = [
 			'Toss root vegetables with olive oil, miso paste, salt, and pepper.',
 			'Roast 25-30 minutes until tender and caramelized, sprinkle with sesame seeds before serving.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'gourmet', 'roasted'],
+		tags: ['side', 'vegetarian', 'gluten-free', 'gourmet', 'roasted', 'easy'],
 		nutrition: '180 calories, 7g fat, 32g carbs, 3g protein',
 		time: 40
 	},
@@ -770,7 +850,7 @@ export const Vegetables: Recipe[] = [
 			'Toss vegetables with olive oil, harissa paste, and salt.',
 			'Roast 25 minutes until tender, stirring halfway through.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'gourmet', 'spicy'],
+		tags: ['side', 'vegetarian', 'gluten-free', 'gourmet', 'spicy', 'easy'],
 		nutrition: '150 calories, 8g fat, 18g carbs, 4g protein',
 		time: 35
 	},
@@ -811,7 +891,7 @@ export const Vegetables: Recipe[] = [
 			'Blanch asparagus and carrots 3-4 minutes, drain.',
 			'Sauté in butter with thyme, toss with lemon zest before serving.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'gourmet', 'sautéed'],
+		tags: ['side', 'vegetarian', 'gluten-free', 'gourmet', 'sautéed', 'fast'],
 		nutrition: '150 calories, 9g fat, 15g carbs, 4g protein',
 		time: 20
 	},
@@ -834,7 +914,7 @@ export const Vegetables: Recipe[] = [
 			'Layer vegetables and tomato concassé in stacks, brush with olive oil, season with salt and pepper.',
 			'Bake 20 minutes, drizzle with balsamic reduction before serving.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'gourmet', 'french'],
+		tags: ['side', 'gourmet', 'french', 'vegetarian', 'gluten-free'],
 		nutrition: '140 calories, 7g fat, 18g carbs, 3g protein',
 		time: 40
 	},
@@ -856,7 +936,7 @@ export const Vegetables: Recipe[] = [
 			'Toss vegetables with miso, sesame oil, and ginger.',
 			'Roast 25 minutes, sprinkle with sesame seeds before serving.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'gourmet', 'asian-inspired'],
+		tags: ['side', 'gourmet', 'asian-inspired', 'vegetarian', 'gluten-free', 'fast', 'easy'],
 		nutrition: '160 calories, 9g fat, 18g carbs, 4g protein',
 		time: 35
 	},
@@ -876,7 +956,7 @@ export const Vegetables: Recipe[] = [
 			'Melt butter in a skillet, gently poach vegetables until tender.',
 			'Toss with tarragon, season with salt and pepper, and serve immediately.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'gourmet', 'poached'],
+		tags: ['side', 'gourmet', 'poached', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '180 calories, 12g fat, 12g carbs, 4g protein',
 		time: 20
 	},
@@ -898,7 +978,7 @@ export const Vegetables: Recipe[] = [
 			'Cut corn off the cob, toss all vegetables with olive oil, lime juice, smoked paprika, salt, and pepper.',
 			'Serve warm or at room temperature.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'gourmet', 'grilled'],
+		tags: ['side', 'gourmet', 'grilled', 'vegetarian', 'gluten-free', 'fast', 'easy'],
 		nutrition: '140 calories, 7g fat, 20g carbs, 3g protein',
 		time: 25
 	},
@@ -919,7 +999,7 @@ export const Vegetables: Recipe[] = [
 			'Toss fennel and carrots with olive oil, honey, salt, and pepper.',
 			'Roast 25-30 minutes until caramelized, garnish with parsley.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'gourmet', 'roasted'],
+		tags: ['side', 'gourmet', 'roasted', 'vegetarian', 'gluten-free', 'fast'],
 		nutrition: '170 calories, 7g fat, 28g carbs, 3g protein',
 		time: 35
 	},
@@ -942,7 +1022,7 @@ export const Vegetables: Recipe[] = [
 			'Stir in saffron and water, season with salt and pepper.',
 			'Garnish with microgreens before serving.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'gourmet', 'french'],
+		tags: ['side', 'gourmet', 'french', 'vegetarian', 'gluten-free', 'fast'],
 		nutrition: '150 calories, 8g fat, 18g carbs, 4g protein',
 		time: 25
 	}

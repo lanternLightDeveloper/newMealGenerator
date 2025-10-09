@@ -1,4 +1,4 @@
-// Current Recipe Count: 29
+// Current Recipe Count: 48
 
 export const Desserts: Recipe[] = [
 	{
@@ -23,7 +23,7 @@ export const Desserts: Recipe[] = [
 			'Stir in vanilla, pour into pans, and bake 25–30 minutes.',
 			'Cool completely before frosting.'
 		],
-		tags: ['vanilla', 'classic', 'dessert', 'cake'],
+		tags: ['vanilla', 'classic', 'dessert', 'cake', 'economic', 'vegetarian'],
 		nutrition: '320 calories, 45g carbs, 12g fat, 5g protein',
 		time: 50
 	},
@@ -51,7 +51,7 @@ export const Desserts: Recipe[] = [
 			'Gradually stir in hot water.',
 			'Pour into pans and bake 30–35 minutes. Cool completely.'
 		],
-		tags: ['chocolate', 'fudge', 'dessert', 'cake'],
+		tags: ['chocolate', 'fudge', 'dessert', 'cake', 'vegetarian'],
 		nutrition: '400 calories, 60g carbs, 15g fat, 6g protein',
 		time: 55
 	},
@@ -80,7 +80,7 @@ export const Desserts: Recipe[] = [
 			'Fold in dry ingredients, carrots, pineapple, and walnuts.',
 			'Pour into pans and bake 30–35 minutes. Cool and frost with cream cheese frosting.'
 		],
-		tags: ['carrot', 'dessert', 'cake', 'classic'],
+		tags: ['carrot', 'dessert', 'cake', 'classic', 'vegetarian'],
 		nutrition: '420 calories, 60g carbs, 18g fat, 6g protein',
 		time: 60
 	},
@@ -106,7 +106,7 @@ export const Desserts: Recipe[] = [
 			'Alternate adding flour mixture and milk, ending with flour.',
 			'Pour into pan and bake 50–55 minutes. Drizzle with lemon juice while warm.'
 		],
-		tags: ['lemon', 'dessert', 'cake', 'citrus'],
+		tags: ['lemon', 'dessert', 'cake', 'citrus', 'economic', 'vegetarian'],
 		nutrition: '300 calories, 42g carbs, 12g fat, 5g protein',
 		time: 65
 	},
@@ -134,7 +134,7 @@ export const Desserts: Recipe[] = [
 			'Gradually add dry ingredients, mix until smooth.',
 			'Pour into pans and bake 25–30 minutes. Cool and frost with cream cheese frosting.'
 		],
-		tags: ['red velvet', 'dessert', 'cake', 'classic'],
+		tags: ['red velvet', 'dessert', 'cake', 'classic', 'vegetarian'],
 		nutrition: '380 calories, 55g carbs, 15g fat, 6g protein',
 		time: 60
 	},
@@ -160,7 +160,7 @@ export const Desserts: Recipe[] = [
 			'Fold in bananas, then alternate flour and buttermilk.',
 			'Pour into pan and bake 30–35 minutes. Cool and frost with cream cheese frosting.'
 		],
-		tags: ['banana', 'dessert', 'cake', 'moist'],
+		tags: ['banana', 'dessert', 'cake', 'moist', 'vegetarian', 'economic'],
 		nutrition: '360 calories, 52g carbs, 14g fat, 5g protein',
 		time: 55
 	},
@@ -187,7 +187,7 @@ export const Desserts: Recipe[] = [
 			'Stir in flour mixture alternately with milk mixed with coffee.',
 			'Pour into pans and bake 30–35 minutes.'
 		],
-		tags: ['coffee', 'walnut', 'dessert', 'cake'],
+		tags: ['coffee', 'walnut', 'dessert', 'cake', 'vegetarian'],
 		nutrition: '380 calories, 48g carbs, 16g fat, 6g protein',
 		time: 55
 	},
@@ -213,7 +213,7 @@ export const Desserts: Recipe[] = [
 			'Alternate adding flour mixture and coconut milk.',
 			'Fold in shredded coconut, bake 30–35 minutes. Cool before frosting.'
 		],
-		tags: ['coconut', 'dessert', 'cake', 'tropical'],
+		tags: ['coconut', 'dessert', 'cake', 'tropical', 'vegetarian'],
 		nutrition: '380 calories, 52g carbs, 14g fat, 5g protein',
 		time: 60
 	},
@@ -240,7 +240,7 @@ export const Desserts: Recipe[] = [
 			'Mix flour, baking powder, salt, butter, sugar, eggs, and milk to make batter.',
 			'Pour batter over pineapple and bake 35–40 minutes.'
 		],
-		tags: ['pineapple', 'dessert', 'cake', 'tropical'],
+		tags: ['pineapple', 'dessert', 'cake', 'tropical', 'vegetarian', 'economic'],
 		nutrition: '360 calories, 55g carbs, 12g fat, 4g protein',
 		time: 55
 	},
@@ -264,7 +264,7 @@ export const Desserts: Recipe[] = [
 			'Add milk and stir until combined, bake 12–15 minutes.',
 			'Split shortcake, layer with strawberries and whipped cream.'
 		],
-		tags: ['strawberry', 'dessert', 'cake', 'shortcake'],
+		tags: ['strawberry', 'dessert', 'cake', 'shortcake', 'vegetarian'],
 		nutrition: '300 calories, 45g carbs, 12g fat, 5g protein',
 		time: 40
 	},
@@ -288,7 +288,7 @@ export const Desserts: Recipe[] = [
 			'Pour into ramekins, bake 12–14 minutes until edges set but center soft.',
 			'Invert onto plates and serve immediately.'
 		],
-		tags: ['chocolate', 'molten', 'dessert', 'cake'],
+		tags: ['chocolate', 'molten', 'dessert', 'cake', 'vegetarian'],
 		nutrition: '410 calories, 40g carbs, 25g fat, 6g protein',
 		time: 25
 	},
@@ -313,7 +313,7 @@ export const Desserts: Recipe[] = [
 			'Alternate adding flour and milk. Remove ½ cup batter and mix with cocoa.',
 			'Layer plain and chocolate batter in pan, swirl with a knife, bake 35–40 minutes.'
 		],
-		tags: ['marble', 'chocolate', 'vanilla', 'dessert', 'cake'],
+		tags: ['marble', 'chocolate', 'vanilla', 'dessert', 'cake', 'vegetarian'],
 		nutrition: '350 calories, 50g carbs, 14g fat, 5g protein',
 		time: 50
 	},
@@ -340,7 +340,7 @@ export const Desserts: Recipe[] = [
 			'Combine sugar, oil, eggs, and pumpkin, then fold into dry ingredients.',
 			'Pour batter into pan and bake 30–35 minutes.'
 		],
-		tags: ['pumpkin', 'spice', 'dessert', 'cake', 'fall'],
+		tags: ['pumpkin', 'spice', 'dessert', 'cake', 'fall', 'vegetarian'],
 		nutrition: '320 calories, 45g carbs, 12g fat, 5g protein',
 		time: 50
 	},
@@ -364,7 +364,7 @@ export const Desserts: Recipe[] = [
 			'Cream butter and sugar, add eggs and almond extract.',
 			'Fold in dry ingredients, pour into pan, bake 30–35 minutes.'
 		],
-		tags: ['almond', 'dessert', 'cake', 'nutty'],
+		tags: ['almond', 'dessert', 'cake', 'nutty', 'vegetarian', 'economic'],
 		nutrition: '350 calories, 28g carbs, 20g fat, 10g protein',
 		time: 50
 	},
@@ -387,7 +387,7 @@ export const Desserts: Recipe[] = [
 			'Mix sugar, oats, flour, cinnamon, nutmeg, and butter; sprinkle over apples.',
 			'Bake 40–45 minutes until topping is golden and apples are tender.'
 		],
-		tags: ['apple', 'baked', 'dessert', 'fruit'],
+		tags: ['apple', 'baked', 'dessert', 'fruit', 'vegetarian', 'economic'],
 		nutrition: '280 calories, 55g carbs, 10g fat, 2g protein',
 		time: 50
 	},
@@ -400,7 +400,7 @@ export const Desserts: Recipe[] = [
 			'Layer yogurt, berries, and granola in glasses.',
 			'Drizzle with honey and serve immediately.'
 		],
-		tags: ['berry', 'no-bake', 'dessert', 'fruit'],
+		tags: ['berry', 'no-bake', 'dessert', 'fruit', 'vegetarian', 'economic', 'fast', 'gluten-free'],
 		nutrition: '200 calories, 30g carbs, 5g fat, 6g protein',
 		time: 10
 	},
@@ -425,7 +425,7 @@ export const Desserts: Recipe[] = [
 			'Combine flour, baking powder, salt, remaining sugar, milk, and butter; pour over peaches.',
 			'Bake 35–40 minutes until golden.'
 		],
-		tags: ['peach', 'baked', 'dessert', 'fruit'],
+		tags: ['peach', 'baked', 'dessert', 'fruit', 'vegetarian'],
 		nutrition: '300 calories, 55g carbs, 10g fat, 4g protein',
 		time: 50
 	},
@@ -446,7 +446,17 @@ export const Desserts: Recipe[] = [
 			'Stir in mango puree and vanilla, cook 2–3 minutes more.',
 			'Pour into serving cups and chill 2 hours.'
 		],
-		tags: ['mango', 'no-bake', 'dessert', 'fruit'],
+		tags: [
+			'mango',
+			'no-bake',
+			'dessert',
+			'fruit',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '180 calories, 35g carbs, 2g fat, 4g protein',
 		time: 15
 	},
@@ -465,7 +475,7 @@ export const Desserts: Recipe[] = [
 			'Split sponge cakes in half, layer with strawberries and whipped cream.',
 			'Top with more strawberries and cream.'
 		],
-		tags: ['strawberry', 'quick', 'dessert', 'fruit'],
+		tags: ['strawberry', 'quick', 'dessert', 'fruit', 'vegetarian', 'economic', 'fast', 'easy'],
 		nutrition: '220 calories, 30g carbs, 8g fat, 4g protein',
 		time: 15
 	},
@@ -491,7 +501,7 @@ export const Desserts: Recipe[] = [
 			'Gently fold in blueberries.',
 			'Scoop into muffin cups and bake 20–25 minutes.'
 		],
-		tags: ['blueberry', 'baked', 'dessert', 'fruit'],
+		tags: ['blueberry', 'baked', 'dessert', 'fruit', 'vegetarian', 'economic', 'fast', 'easy'],
 		nutrition: '200 calories, 32g carbs, 6g fat, 4g protein',
 		time: 35
 	},
@@ -516,7 +526,7 @@ export const Desserts: Recipe[] = [
 			'Mix flour, baking powder, sugar, egg, and milk; pour over pineapple.',
 			'Bake 20–25 minutes until set.'
 		],
-		tags: ['pineapple', 'mini', 'dessert', 'fruit'],
+		tags: ['pineapple', 'mini', 'dessert', 'fruit', 'vegetarian', 'fast'],
 		nutrition: '180 calories, 28g carbs, 7g fat, 2g protein',
 		time: 35
 	},
@@ -535,7 +545,7 @@ export const Desserts: Recipe[] = [
 			'Fill shell with pastry cream, top with raspberries.',
 			'Sift powdered sugar over top before serving.'
 		],
-		tags: ['raspberry', 'baked', 'dessert', 'fruit'],
+		tags: ['raspberry', 'baked', 'dessert', 'fruit', 'vegetarian', 'fast'],
 		nutrition: '210 calories, 32g carbs, 8g fat, 4g protein',
 		time: 25
 	},
@@ -553,7 +563,7 @@ export const Desserts: Recipe[] = [
 			'Blend peaches, sugar, lemon juice, and water until smooth.',
 			'Chill mixture 1 hour, then freeze in ice cream maker according to manufacturer.'
 		],
-		tags: ['peach', 'frozen', 'dessert', 'fruit', 'sorbet'],
+		tags: ['peach', 'frozen', 'dessert', 'fruit', 'sorbet', 'vegetarian', 'easy', 'gluten-free'],
 		nutrition: '100 calories, 25g carbs, 0g fat, 1g protein',
 		time: 70
 	},
@@ -575,7 +585,7 @@ export const Desserts: Recipe[] = [
 			'Shape into circle, bake 50 minutes, cool completely.',
 			'Top with whipped cream and berries.'
 		],
-		tags: ['berry', 'baked', 'dessert', 'fruit', 'pavlova'],
+		tags: ['berry', 'baked', 'dessert', 'fruit', 'pavlova', 'vegetarian', 'gluten-free'],
 		nutrition: '220 calories, 40g carbs, 8g fat, 3g protein',
 		time: 70
 	},
@@ -593,7 +603,17 @@ export const Desserts: Recipe[] = [
 			'Layer pudding, bananas, and wafers in serving dish.',
 			'Top with whipped cream and chill 2 hours before serving.'
 		],
-		tags: ['banana', 'no-bake', 'dessert', 'fruit', 'pudding'],
+		tags: [
+			'banana',
+			'no-bake',
+			'dessert',
+			'fruit',
+			'pudding',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '250 calories, 45g carbs, 8g fat, 4g protein',
 		time: 15
 	},
@@ -616,7 +636,7 @@ export const Desserts: Recipe[] = [
 			'Whisk eggs, sugar, flour, milk, vanilla, and salt, pour over cherries.',
 			'Bake 35–40 minutes until set and golden.'
 		],
-		tags: ['cherry', 'baked', 'dessert', 'fruit', 'french'],
+		tags: ['cherry', 'baked', 'dessert', 'fruit', 'french', 'vegetarian'],
 		nutrition: '230 calories, 35g carbs, 8g fat, 6g protein',
 		time: 50
 	},
@@ -636,7 +656,18 @@ export const Desserts: Recipe[] = [
 			'Simmer coconut milk with sugar and salt, stir into rice.',
 			'Serve with sliced mangoes on top.'
 		],
-		tags: ['mango', 'asian', 'dessert', 'fruit', 'sticky rice'],
+		tags: [
+			'mango',
+			'asian',
+			'dessert',
+			'fruit',
+			'sticky rice',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '280 calories, 55g carbs, 7g fat, 4g protein',
 		time: 40
 	},
@@ -656,7 +687,17 @@ export const Desserts: Recipe[] = [
 			'Mix all fruits in a bowl.',
 			'Whisk honey and lime juice, drizzle over fruits, toss gently.'
 		],
-		tags: ['mixed fruit', 'quick', 'dessert', 'fruit', 'salad'],
+		tags: [
+			'mixed fruit',
+			'quick',
+			'dessert',
+			'fruit',
+			'salad',
+			'vegetarian',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '150 calories, 35g carbs, 0g fat, 2g protein',
 		time: 10
 	},
@@ -681,7 +722,7 @@ export const Desserts: Recipe[] = [
 			'Cream butter and sugar, add eggs, orange juice, and zest.',
 			'Fold in flour mixture, pour into pan, sprinkle almonds, bake 35–40 minutes.'
 		],
-		tags: ['orange', 'almond', 'dessert', 'cake', 'fruit'],
+		tags: ['orange', 'almond', 'dessert', 'cake', 'fruit', 'vegetarian'],
 		nutrition: '320 calories, 45g carbs, 12g fat, 6g protein',
 		time: 50
 	},
@@ -701,7 +742,7 @@ export const Desserts: Recipe[] = [
 			'Arrange pear slices on top, sprinkle almonds.',
 			'Bake 30–35 minutes until golden. Dust with powdered sugar.'
 		],
-		tags: ['pear', 'almond', 'baked', 'dessert', 'fruit'],
+		tags: ['pear', 'almond', 'baked', 'dessert', 'fruit', 'economic'],
 		nutrition: '260 calories, 35g carbs, 12g fat, 4g protein',
 		time: 50
 	},
@@ -723,7 +764,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese and sugar until smooth, add eggs one at a time, then vanilla and sour cream.',
 			'Pour over crust and bake 55–60 minutes until center is almost set. Cool and refrigerate 4 hours.'
 		],
-		tags: ['classic', 'baked', 'dessert', 'vegetarian'],
+		tags: ['classic', 'baked', 'dessert', 'vegetarian', 'economic', 'fast', 'easy'],
 		nutrition: '450 calories, 32g fat, 30g carbs, 8g protein',
 		time: 300
 	},
@@ -745,7 +786,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese and sugar, add eggs and vanilla.',
 			'Swirl in strawberry puree, pour into crust. Bake 50–55 minutes, cool and chill.'
 		],
-		tags: ['strawberry', 'swirl', 'baked', 'dessert', 'fruit'],
+		tags: ['strawberry', 'swirl', 'baked', 'dessert', 'fruit', 'vegetarian', 'easy'],
 		nutrition: '420 calories, 28g fat, 32g carbs, 7g protein',
 		time: 270
 	},
@@ -790,7 +831,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese and sugar, add eggs, vanilla, lemon juice, and zest.',
 			'Pour over crust, bake 50–55 minutes, cool and chill 3 hours.'
 		],
-		tags: ['lemon', 'citrus', 'baked', 'dessert', 'vegetarian'],
+		tags: ['lemon', 'citrus', 'baked', 'dessert', 'vegetarian', 'economic', 'easy'],
 		nutrition: '400 calories, 28g fat, 30g carbs, 7g protein',
 		time: 270
 	},
@@ -813,7 +854,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese and sugar, add eggs, vanilla, pumpkin puree, and spice.',
 			'Pour into crust and bake 55–60 minutes. Cool completely and refrigerate 4 hours.'
 		],
-		tags: ['pumpkin', 'spice', 'baked', 'dessert', 'fall', 'vegetarian'],
+		tags: ['pumpkin', 'spice', 'baked', 'dessert', 'fall', 'vegetarian', 'economic'],
 		nutrition: '460 calories, 30g fat, 36g carbs, 8g protein',
 		time: 300
 	},
@@ -835,7 +876,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese and sugar, add eggs and vanilla.',
 			'Fold in blueberry puree, pour into crust. Bake 50–55 minutes, cool and chill.'
 		],
-		tags: ['blueberry', 'swirl', 'baked', 'dessert', 'fruit', 'vegetarian'],
+		tags: ['blueberry', 'swirl', 'baked', 'dessert', 'fruit', 'vegetarian', 'economic', 'easy'],
 		nutrition: '410 calories, 28g fat, 32g carbs, 7g protein',
 		time: 270
 	},
@@ -858,7 +899,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese and sugar, add eggs and vanilla.',
 			'Pour into crust, drizzle caramel and sprinkle salt on top. Bake 55–60 minutes, cool and chill.'
 		],
-		tags: ['caramel', 'baked', 'dessert', 'vegetarian'],
+		tags: ['caramel', 'baked', 'dessert', 'vegetarian', 'economic'],
 		nutrition: '500 calories, 33g fat, 40g carbs, 9g protein',
 		time: 300
 	},
@@ -881,7 +922,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese and sugar, add eggs and vanilla.',
 			'Fold in raspberry puree and chocolate, pour into crust. Bake 50–55 minutes, cool and chill.'
 		],
-		tags: ['chocolate', 'raspberry', 'baked', 'dessert', 'vegetarian'],
+		tags: ['chocolate', 'raspberry', 'baked', 'dessert', 'vegetarian', 'easy'],
 		nutrition: '480 calories, 32g fat, 38g carbs, 8g protein',
 		time: 270
 	},
@@ -903,7 +944,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese, sugar, vanilla, and lemon juice until smooth. Fold in whipped cream.',
 			'Pour over crust, chill at least 4 hours until set.'
 		],
-		tags: ['lemon', 'no-bake', 'dessert', 'vegetarian', 'quick'],
+		tags: ['lemon', 'no-bake', 'dessert', 'vegetarian', 'economic', 'easy'],
 		nutrition: '360 calories, 24g fat, 28g carbs, 6g protein',
 		time: 270
 	},
@@ -925,7 +966,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese, sugar, and vanilla. Fold in whipped cream.',
 			'Pour over crust, top with crushed Oreos. Chill 4 hours until set.'
 		],
-		tags: ['oreo', 'no-bake', 'dessert', 'vegetarian', 'cookies'],
+		tags: ['oreo', 'no-bake', 'dessert', 'vegetarian', 'economic', 'easy', 'cookies'],
 		nutrition: '420 calories, 26g fat, 36g carbs, 7g protein',
 		time: 270
 	},
@@ -947,7 +988,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese and sugar, add eggs and vanilla. Fold in mango puree.',
 			'Pour into crust, bake 50–55 minutes, cool and chill.'
 		],
-		tags: ['mango', 'fruit', 'baked', 'dessert', 'vegetarian'],
+		tags: ['mango', 'fruit', 'baked', 'dessert', 'vegetarian', 'easy'],
 		nutrition: '420 calories, 28g fat, 32g carbs, 7g protein',
 		time: 270
 	},
@@ -969,7 +1010,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese and sugar, add eggs and vanilla. Mix in peanut butter.',
 			'Pour into crust, bake 50–55 minutes, cool and chill.'
 		],
-		tags: ['peanut butter', 'baked', 'dessert', 'vegetarian'],
+		tags: ['peanut butter', 'baked', 'dessert', 'vegetarian', 'easy'],
 		nutrition: '480 calories, 32g fat, 36g carbs, 8g protein',
 		time: 270
 	},
@@ -991,7 +1032,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese and sugar, add eggs and vanilla. Fold in cherry puree.',
 			'Pour into crust, bake 50–55 minutes, cool and chill.'
 		],
-		tags: ['cherry', 'fruit', 'baked', 'dessert', 'vegetarian'],
+		tags: ['cherry', 'fruit', 'baked', 'dessert', 'vegetarian', 'easy'],
 		nutrition: '410 calories, 28g fat, 32g carbs, 7g protein',
 		time: 270
 	},
@@ -1014,7 +1055,7 @@ export const Desserts: Recipe[] = [
 			'Beat cream cheese and sugar, add eggs and vanilla, fold in white chocolate and raspberry puree.',
 			'Pour into crust, bake 50–55 minutes, cool and chill.'
 		],
-		tags: ['white chocolate', 'raspberry', 'baked', 'dessert', 'vegetarian'],
+		tags: ['white chocolate', 'raspberry', 'baked', 'dessert', 'vegetarian', 'easy'],
 		nutrition: '470 calories, 30g fat, 36g carbs, 8g protein',
 		time: 270
 	},

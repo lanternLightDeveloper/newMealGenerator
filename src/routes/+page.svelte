@@ -16,6 +16,9 @@
 	let includeDessert = $state(true);
 	let glutenFreeOnly = $state(false);
 	let vegetarianFriendly = $state(false);
+	let economic = $state(false);
+	let fastComplete = $state(false);
+	let easyComplete = $state(false);
 
 	let meal = $state<{
 		starch?: Recipe;
@@ -36,6 +39,15 @@
 			}
 			if (vegetarianFriendly) {
 				filtered = list.filter((r) => r.tags?.includes('vegetarian'));
+			}
+			if (economic) {
+				filtered = list.filter((r) => r.tags?.includes('economic'));
+			}
+			if (fastComplete) {
+				filtered = list.filter((r) => r.tags?.includes('fast'));
+			}
+			if (easyComplete) {
+				filtered = list.filter((r) => r.tags?.includes('easy'));
 			}
 			if (!filtered.length) return null; // no matching recipes
 			return filtered[Math.floor(Math.random() * filtered.length)];
@@ -95,40 +107,79 @@
 			if (vegetarianFriendly) {
 				filtered = list.filter((r) => r.tags?.includes('vegetarian'));
 			}
+			if (economic) {
+				filtered = list.filter((r) => r.tags?.includes('economic'));
+			}
+			if (fastComplete) {
+				filtered = list.filter((r) => r.tags?.includes('fast'));
+			}
+			if (easyComplete) {
+				filtered = list.filter((r) => r.tags?.includes('easy'));
+			}
 			if (filtered.length) {
 				meal = { ...meal, [category]: filtered[Math.floor(Math.random() * filtered.length)] };
 			}
 		}
 	}
+
+	let isMenuOpen = $state(false);
+
+	function toggleMenu() {
+		isMenuOpen = !isMenuOpen;
+	}
 </script>
 
 <main>
-	<section class="block-Selection-List">
-		<p>Select to include</p>
-		<article class="controls">
-			<label>
-				<input type="checkbox" bind:checked={glutenFreeOnly} /> Gluten-Free Only
-			</label>
-			<label>
-				<input type="checkbox" bind:checked={vegetarianFriendly} /> Vegetarian Friendly
-			</label>
+	<div class:open={isMenuOpen}>
+		{#if isMenuOpen}
+			<section class="block-Selection-List">
+				<p>Select to include</p>
+				<article class="controls">
+					<p>Keywords</p>
+					<article>
+						<button class="btn-Fill" onclick={generateMeal}><span> Generate Meal </span></button>
+						<button class="btn-Fill" onclick={saveMealAsText} disabled={!Object.keys(meal).length}>
+							<span> Save Meal as .TXT </span>
+						</button>
+					</article>
+					<label>
+						<input type="checkbox" bind:checked={glutenFreeOnly} /> Gluten-Free Only
+					</label>
+					<label>
+						<input type="checkbox" bind:checked={vegetarianFriendly} /> Vegetarian
+					</label>
+					<label>
+						<input type="checkbox" bind:checked={economic} /> Economic
+					</label>
+					<label>
+						<input type="checkbox" bind:checked={fastComplete} /> Fast
+					</label>
+					<label>
+						<input type="checkbox" bind:checked={easyComplete} /> Easy
+					</label>
 
-			<label><input type="checkbox" bind:checked={includeStarch} /> Starch</label>
-			<label><input type="checkbox" bind:checked={includeVeg} /> Vegetable</label>
-			<label><input type="checkbox" bind:checked={includeSandwiches} /> Sandwiches</label>
-			<label><input type="checkbox" bind:checked={includeSoup} /> Soup</label>
-			<label><input type="checkbox" bind:checked={includeMain} /> Main</label>
-			<label><input type="checkbox" bind:checked={includeDessert} /> Dessert</label>
-		</article>
+					<br />
+					<p>Meal Options</p>
+					<br />
+					<label><input type="checkbox" bind:checked={includeStarch} /> Starch</label>
+					<label><input type="checkbox" bind:checked={includeVeg} /> Vegetable</label>
+					<label><input type="checkbox" bind:checked={includeSandwiches} /> Sandwiches</label>
+					<label><input type="checkbox" bind:checked={includeSoup} /> Soup</label>
+					<label><input type="checkbox" bind:checked={includeMain} /> Main</label>
+					<label><input type="checkbox" bind:checked={includeDessert} /> Dessert</label>
+				</article>
+			</section>
+		{/if}
+	</div>
 
-		<article>
-			<button class="btn-Fill" onclick={generateMeal}><span> Generate Meal </span></button>
-			<button class="btn-Fill" onclick={saveMealAsText} disabled={!Object.keys(meal).length}>
-				<span> Save Meal as .TXT </span>
-			</button>
-		</article>
-	</section>
-
+	<button
+		class="btn-Ghost"
+		style="margin: 1rem 42%;"
+		onclick={toggleMenu}
+		onkeydown={() => (isMenuOpen = false)}
+	>
+		Menu
+	</button>
 	<section class="grid-Main">
 		{#if meal.starch}
 			<div>

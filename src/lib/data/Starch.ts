@@ -23,7 +23,18 @@ export const Starch: Recipe[] = [
 			'Toss with parsley before serving.',
 			'Enjoy!'
 		],
-		tags: ['side', 'potato', 'garlic', 'roasted', 'herbs', 'vegetarian', 'gluten-free'],
+		tags: [
+			'side',
+			'potato',
+			'garlic',
+			'roasted',
+			'herbs',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '210 calories, 28g carbs, 9g fat, 3g protein',
 		time: 35
 	},
@@ -47,7 +58,18 @@ export const Starch: Recipe[] = [
 			'Season with salt and pepper.',
 			'Serve warm.'
 		],
-		tags: ['side', 'comfort food', 'mashed', 'potato', 'creamy', 'vegetarian', 'gluten-free'],
+		tags: [
+			'side',
+			'comfort food',
+			'mashed',
+			'potato',
+			'creamy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '290 calories, 34g carbs, 14g fat, 5g protein',
 		time: 30
 	},
@@ -71,7 +93,17 @@ export const Starch: Recipe[] = [
 			'Bake for 35 minutes, flipping halfway, until golden and crisp.',
 			'Serve with your favorite dipping sauce.'
 		],
-		tags: ['side', 'baked', 'crispy', 'cheese', 'snack', 'vegetarian', 'gluten-free'],
+		tags: [
+			'side',
+			'baked',
+			'crispy',
+			'cheese',
+			'snack',
+			'vegetarian',
+			'economic',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '240 calories, 31g carbs, 10g fat, 6g protein',
 		time: 40
 	},
@@ -96,7 +128,7 @@ export const Starch: Recipe[] = [
 			'Bake at 375°F (190°C) for 20 minutes.',
 			'Garnish with green onions before serving.'
 		],
-		tags: ['side', 'comfort', 'bacon', 'cheese', 'casserole', 'gluten-free'],
+		tags: ['side', 'comfort', 'bacon', 'cheese', 'casserole', 'easy', 'gluten-free'],
 		nutrition: '340 calories, 29g carbs, 18g fat, 11g protein',
 		time: 45
 	},
@@ -120,7 +152,18 @@ export const Starch: Recipe[] = [
 			'Toss warm potatoes with dressing, dill, and green onions.',
 			'Serve warm or chilled.'
 		],
-		tags: ['salad', 'side', 'potato', 'mustard', 'picnic', 'vegetarian', 'gluten-free'],
+		tags: [
+			'salad',
+			'side',
+			'potato',
+			'mustard',
+			'picnic',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '210 calories, 27g carbs, 9g fat, 4g protein',
 		time: 25
 	},
@@ -144,7 +187,18 @@ export const Starch: Recipe[] = [
 			'Bake for 20 minutes until crispy and golden.',
 			'Sprinkle with parsley before serving.'
 		],
-		tags: ['crispy', 'side', 'butter', 'garlic', 'easy', 'vegetarian', 'gluten-free'],
+		tags: [
+			'crispy',
+			'side',
+			'butter',
+			'garlic',
+			'easy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '190 calories, 25g carbs, 8g fat, 3g protein',
 		time: 35
 	},
@@ -167,7 +221,7 @@ export const Starch: Recipe[] = [
 			'Thread onto skewers and grill for 10 minutes, turning occasionally.',
 			'Drizzle with lemon juice before serving.'
 		],
-		tags: ['grilled', 'spicy', 'bbq', 'side', 'easy', 'vegetarian', 'gluten-free'],
+		tags: ['grilled', 'spicy', 'bbq', 'side', 'easy', 'vegetarian', 'fast', 'easy', 'gluten-free'],
 		nutrition: '175 calories, 24g carbs, 6g fat, 3g protein',
 		time: 30
 	},
@@ -192,7 +246,7 @@ export const Starch: Recipe[] = [
 			'Layer potatoes in a greased baking dish and pour sauce over.',
 			'Cover and bake for 45 minutes, then uncover and bake 15 minutes more until golden.'
 		],
-		tags: ['cheese', 'creamy', 'baked', 'comfort', 'side', 'vegetarian', 'gluten-free'],
+		tags: ['cheese', 'creamy', 'baked', 'comfort', 'side', 'vegetarian', 'economic', 'easy'],
 		nutrition: '360 calories, 33g carbs, 21g fat, 9g protein',
 		time: 70
 	},
@@ -215,7 +269,17 @@ export const Starch: Recipe[] = [
 			'Toss potatoes with oil, lemon juice, zest, oregano, garlic powder, salt, and pepper.',
 			'Spread on a baking sheet and roast for 30–35 minutes until crisp and golden.'
 		],
-		tags: ['lemon', 'herb', 'roasted', 'side', 'easy', 'vegetarian', 'gluten-free'],
+		tags: [
+			'lemon',
+			'herb',
+			'roasted',
+			'side',
+			'easy',
+			'vegetarian',
+			'economic',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '200 calories, 27g carbs, 8g fat, 3g protein',
 		time: 40
 	},
@@ -239,7 +303,7 @@ export const Starch: Recipe[] = [
 			'Pour cream over top and bake 50–60 minutes until golden and bubbling.',
 			'Let rest 10 minutes before serving.'
 		],
-		tags: ['french', 'baked', 'gratin', 'cheese', 'side', 'vegetarian', 'gluten-free'],
+		tags: ['french', 'baked', 'gratin', 'cheese', 'side', 'vegetarian', 'easy', 'gluten-free'],
 		nutrition: '390 calories, 30g carbs, 23g fat, 9g protein',
 		time: 65
 	},
@@ -264,7 +328,7 @@ export const Starch: Recipe[] = [
 			'Reduce heat to low, cover, and simmer 15 minutes until rice is tender.',
 			'Fluff with fork and stir in parsley before serving.'
 		],
-		tags: ['rice', 'garlic', 'butter', 'easy', 'side', 'gluten-free'],
+		tags: ['rice', 'garlic', 'butter', 'easy', 'side', 'fast', 'easy', 'gluten-free'],
 		nutrition: '310 calories, 52g carbs, 9g fat, 6g protein',
 		time: 25
 	},
@@ -287,7 +351,17 @@ export const Starch: Recipe[] = [
 			'Remove from heat and let sit 10 minutes.',
 			'Fluff with fork and top with toasted shredded coconut.'
 		],
-		tags: ['rice', 'coconut', 'asian', 'creamy', 'side', 'vegetarian', 'gluten-free'],
+		tags: [
+			'rice',
+			'coconut',
+			'asian',
+			'creamy',
+			'side',
+			'vegetarian',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '285 calories, 46g carbs, 8g fat, 4g protein',
 		time: 25
 	},
@@ -315,7 +389,7 @@ export const Starch: Recipe[] = [
 			'Cover and simmer 18 minutes until liquid is absorbed.',
 			'Fluff and serve warm.'
 		],
-		tags: ['rice', 'spanish', 'tomato', 'pepper', 'side', 'gluten-free'],
+		tags: ['rice', 'spanish', 'tomato', 'pepper', 'side', 'vegetarian', 'fast', 'gluten-free'],
 		nutrition: '270 calories, 48g carbs, 6g fat, 5g protein',
 		time: 30
 	},
@@ -339,7 +413,18 @@ export const Starch: Recipe[] = [
 			'Cover and cook 15 minutes until rice is tender.',
 			'Remove from heat, stir in lemon juice, pepper, and parsley.'
 		],
-		tags: ['rice', 'lemon', 'herb', 'pilaf', 'side', 'gluten-free'],
+		tags: [
+			'rice',
+			'lemon',
+			'herb',
+			'pilaf',
+			'side',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '250 calories, 45g carbs, 6g fat, 5g protein',
 		time: 25
 	},
@@ -363,7 +448,19 @@ export const Starch: Recipe[] = [
 			'Stir in soy sauce and eggs, toss to combine.',
 			'Top with green onions and serve immediately.'
 		],
-		tags: ['rice', 'fried', 'asian', 'egg', 'quick', 'side', 'gluten-free'],
+		tags: [
+			'rice',
+			'fried',
+			'asian',
+			'egg',
+			'quick',
+			'side',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '330 calories, 52g carbs, 10g fat, 8g protein',
 		time: 20
 	},
@@ -387,7 +484,18 @@ export const Starch: Recipe[] = [
 			'Reduce heat, cover, and simmer for 15 minutes.',
 			'Stir in lime zest, juice, and cilantro before serving.'
 		],
-		tags: ['rice', 'cilantro', 'lime', 'mexican', 'fresh', 'side', 'vegetarian', 'gluten-free'],
+		tags: [
+			'rice',
+			'cilantro',
+			'lime',
+			'mexican',
+			'fresh',
+			'side',
+			'vegetarian',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '240 calories, 45g carbs, 5g fat, 4g protein',
 		time: 25
 	},
@@ -412,7 +520,17 @@ export const Starch: Recipe[] = [
 			'Pour in broth, season with salt and pepper.',
 			'Cover and simmer for 18 minutes until rice is tender.'
 		],
-		tags: ['rice', 'mushroom', 'onion', 'savory', 'side', 'vegetarian', 'gluten-free'],
+		tags: [
+			'rice',
+			'mushroom',
+			'onion',
+			'savory',
+			'side',
+			'vegetarian',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '260 calories, 44g carbs, 8g fat, 5g protein',
 		time: 30
 	},
@@ -434,7 +552,17 @@ export const Starch: Recipe[] = [
 			'Remove from heat and let sit 10 minutes.',
 			'Fluff rice and stir in cilantro and lime juice.'
 		],
-		tags: ['rice', 'coconut', 'cilantro', 'tropical', 'side', 'vegetarian', 'gluten-free'],
+		tags: [
+			'rice',
+			'coconut',
+			'cilantro',
+			'tropical',
+			'side',
+			'vegetarian',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '290 calories, 46g carbs, 9g fat, 5g protein',
 		time: 25
 	},
@@ -456,7 +584,7 @@ export const Starch: Recipe[] = [
 			'Remove from heat and stir in Parmesan cheese and herbs.',
 			'Season with salt and pepper and serve warm.'
 		],
-		tags: ['rice', 'parmesan', 'herb', 'cheese', 'side', 'gluten-free'],
+		tags: ['rice', 'parmesan', 'herb', 'cheese', 'side', 'fast', 'easy', 'gluten-free'],
 		nutrition: '320 calories, 47g carbs, 9g fat, 8g protein',
 		time: 25
 	},
@@ -480,7 +608,17 @@ export const Starch: Recipe[] = [
 			'Cover and cook 15 minutes until liquid is absorbed.',
 			'Stir in butter and toasted almonds before serving.'
 		],
-		tags: ['rice', 'turmeric', 'almonds', 'golden', 'side', 'vegetarian', 'gluten-free'],
+		tags: [
+			'rice',
+			'turmeric',
+			'almonds',
+			'golden',
+			'side',
+			'vegetarian',
+			'economic',
+			'fast',
+			'gluten-free'
+		],
 		nutrition: '275 calories, 43g carbs, 9g fat, 5g protein',
 		time: 25
 	},
@@ -502,7 +640,17 @@ export const Starch: Recipe[] = [
 			'Stir in truffle oil, season with salt and white pepper.',
 			'Garnish with chopped chives before serving.'
 		],
-		tags: ['fancy', 'potato', 'truffle', 'creamy', 'side', 'vegetarian', 'gluten-free'],
+		tags: [
+			'fancy',
+			'potato',
+			'truffle',
+			'creamy',
+			'side',
+			'vegetarian',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '360 calories, 32g carbs, 22g fat, 6g protein',
 		time: 35
 	},
@@ -548,7 +696,17 @@ export const Starch: Recipe[] = [
 			'Pipe mixture into swirls on a baking sheet.',
 			'Bake at 400°F (200°C) for 20 minutes until golden and crisp on edges.'
 		],
-		tags: ['french', 'potato', 'baked', 'elegant', 'holiday', 'vegetarian', 'gluten-free'],
+		tags: [
+			'french',
+			'potato',
+			'baked',
+			'elegant',
+			'holiday',
+			'vegetarian',
+			'economic',
+			'fast',
+			'gluten-free'
+		],
 		nutrition: '280 calories, 28g carbs, 14g fat, 6g protein',
 		time: 35
 	},
@@ -570,7 +728,7 @@ export const Starch: Recipe[] = [
 			'Transfer to baking dish, pour over cream, sprinkle with Gruyère, nutmeg, salt, and pepper.',
 			'Bake 20–25 minutes until bubbly and golden.'
 		],
-		tags: ['french', 'leek', 'gratin', 'cheese', 'luxury'],
+		tags: ['french', 'leek', 'gratin', 'cheese', 'luxury', 'vegetarian', 'easy', 'gluten-free'],
 		nutrition: '380 calories, 14g carbs, 32g fat, 9g protein',
 		time: 40
 	},
@@ -614,7 +772,17 @@ export const Starch: Recipe[] = [
 			'Steam broccoli until tender and chop finely.',
 			'Toss orzo with broccoli, olive oil, lemon juice, and seasonings.'
 		],
-		tags: ['pasta', 'lemon', 'light', 'side', 'vegetarian', 'gluten-free'],
+		tags: [
+			'pasta',
+			'lemon',
+			'light',
+			'side',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '230 calories, 8g fat, 30g carbs, 6g protein',
 		time: 20
 	},
@@ -634,7 +802,7 @@ export const Starch: Recipe[] = [
 			'Mash with butter, milk, and garlic.',
 			'Season with salt and pepper, serve warm.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'mashed', 'potatoes'],
+		tags: ['side', 'mashed', 'potatoes', 'vegetarian', 'economic', 'fast', 'easy', 'gluten-free'],
 		nutrition: '210 calories, 9g fat, 32g carbs, 4g protein',
 		time: 35
 	},
@@ -654,7 +822,7 @@ export const Starch: Recipe[] = [
 			'Toss potatoes with olive oil, herbs, salt, and pepper.',
 			'Roast 25-30 minutes until golden and tender.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'roasted', 'potatoes'],
+		tags: ['side', 'roasted', 'potatoes', 'vegetarian', 'easy', 'gluten-free'],
 		nutrition: '180 calories, 9g fat, 24g carbs, 4g protein',
 		time: 40
 	},
@@ -674,7 +842,7 @@ export const Starch: Recipe[] = [
 			'Cook 20 minutes, stirring frequently until thickened.',
 			'Stir in butter and Parmesan, season with salt and pepper, serve warm.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'creamy', 'italian'],
+		tags: ['side', 'creamy', 'italian', 'vegetarian', 'fast', 'easy', 'gluten-free'],
 		nutrition: '220 calories, 9g fat, 30g carbs, 8g protein',
 		time: 30
 	},
@@ -697,7 +865,7 @@ export const Starch: Recipe[] = [
 			'Melt butter, whisk in flour, cook 1-2 minutes, then add milk and cook until thickened.',
 			'Stir in cheeses and truffle oil, combine with macaroni, season, and serve.'
 		],
-		tags: ['side', 'vegetarian', 'creamy', 'gourmet', 'pasta'],
+		tags: ['side', 'creamy', 'gourmet', 'pasta', 'vegetarian', 'fast'],
 		nutrition: '480 calories, 25g fat, 50g carbs, 20g protein',
 		time: 35
 	},
@@ -718,7 +886,7 @@ export const Starch: Recipe[] = [
 			'Add rice and stir to coat, pour in broth.',
 			'Bring to a boil, reduce heat, cover and simmer 18-20 minutes until rice is tender.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'rice', 'pilaf'],
+		tags: ['side', 'rice', 'pilaf', 'vegetarian', 'fast', 'gluten-free'],
 		nutrition: '220 calories, 7g fat, 36g carbs, 4g protein',
 		time: 30
 	},
@@ -740,7 +908,7 @@ export const Starch: Recipe[] = [
 			'Add rice and saffron, stir 1-2 minutes, gradually add broth, stirring constantly until creamy.',
 			'Stir in Parmesan, season, and serve warm.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'risotto', 'italian'],
+		tags: ['side', 'risotto', 'italian', 'vegetarian', 'fast', 'gluten-free'],
 		nutrition: '280 calories, 10g fat, 42g carbs, 10g protein',
 		time: 35
 	},
@@ -760,7 +928,7 @@ export const Starch: Recipe[] = [
 			'Layer sweet potato slices in a buttered baking dish, pour cream over, top with cheese.',
 			'Bake 35-40 minutes until golden and tender.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'baked', 'creamy'],
+		tags: ['side', 'baked', 'creamy', 'vegetarian', 'fast', 'easy', 'gluten-free'],
 		nutrition: '320 calories, 18g fat, 35g carbs, 8g protein',
 		time: 50
 	},
@@ -780,7 +948,7 @@ export const Starch: Recipe[] = [
 			'Toss potatoes with olive oil, Parmesan, rosemary, salt, and pepper.',
 			'Roast 25-30 minutes until golden and crispy.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'roasted', 'potatoes'],
+		tags: ['side', 'roasted', 'potatoes', 'vegetarian', 'economic', 'fast', 'easy', 'gluten-free'],
 		nutrition: '200 calories, 10g fat, 25g carbs, 6g protein',
 		time: 35
 	},
@@ -862,7 +1030,7 @@ export const Starch: Recipe[] = [
 			'Boil sweet potatoes until tender, mash with butter and cream.',
 			'Stir in chopped sage, season with salt and pepper, and serve warm.'
 		],
-		tags: ['side', 'vegetarian', 'gluten-free', 'mashed', 'gourmet'],
+		tags: ['side', 'vegetarian', 'gluten-free', 'mashed', 'gourmet', 'fast', 'easy'],
 		nutrition: '220 calories, 10g fat, 32g carbs, 3g protein',
 		time: 35
 	},
@@ -882,7 +1050,7 @@ export const Starch: Recipe[] = [
 			'Melt butter in a skillet until golden, add thyme and cooked gnocchi, toss to coat.',
 			'Top with Parmesan and serve.'
 		],
-		tags: ['side', 'vegetarian', 'creamy', 'gourmet', 'pasta'],
+		tags: ['side', 'creamy', 'gourmet', 'pasta', 'vegetarian', 'fast', 'easy', 'gluten-free'],
 		nutrition: '360 calories, 18g fat, 45g carbs, 10g protein',
 		time: 25
 	}

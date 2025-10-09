@@ -22,7 +22,7 @@ export const Soups: Recipe[] = [
 			'Add noodles and cook until tender.',
 			'Stir in chicken, season, and simmer for 5 minutes. Garnish with parsley.'
 		],
-		tags: ['soup', 'broth', 'chicken', 'comfort food'],
+		tags: ['soup', 'broth', 'chicken', 'comfort food', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '320 calories, 8g fat, 30g carbs, 28g protein',
 		time: 35
 	},
@@ -43,7 +43,7 @@ export const Soups: Recipe[] = [
 			'Add tofu and wakame, simmer 2–3 minutes.',
 			'Top with green onions before serving.'
 		],
-		tags: ['soup', 'broth', 'japanese', 'vegetarian', 'gluten-free'],
+		tags: ['soup', 'broth', 'japanese', , 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '120 calories, 4g fat, 10g carbs, 10g protein',
 		time: 15
 	},
@@ -67,7 +67,7 @@ export const Soups: Recipe[] = [
 			'Return beef to pot and simmer 1 hour until tender.',
 			'Season to taste and serve.'
 		],
-		tags: ['soup', 'broth', 'beef', 'hearty'],
+		tags: ['soup', 'broth', 'beef', 'hearty', 'economic', 'easy'],
 		nutrition: '390 calories, 14g fat, 32g carbs, 32g protein',
 		time: 75
 	},
@@ -91,7 +91,7 @@ export const Soups: Recipe[] = [
 			'Add remaining vegetables, broth, and thyme.',
 			'Simmer 20 minutes until tender. Season and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'broth', 'gluten-free'],
+		tags: ['soup', 'broth', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '150 calories, 5g fat, 22g carbs, 4g protein',
 		time: 30
 	},
@@ -115,7 +115,7 @@ export const Soups: Recipe[] = [
 			'Strain, then add fish sauce and chicken.',
 			'Cook rice noodles separately, then serve in bowls with broth and toppings.'
 		],
-		tags: ['soup', 'broth', 'chicken', 'vietnamese', 'gluten-free'],
+		tags: ['soup', 'broth', 'chicken', 'vietnamese', 'gluten-free', 'economic', 'easy'],
 		nutrition: '370 calories, 8g fat, 45g carbs, 30g protein',
 		time: 40
 	},
@@ -139,7 +139,7 @@ export const Soups: Recipe[] = [
 			'Drizzle in egg while stirring to form ribbons.',
 			'Serve hot.'
 		],
-		tags: ['soup', 'asian', 'broth', 'spicy', 'vegetarian-option'],
+		tags: ['soup', 'asian', 'broth', 'spicy', 'vegetarian', 'gluten-free', 'fast', 'easy'],
 		nutrition: '160 calories, 6g fat, 14g carbs, 10g protein',
 		time: 25
 	},
@@ -159,7 +159,7 @@ export const Soups: Recipe[] = [
 			'Add pasta and cook until tender.',
 			'Stir in spinach and egg mixture, simmer briefly, then serve.'
 		],
-		tags: ['soup', 'broth', 'italian', 'meatballs'],
+		tags: ['soup', 'broth', 'italian', 'meatballs', 'economic', 'easy'],
 		nutrition: '420 calories, 18g fat, 36g carbs, 28g protein',
 		time: 40
 	},
@@ -183,7 +183,7 @@ export const Soups: Recipe[] = [
 			'Add mushrooms and shrimp, cook until shrimp turn pink.',
 			'Stir in fish sauce, lime juice, and chilies before serving.'
 		],
-		tags: ['soup', 'thai', 'broth', 'spicy', 'gluten-free'],
+		tags: ['soup', 'thai', 'broth', 'spicy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '190 calories, 5g fat, 10g carbs, 26g protein',
 		time: 25
 	},
@@ -192,7 +192,7 @@ export const Soups: Recipe[] = [
 		name: 'Matzo Ball Soup',
 		servings: '4',
 		ingredients: [
-			'8 cups chicken broth',
+			'8 cups chicken or vegtable broth',
 			'1 onion, halved',
 			'2 carrots, sliced',
 			'2 celery stalks, sliced',
@@ -203,7 +203,17 @@ export const Soups: Recipe[] = [
 			'Add matzo balls and cook for 15–20 minutes.',
 			'Remove onion halves and serve hot.'
 		],
-		tags: ['soup', 'broth', 'jewish', 'comfort food'],
+		tags: [
+			'soup',
+			'broth',
+			'jewish',
+			'comfort food',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '310 calories, 9g fat, 42g carbs, 18g protein',
 		time: 40
 	},
@@ -225,7 +235,7 @@ export const Soups: Recipe[] = [
 			'Add mushrooms and carrots; cook until tender.',
 			'Add noodles and heat through. Garnish with green onions.'
 		],
-		tags: ['soup', 'broth', 'japanese', 'vegetarian'],
+		tags: ['soup', 'broth', 'japanese', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '340 calories, 7g fat, 58g carbs, 10g protein',
 		time: 20
 	},
@@ -248,7 +258,7 @@ export const Soups: Recipe[] = [
 			'Add cabbage, broth, tomatoes, and paprika.',
 			'Simmer for 30 minutes until tender. Season and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'broth', 'gluten-free'],
+		tags: ['soup', 'broth', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '140 calories, 4g fat, 20g carbs, 5g protein',
 		time: 35
 	},
@@ -271,7 +281,7 @@ export const Soups: Recipe[] = [
 			'Strain, then pour hot broth over cooked noodles and raw beef slices.',
 			'Top with herbs and lime.'
 		],
-		tags: ['soup', 'vietnamese', 'broth', 'beef', 'gluten-free'],
+		tags: ['soup', 'vietnamese', 'broth', 'beef', 'gluten-free', 'gluten-free', 'economic', 'easy'],
 		nutrition: '410 calories, 10g fat, 45g carbs, 32g protein',
 		time: 45
 	},
@@ -292,7 +302,17 @@ export const Soups: Recipe[] = [
 			'Add mushrooms and cook 10 minutes.',
 			'Drizzle with sesame oil and garnish with green onions.'
 		],
-		tags: ['soup', 'vegetarian', 'broth', 'gluten-free'],
+		tags: [
+			'soup',
+			'vegetarian',
+			'broth',
+			'gluten-free',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '110 calories, 4g fat, 10g carbs, 6g protein',
 		time: 20
 	},
@@ -313,7 +333,7 @@ export const Soups: Recipe[] = [
 			'Add wontons and cook until they float.',
 			'Add bok choy and cook briefly, then drizzle sesame oil and serve.'
 		],
-		tags: ['soup', 'chinese', 'broth'],
+		tags: ['soup', 'chinese', 'broth', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '280 calories, 9g fat, 28g carbs, 20g protein',
 		time: 25
 	},
@@ -336,7 +356,16 @@ export const Soups: Recipe[] = [
 			'Add lentils, broth, and cumin; simmer 20 minutes until tender.',
 			'Stir in spinach until wilted. Season and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'broth', 'gluten-free', 'high-protein'],
+		tags: [
+			'soup',
+			'broth',
+			'high-protein',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '260 calories, 6g fat, 35g carbs, 14g protein',
 		time: 30
 	},
@@ -362,7 +391,7 @@ export const Soups: Recipe[] = [
 			'Return beef to pot, add potatoes, broth, thyme, and bay leaf.',
 			'Simmer 1–1.5 hours until beef and vegetables are tender. Season and serve.'
 		],
-		tags: ['stew', 'beef', 'hearty'],
+		tags: ['stew', 'beef', 'hearty', 'gluten-free'],
 		nutrition: '450 calories, 18g fat, 30g carbs, 38g protein',
 		time: 90
 	},
@@ -389,7 +418,7 @@ export const Soups: Recipe[] = [
 			'Mix flour, baking powder, milk, and seasoning to form dumpling dough.',
 			'Drop dumplings into simmering stew, cover, and cook 15 minutes. Garnish and serve.'
 		],
-		tags: ['stew', 'chicken', 'comfort food'],
+		tags: ['stew', 'chicken', 'comfort food', 'economic'],
 		nutrition: '420 calories, 15g fat, 35g carbs, 32g protein',
 		time: 60
 	},
@@ -413,7 +442,7 @@ export const Soups: Recipe[] = [
 			'Sauté onion and garlic until fragrant, add spices.',
 			'Add lentils, broth, and lamb; simmer 45 minutes until tender. Season and serve.'
 		],
-		tags: ['stew', 'lamb', 'gluten-free', 'hearty'],
+		tags: ['stew', 'lamb', 'hearty', 'gluten-free', 'easy'],
 		nutrition: '380 calories, 16g fat, 28g carbs, 32g protein',
 		time: 60
 	},
@@ -439,7 +468,7 @@ export const Soups: Recipe[] = [
 			'Add carrots, zucchini, chickpeas, broth, and spices; simmer 25 minutes.',
 			'Garnish with fresh cilantro and serve.'
 		],
-		tags: ['stew', 'vegetarian', 'gluten-free', 'healthy'],
+		tags: ['stew', 'healthy', 'vegetarian', 'gluten-free', 'fast', 'easy'],
 		nutrition: '280 calories, 7g fat, 40g carbs, 12g protein',
 		time: 35
 	},
@@ -467,7 +496,7 @@ export const Soups: Recipe[] = [
 			'Add seafood and cook until shrimp turn pink and mussels open.',
 			'Season and garnish with parsley before serving.'
 		],
-		tags: ['stew', 'seafood', 'hearty', 'gluten-free'],
+		tags: ['stew', 'seafood', 'hearty', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '300 calories, 8g fat, 15g carbs, 40g protein',
 		time: 35
 	},
@@ -493,7 +522,7 @@ export const Soups: Recipe[] = [
 			'Return beef to pot, add broth, Guinness, thyme, and bay leaf.',
 			'Simmer 1.5 hours until tender. Season and serve.'
 		],
-		tags: ['stew', 'beef', 'irish', 'hearty'],
+		tags: ['stew', 'beef', 'irish', 'hearty', 'gluten-free', 'easy'],
 		nutrition: '470 calories, 20g fat, 25g carbs, 38g protein',
 		time: 90
 	},
@@ -521,7 +550,7 @@ export const Soups: Recipe[] = [
 			'Add carrots, zucchini, chickpeas, spices, tomatoes, and broth; simmer 30 minutes.',
 			'Garnish with cilantro and serve.'
 		],
-		tags: ['stew', 'vegetarian', 'gluten-free', 'moroccan'],
+		tags: ['stew', 'moroccan', 'vegetarian', 'gluten-free', 'fast', 'easy'],
 		nutrition: '290 calories, 8g fat, 45g carbs, 12g protein',
 		time: 40
 	},
@@ -546,7 +575,7 @@ export const Soups: Recipe[] = [
 			'Return beef to pot, add broth, potatoes, and carrots; simmer 1 hour.',
 			'Season and serve.'
 		],
-		tags: ['stew', 'beef', 'hungarian', 'hearty'],
+		tags: ['stew', 'beef', 'hungarian', 'hearty', 'gluten-free', 'easy'],
 		nutrition: '440 calories, 16g fat, 30g carbs, 38g protein',
 		time: 80
 	},
@@ -571,7 +600,7 @@ export const Soups: Recipe[] = [
 			'Return lamb to pot, add broth, thyme, and bay leaf; simmer 1–1.5 hours.',
 			'Season and serve.'
 		],
-		tags: ['stew', 'lamb', 'irish', 'hearty'],
+		tags: ['stew', 'lamb', 'irish', 'hearty', 'gluten-free', 'easy'],
 		nutrition: '460 calories, 20g fat, 28g carbs, 38g protein',
 		time: 90
 	},
@@ -596,7 +625,7 @@ export const Soups: Recipe[] = [
 			'Add beans, broth, and thyme; simmer 25 minutes.',
 			'Stir in kale and cook 5 more minutes. Season and serve.'
 		],
-		tags: ['stew', 'vegetarian', 'gluten-free', 'healthy'],
+		tags: ['stew', 'healthy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '250 calories, 6g fat, 35g carbs, 14g protein',
 		time: 35
 	},
@@ -620,7 +649,7 @@ export const Soups: Recipe[] = [
 			'Add sweet potatoes, beans, broth, and spices; simmer 25–30 minutes until tender.',
 			'Season and serve.'
 		],
-		tags: ['stew', 'vegetarian', 'gluten-free', 'healthy'],
+		tags: ['stew', 'healthy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '270 calories, 6g fat, 45g carbs, 12g protein',
 		time: 40
 	},
@@ -646,7 +675,7 @@ export const Soups: Recipe[] = [
 			'Add broth, spices, shrimp, and crab meat; simmer 10–15 minutes.',
 			'Season and serve.'
 		],
-		tags: ['stew', 'seafood', 'hearty', 'gluten-free'],
+		tags: ['stew', 'seafood', 'hearty', 'vegetarian', 'gluten-free', 'fast', 'easy'],
 		nutrition: '320 calories, 10g fat, 12g carbs, 38g protein',
 		time: 30
 	},
@@ -671,7 +700,7 @@ export const Soups: Recipe[] = [
 			'Return pork to pot, add broth and thyme; simmer 1 hour.',
 			'Season and serve.'
 		],
-		tags: ['stew', 'pork', 'hearty'],
+		tags: ['stew', 'pork', 'hearty', 'gluten-free'],
 		nutrition: '420 calories, 18g fat, 28g carbs, 36g protein',
 		time: 75
 	},
@@ -696,7 +725,7 @@ export const Soups: Recipe[] = [
 			'Return turkey to pot, add beans, broth, and thyme; simmer 30 minutes.',
 			'Season and serve.'
 		],
-		tags: ['stew', 'turkey', 'gluten-free', 'healthy'],
+		tags: ['stew', 'turkey', 'gluten-free', 'healthy', 'easy'],
 		nutrition: '350 calories, 12g fat, 28g carbs, 32g protein',
 		time: 45
 	},
@@ -720,7 +749,7 @@ export const Soups: Recipe[] = [
 			'Add barley, broth, and thyme; simmer 40–45 minutes until barley is tender.',
 			'Season and serve.'
 		],
-		tags: ['stew', 'vegetarian', 'hearty'],
+		tags: ['stew', 'hearty', 'vegetarian', 'gluten-free', 'economic', 'easy'],
 		nutrition: '260 calories, 6g fat, 45g carbs, 10g protein',
 		time: 50
 	},
@@ -744,7 +773,7 @@ export const Soups: Recipe[] = [
 			'Add potatoes and clam juice; simmer until potatoes are tender.',
 			'Stir in clams and cream, heat gently. Season and serve.'
 		],
-		tags: ['chowder', 'seafood', 'creamy'],
+		tags: ['chowder', 'seafood', 'creamy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '420 calories, 22g fat, 28g carbs, 20g protein',
 		time: 40
 	},
@@ -767,7 +796,7 @@ export const Soups: Recipe[] = [
 			'Add corn, potatoes, and broth; simmer until potatoes are tender.',
 			'Blend slightly for creaminess, stir in milk/cream, season, and serve.'
 		],
-		tags: ['chowder', 'vegetarian', 'creamy'],
+		tags: ['chowder', 'creamy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '300 calories, 12g fat, 40g carbs, 6g protein',
 		time: 35
 	},
@@ -791,7 +820,7 @@ export const Soups: Recipe[] = [
 			'Add lobster stock and simmer 15 minutes.',
 			'Blend until smooth, stir in cream and lobster meat, heat gently, season, and serve.'
 		],
-		tags: ['bisque', 'seafood', 'creamy'],
+		tags: ['bisque', 'seafood', 'creamy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '380 calories, 22g fat, 12g carbs, 28g protein',
 		time: 40
 	},
@@ -813,7 +842,7 @@ export const Soups: Recipe[] = [
 			'Add potatoes and broth; simmer until potatoes are tender.',
 			'Blend slightly, stir in milk/cream, season, and garnish with chives.'
 		],
-		tags: ['chowder', 'vegetarian', 'creamy'],
+		tags: ['chowder', 'creamy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '280 calories, 12g fat, 38g carbs, 6g protein',
 		time: 35
 	},
@@ -837,7 +866,7 @@ export const Soups: Recipe[] = [
 			'Add potatoes and stock; simmer until tender.',
 			'Add shrimp, scallops, and cream; cook until seafood is done. Season and serve.'
 		],
-		tags: ['chowder', 'seafood', 'creamy', 'gluten-free'],
+		tags: ['chowder', 'seafood', 'creamy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '380 calories, 18g fat, 25g carbs, 28g protein',
 		time: 40
 	},
@@ -860,7 +889,7 @@ export const Soups: Recipe[] = [
 			'Add tomatoes and broth; simmer 20 minutes.',
 			'Blend until smooth, stir in cream and basil, season, and serve.'
 		],
-		tags: ['bisque', 'vegetarian', 'creamy', 'gluten-free'],
+		tags: ['bisque', 'creamy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '250 calories, 10g fat, 28g carbs, 4g protein',
 		time: 35
 	},
@@ -883,7 +912,7 @@ export const Soups: Recipe[] = [
 			'Add corn and broth; simmer 15 minutes.',
 			'Stir in crab meat and cream; heat gently, season, and serve.'
 		],
-		tags: ['chowder', 'seafood', 'creamy', 'gluten-free'],
+		tags: ['chowder', 'seafood', 'creamy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '340 calories, 16g fat, 25g carbs, 22g protein',
 		time: 30
 	},
@@ -905,7 +934,7 @@ export const Soups: Recipe[] = [
 			'Add broth and thyme; simmer 15 minutes.',
 			'Blend until smooth, stir in cream, season, and serve.'
 		],
-		tags: ['bisque', 'vegetarian', 'creamy'],
+		tags: ['bisque', 'creamy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '290 calories, 14g fat, 20g carbs, 6g protein',
 		time: 35
 	},
@@ -928,7 +957,7 @@ export const Soups: Recipe[] = [
 			'Add sweet potatoes, broth, and curry powder; simmer 20 minutes.',
 			'Blend partially, stir in coconut milk, season, and serve.'
 		],
-		tags: ['chowder', 'vegetarian', 'creamy', 'gluten-free'],
+		tags: ['chowder', 'creamy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '310 calories, 14g fat, 40g carbs, 5g protein',
 		time: 35
 	},
@@ -951,7 +980,7 @@ export const Soups: Recipe[] = [
 			'Add potatoes and fish stock; simmer 15 minutes.',
 			'Add salmon and cream; cook gently until salmon is done. Season and serve.'
 		],
-		tags: ['chowder', 'seafood', 'creamy', 'gluten-free'],
+		tags: ['chowder', 'seafood', 'creamy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '360 calories, 16g fat, 28g carbs, 28g protein',
 		time: 35
 	},
@@ -973,7 +1002,7 @@ export const Soups: Recipe[] = [
 			'Add corn and clam juice; simmer 10 minutes.',
 			'Blend until smooth, stir in cream and clams, season, and serve.'
 		],
-		tags: ['bisque', 'seafood', 'creamy'],
+		tags: ['bisque', 'seafood', 'creamy', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '320 calories, 16g fat, 25g carbs, 14g protein',
 		time: 30
 	},
@@ -995,7 +1024,7 @@ export const Soups: Recipe[] = [
 			'Add pumpkin puree and broth; simmer 10 minutes.',
 			'Blend until smooth, stir in cream and nutmeg, season, and serve.'
 		],
-		tags: ['bisque', 'vegetarian', 'creamy', 'gluten-free'],
+		tags: ['bisque', 'creamy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '280 calories, 14g fat, 28g carbs, 4g protein',
 		time: 25
 	},
@@ -1017,7 +1046,7 @@ export const Soups: Recipe[] = [
 			'Add corn and stock; simmer 10 minutes.',
 			'Stir in shrimp and cream; cook until shrimp are pink. Season and serve.'
 		],
-		tags: ['chowder', 'seafood', 'creamy', 'gluten-free'],
+		tags: ['chowder', 'seafood', 'creamy', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '330 calories, 16g fat, 20g carbs, 24g protein',
 		time: 25
 	},
@@ -1039,7 +1068,7 @@ export const Soups: Recipe[] = [
 			'Add carrots and broth; simmer until carrots are tender.',
 			'Blend until smooth, stir in cream, season, and serve.'
 		],
-		tags: ['bisque', 'vegetarian', 'creamy', 'gluten-free'],
+		tags: ['bisque', 'creamy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '260 calories, 12g fat, 30g carbs, 4g protein',
 		time: 35
 	},
@@ -1062,7 +1091,7 @@ export const Soups: Recipe[] = [
 			'Add seafood stock; simmer 10 minutes.',
 			'Stir in crawfish and cream, heat gently. Season and serve.'
 		],
-		tags: ['bisque', 'seafood', 'creamy'],
+		tags: ['bisque', 'seafood', 'creamy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '360 calories, 18g fat, 15g carbs, 28g protein',
 		time: 30
 	},
@@ -1085,7 +1114,7 @@ export const Soups: Recipe[] = [
 			'Add potatoes and stock; simmer until tender.',
 			'Stir in salmon and cream; heat gently. Season and garnish with dill.'
 		],
-		tags: ['chowder', 'seafood', 'creamy', 'gluten-free'],
+		tags: ['chowder', 'seafood', 'creamy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '370 calories, 18g fat, 25g carbs, 28g protein',
 		time: 35
 	},
@@ -1107,7 +1136,7 @@ export const Soups: Recipe[] = [
 			'Add celery root, potatoes, and broth; simmer until tender.',
 			'Blend until smooth, stir in cream, season, and serve.'
 		],
-		tags: ['bisque', 'vegetarian', 'creamy', 'gluten-free'],
+		tags: ['bisque', 'creamy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '270 calories, 12g fat, 32g carbs, 4g protein',
 		time: 35
 	},
@@ -1130,7 +1159,7 @@ export const Soups: Recipe[] = [
 			'Add potatoes and clam juice; simmer until tender.',
 			'Stir in clams and cream; heat gently, season, and serve with bacon on top.'
 		],
-		tags: ['chowder', 'seafood', 'creamy'],
+		tags: ['chowder', 'seafood', 'creamy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '400 calories, 20g fat, 28g carbs, 22g protein',
 		time: 40
 	},
@@ -1153,7 +1182,7 @@ export const Soups: Recipe[] = [
 			'Add pumpkin puree and broth; simmer 10 minutes.',
 			'Blend until smooth, stir in cream and spices, season, and serve.'
 		],
-		tags: ['bisque', 'vegetarian', 'creamy', 'gluten-free'],
+		tags: ['bisque', 'creamy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '290 calories, 14g fat, 30g carbs, 4g protein',
 		time: 25
 	},
@@ -1177,7 +1206,7 @@ export const Soups: Recipe[] = [
 			'Add potatoes, and clam juice; simmer until potatoes are tender.',
 			'Stir in clams, mussles and cream; heat gently, season, and serve with bacon on top.'
 		],
-		tags: ['chowder', 'seafood', 'creamy'],
+		tags: ['chowder', 'seafood', 'creamy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '420 calories, 20g fat, 32g carbs, 22g protein',
 		time: 40
 	},
@@ -1200,7 +1229,7 @@ export const Soups: Recipe[] = [
 			'Sauté onion and garlic in a pot, add roasted squash and broth.',
 			'Simmer 15 minutes, blend until smooth, stir in cream and sage, season, and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'gluten-free', 'gourmet'],
+		tags: ['soup', 'gourmet', 'vegetarian', 'gluten-free', 'economic', 'easy'],
 		nutrition: '280 calories, 14g fat, 30g carbs, 4g protein',
 		time: 50
 	},
@@ -1223,7 +1252,7 @@ export const Soups: Recipe[] = [
 			'Add wine and simmer 5 minutes, then add broth and simmer 15 minutes.',
 			'Ladle soup into oven-safe bowls, top with baguette and cheese, broil until bubbly and golden.'
 		],
-		tags: ['soup', 'beef', 'gourmet'],
+		tags: ['soup', 'beef', 'gourmet', 'easy'],
 		nutrition: '380 calories, 18g fat, 40g carbs, 12g protein',
 		time: 60
 	},
@@ -1269,7 +1298,7 @@ export const Soups: Recipe[] = [
 			'Dissolve miso paste in some broth, add back to pot.',
 			'Add noodles, drizzle with sesame oil, top with green onions and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'gourmet', 'asian'],
+		tags: ['soup', 'vegetarian', 'gourmet', 'asian', 'easy', 'fast'],
 		nutrition: '220 calories, 5g fat, 35g carbs, 8g protein',
 		time: 25
 	},
@@ -1291,7 +1320,7 @@ export const Soups: Recipe[] = [
 			'Sauté onion, add roasted cauliflower and broth, simmer 15 minutes.',
 			'Blend until smooth, stir in cream and truffle oil, season, and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'gluten-free', 'gourmet'],
+		tags: ['soup', 'gourmet', 'vegetarian', 'gluten-free', 'easy'],
 		nutrition: '260 calories, 14g fat, 25g carbs, 6g protein',
 		time: 45
 	},
@@ -1314,7 +1343,7 @@ export const Soups: Recipe[] = [
 			'Add roasted peppers and tomatoes, simmer 15 minutes.',
 			'Blend until smooth, stir in cream, season, garnish with basil, and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'creamy', 'gourmet'],
+		tags: ['soup', 'creamy', 'gourmet', 'vegetarian', 'gluten-free', 'fast'],
 		nutrition: '270 calories, 12g fat, 28g carbs, 4g protein',
 		time: 35
 	},
@@ -1337,7 +1366,7 @@ export const Soups: Recipe[] = [
 			'Add carrots and broth, simmer until tender.',
 			'Blend until smooth, stir in orange juice and cream, season, and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'creamy', 'gourmet', 'gluten-free'],
+		tags: ['soup', 'creamy', 'gourmet', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '250 calories, 12g fat, 30g carbs, 4g protein',
 		time: 35
 	},
@@ -1360,7 +1389,7 @@ export const Soups: Recipe[] = [
 			'Add broth and thyme, simmer 10 minutes.',
 			'Blend partially, stir in sherry and cream, season, and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'gourmet', 'creamy'],
+		tags: ['soup', 'gourmet', 'creamy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '280 calories, 14g fat, 15g carbs, 6g protein',
 		time: 35
 	},
@@ -1382,7 +1411,7 @@ export const Soups: Recipe[] = [
 			'Add peas and broth, simmer 10 minutes.',
 			'Blend with mint until smooth, stir in cream, season, and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'gourmet', 'creamy', 'gluten-free'],
+		tags: ['soup', 'gourmet', 'creamy', 'vegetarian', 'gluten-free', 'fast', 'easy'],
 		nutrition: '230 calories, 10g fat, 30g carbs, 6g protein',
 		time: 25
 	},
@@ -1405,7 +1434,7 @@ export const Soups: Recipe[] = [
 			'Sauté onion and apples in olive oil, add roasted squash and broth.',
 			'Simmer 15 minutes, blend until smooth, stir in cream and cinnamon, season, and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'gluten-free', 'gourmet', 'creamy'],
+		tags: ['soup', 'gourmet', 'creamy', 'vegetarian', 'gluten-free', 'economic', 'easy'],
 		nutrition: '260 calories, 12g fat, 32g carbs, 4g protein',
 		time: 50
 	},
@@ -1428,7 +1457,7 @@ export const Soups: Recipe[] = [
 			'Add sweet potatoes, broth, and lemongrass; simmer 20 minutes.',
 			'Blend until smooth, stir in coconut milk, season, and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'gluten-free', 'gourmet', 'creamy'],
+		tags: ['soup', 'gourmet', 'creamy', 'vegetarian', 'gluten-free', 'fast', 'easy'],
 		nutrition: '270 calories, 12g fat, 32g carbs, 3g protein',
 		time: 40
 	},
@@ -1451,7 +1480,7 @@ export const Soups: Recipe[] = [
 			'Add roasted peppers and tomatoes, simmer 15 minutes.',
 			'Blend until smooth, stir in cream, season, drizzle with basil oil, and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'creamy', 'gourmet', 'gluten-free'],
+		tags: ['soup', 'creamy', 'gourmet', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '270 calories, 12g fat, 28g carbs, 4g protein',
 		time: 35
 	},
@@ -1474,7 +1503,7 @@ export const Soups: Recipe[] = [
 			'Add cauliflower, broth, and saffron; simmer 15 minutes.',
 			'Blend until smooth, stir in almond paste and cream, season, and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'gourmet', 'creamy'],
+		tags: ['soup', 'gourmet', 'creamy', 'vegetarian', 'gluten-free', 'fast', 'easy'],
 		nutrition: '290 calories, 14g fat, 22g carbs, 6g protein',
 		time: 40
 	},
@@ -1496,7 +1525,7 @@ export const Soups: Recipe[] = [
 			'Add asparagus and broth; simmer until tender.',
 			'Blend until smooth, stir in cream and lemon juice, season, and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'gluten-free', 'gourmet', 'creamy'],
+		tags: ['soup', 'gourmet', 'creamy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '220 calories, 10g fat, 18g carbs, 6g protein',
 		time: 35
 	},
@@ -1518,7 +1547,7 @@ export const Soups: Recipe[] = [
 			'Add beans and broth, simmer 10 minutes.',
 			'Blend until smooth, stir in cream and truffle oil, season, and serve.'
 		],
-		tags: ['soup', 'vegetarian', 'gourmet', 'creamy', 'gluten-free'],
+		tags: ['soup', 'gourmet', 'creamy', 'vegetarian', 'gluten-free', 'fast', 'easy'],
 		nutrition: '280 calories, 14g fat, 28g carbs, 8g protein',
 		time: 35
 	}

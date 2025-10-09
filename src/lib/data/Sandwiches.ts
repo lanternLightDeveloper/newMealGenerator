@@ -21,7 +21,17 @@ export const Sandwiches: Recipe[] = [
 			'Cook on skillet with butter until golden on both sides.',
 			'Dust with powdered sugar and serve with jam.'
 		],
-		tags: ['sandwich', 'grilled', 'sweet', 'ham', 'turkey', 'brunch'],
+		tags: [
+			'sandwich',
+			'grilled',
+			'sweet',
+			'ham',
+			'turkey',
+			'brunch',
+			'gluten-free',
+			'fast',
+			'easy'
+		],
 		nutrition: '680 calories, 38g fat, 40g carbs, 45g protein',
 		time: 25
 	},
@@ -39,7 +49,17 @@ export const Sandwiches: Recipe[] = [
 			'Place cheese between two unbuttered sides of bread.',
 			'Grill in a skillet over medium heat until golden brown on both sides and cheese is melted.'
 		],
-		tags: ['sandwich', 'grilled', 'cheese', 'comfort food', 'vegetarian'],
+		tags: [
+			'sandwich',
+			'grilled',
+			'cheese',
+			'comfort food',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '480 calories, 30g fat, 36g carbs, 15g protein',
 		time: 15
 	},
@@ -60,7 +80,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer turkey, bacon, avocado, and cheese inside.',
 			'Grill until bread is golden and cheese melted, about 4 minutes per side.'
 		],
-		tags: ['sandwich', 'grilled', 'turkey', 'avocado', 'bacon'],
+		tags: ['sandwich', 'grilled', 'turkey', 'avocado', 'bacon', 'gluten-free', 'easy'],
 		nutrition: '610 calories, 38g fat, 32g carbs, 32g protein',
 		time: 20
 	},
@@ -81,7 +101,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer tomato, mozzarella, and basil on bread, drizzle with balsamic glaze.',
 			'Grill in a panini press until cheese melts and bread is crisp.'
 		],
-		tags: ['sandwich', 'panini', 'vegetarian', 'italian', 'grilled'],
+		tags: ['sandwich', 'panini', 'italian', 'grilled', 'vegetarian', 'gluten-free', 'fast'],
 		nutrition: '540 calories, 28g fat, 38g carbs, 25g protein',
 		time: 15
 	},
@@ -106,7 +126,7 @@ export const Sandwiches: Recipe[] = [
 			'drizzle with Kbbq sauce, close the sandwich.',
 			'Butter outside of bread and press in skillet or panini maker until crisp and hot.'
 		],
-		tags: ['sandwich', 'grilled', 'pork', 'ham', 'classic'],
+		tags: ['sandwich', 'grilled', 'pork', 'ham', 'classic', 'gluten-free'],
 		nutrition: '590 calories, 28g fat, 42g carbs, 38g protein',
 		time: 20
 	},
@@ -127,7 +147,17 @@ export const Sandwiches: Recipe[] = [
 			'Spread on bread, top with cheese.',
 			'Butter outsides and grill until golden and cheese melts.'
 		],
-		tags: ['sandwich', 'grilled', 'tuna', 'seafood', 'classic'],
+		tags: [
+			'sandwich',
+			'grilled',
+			'tuna',
+			'seafood',
+			'classic',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '470 calories, 25g fat, 32g carbs, 30g protein',
 		time: 15
 	},
@@ -168,7 +198,7 @@ export const Sandwiches: Recipe[] = [
 			'Add chicken and cheese.',
 			'Butter outsides and grill until hot and crispy.'
 		],
-		tags: ['sandwich', 'chicken', 'grilled', 'italian', 'panini'],
+		tags: ['sandwich', 'chicken', 'grilled', 'italian', 'panini', 'gluten-free', 'fast', 'easy'],
 		nutrition: '520 calories, 27g fat, 35g carbs, 32g protein',
 		time: 18
 	},
@@ -189,7 +219,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer mushrooms and cheese between bread slices.',
 			'Grill until bread is toasted and cheese melts.'
 		],
-		tags: ['sandwich', 'vegetarian', 'mushroom', 'grilled', 'savory'],
+		tags: ['sandwich', 'vegetarian', 'mushroom', 'grilled', 'savory', 'economic'],
 		nutrition: '450 calories, 24g fat, 38g carbs, 18g protein',
 		time: 20
 	},
@@ -209,7 +239,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer ham and brie inside.',
 			'Toast in oven or press until cheese is melted and bread crisp.'
 		],
-		tags: ['sandwich', 'grilled', 'ham', 'cheese', 'french'],
+		tags: ['sandwich', 'grilled', 'ham', 'cheese', 'french', 'fast', 'easy'],
 		nutrition: '530 calories, 26g fat, 42g carbs, 28g protein',
 		time: 15
 	},
@@ -228,7 +258,7 @@ export const Sandwiches: Recipe[] = [
 			'Pile pork onto rolls and top with coleslaw.',
 			'Toast rolls lightly if desired before serving.'
 		],
-		tags: ['sandwich', 'barbecue', 'pork', 'toasted'],
+		tags: ['sandwich', 'barbecue', 'pork', 'toasted', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '610 calories, 28g fat, 45g carbs, 35g protein',
 		time: 25
 	},
@@ -248,7 +278,16 @@ export const Sandwiches: Recipe[] = [
 			'Brush outside with olive oil.',
 			'Press in panini grill until golden and cheese is melted.'
 		],
-		tags: ['sandwich', 'vegetarian', 'italian', 'grilled'],
+		tags: [
+			'sandwich',
+			'italian',
+			'grilled',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '510 calories, 24g fat, 40g carbs, 22g protein',
 		time: 18
 	},
@@ -269,7 +308,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer corned beef, sauerkraut, and cheese.',
 			'Butter outsides and grill until golden brown.'
 		],
-		tags: ['sandwich', 'grilled', 'beef', 'classic', 'reuben'],
+		tags: ['sandwich', 'grilled', 'beef', 'classic', 'reuben', 'easy'],
 		nutrition: '640 calories, 35g fat, 42g carbs, 34g protein',
 		time: 20
 	},
@@ -290,7 +329,16 @@ export const Sandwiches: Recipe[] = [
 			'Spread mixture between bread slices.',
 			'Butter outsides and grill until crisp and melty.'
 		],
-		tags: ['sandwich', 'vegetarian', 'grilled', 'cheese'],
+		tags: [
+			'sandwich',
+			'grilled',
+			'cheese',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '580 calories, 36g fat, 40g carbs, 20g protein',
 		time: 18
 	},
@@ -310,7 +358,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer chicken and cheese between bread slices.',
 			'Butter outsides and grill until golden and cheese melted.'
 		],
-		tags: ['sandwich', 'chicken', 'grilled', 'spicy'],
+		tags: ['sandwich', 'chicken', 'grilled', 'spicy', 'easy'],
 		nutrition: '610 calories, 35g fat, 40g carbs, 35g protein',
 		time: 20
 	},
@@ -331,7 +379,7 @@ export const Sandwiches: Recipe[] = [
 			'Spread on bread and layer smoked salmon.',
 			'Butter outsides and toast until lightly golden.'
 		],
-		tags: ['sandwich', 'seafood', 'grilled', 'brunch'],
+		tags: ['sandwich', 'seafood', 'grilled', 'brunch', 'gluten-free', 'fast', 'easy'],
 		nutrition: '520 calories, 30g fat, 32g carbs, 28g protein',
 		time: 15
 	},
@@ -350,7 +398,16 @@ export const Sandwiches: Recipe[] = [
 			'Add grilled vegetables.',
 			'Grill sandwich until lightly toasted and warm.'
 		],
-		tags: ['sandwich', 'vegetarian', 'grilled', 'healthy'],
+		tags: [
+			'sandwich',
+			'grilled',
+			'healthy',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '470 calories, 24g fat, 42g carbs, 14g protein',
 		time: 15
 	},
@@ -372,7 +429,7 @@ export const Sandwiches: Recipe[] = [
 			'Drizzle with balsamic glaze and close sandwich.',
 			'Serve chilled or at room temperature.'
 		],
-		tags: ['sandwich', 'cold', 'vegetarian', 'italian', 'caprese'],
+		tags: ['sandwich', 'cold', 'vegetarian', 'italian', 'caprese', 'fast', 'easy'],
 		nutrition: '480 calories, 26g fat, 34g carbs, 22g protein',
 		time: 10
 	},
@@ -395,7 +452,16 @@ export const Sandwiches: Recipe[] = [
 			'Close sandwich and slice in half.',
 			'Serve chilled.'
 		],
-		tags: ['sandwich', 'cold', 'vegetarian', 'mediterranean', 'healthy'],
+		tags: [
+			'sandwich',
+			'cold',
+			'vegetarian',
+			'mediterranean',
+			'healthy',
+			'gluten-free',
+			'fast',
+			'easy'
+		],
 		nutrition: '420 calories, 18g fat, 45g carbs, 16g protein',
 		time: 10
 	},
@@ -418,7 +484,18 @@ export const Sandwiches: Recipe[] = [
 			'Spread mixture on bread and top with lettuce.',
 			'Close and serve chilled.'
 		],
-		tags: ['sandwich', 'cold', 'vegan', 'protein', 'meal prep'],
+		tags: [
+			'sandwich',
+			'cold',
+			'vegan',
+			'protein',
+			'meal prep',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy',
+			'vegetarian'
+		],
 		nutrition: '390 calories, 14g fat, 48g carbs, 15g protein',
 		time: 15
 	},
@@ -441,7 +518,7 @@ export const Sandwiches: Recipe[] = [
 			'Stack into triple-decker sandwich and slice.',
 			'Serve cold.'
 		],
-		tags: ['sandwich', 'cold', 'vegetarian', 'club', 'avocado'],
+		tags: ['sandwich', 'cold', 'vegetarian', 'club', 'avocado', 'gluten-free', 'easy'],
 		nutrition: '610 calories, 32g fat, 52g carbs, 28g protein',
 		time: 20
 	},
@@ -465,7 +542,7 @@ export const Sandwiches: Recipe[] = [
 			'Spread mixture on bread, top with lettuce.',
 			'Close sandwich and serve cold.'
 		],
-		tags: ['sandwich', 'cold', 'vegetarian', 'egg', 'classic'],
+		tags: ['sandwich', 'cold', 'vegetarian', 'egg', 'classic', 'easy'],
 		nutrition: '440 calories, 27g fat, 28g carbs, 19g protein',
 		time: 15
 	},
@@ -487,7 +564,7 @@ export const Sandwiches: Recipe[] = [
 			'Close sandwich and wrap tightly for chilling.',
 			'Serve at room temperature.'
 		],
-		tags: ['sandwich', 'cold', 'vegetarian', 'mediterranean', 'meal prep'],
+		tags: ['sandwich', 'cold', 'vegetarian', 'mediterranean', 'meal prep', 'gluten-free'],
 		nutrition: '520 calories, 22g fat, 58g carbs, 16g protein',
 		time: 20
 	},
@@ -509,7 +586,7 @@ export const Sandwiches: Recipe[] = [
 			'Close sandwich and press lightly.',
 			'Serve chilled.'
 		],
-		tags: ['sandwich', 'cold', 'vegan', 'tofu', 'crunchy'],
+		tags: ['sandwich', 'cold', 'vegan', 'tofu', 'crunchy', 'gluten-free', 'easy', 'vegetarian'],
 		nutrition: '410 calories, 17g fat, 45g carbs, 19g protein',
 		time: 10
 	},
@@ -530,7 +607,17 @@ export const Sandwiches: Recipe[] = [
 			'Close and cut diagonally into triangles.',
 			'Serve cold.'
 		],
-		tags: ['sandwich', 'cold', 'vegetarian', 'tea', 'light'],
+		tags: [
+			'sandwich',
+			'cold',
+			'vegetarian',
+			'tea',
+			'light',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '320 calories, 14g fat, 36g carbs, 10g protein',
 		time: 10
 	},
@@ -553,7 +640,7 @@ export const Sandwiches: Recipe[] = [
 			'Spread on bread and close sandwich.',
 			'Serve chilled.'
 		],
-		tags: ['sandwich', 'cold', 'high protein', 'chicken', 'healthy'],
+		tags: ['sandwich', 'cold', 'high protein', 'chicken', 'healthy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '430 calories, 12g fat, 40g carbs, 38g protein',
 		time: 15
 	},
@@ -574,7 +661,18 @@ export const Sandwiches: Recipe[] = [
 			'Spread on bread and close sandwich.',
 			'Serve immediately or chilled.'
 		],
-		tags: ['sandwich', 'cold', 'vegan', 'avocado', 'protein'],
+		tags: [
+			'sandwich',
+			'cold',
+			'vegan',
+			'avocado',
+			'protein',
+			'vegatarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '400 calories, 18g fat, 42g carbs, 13g protein',
 		time: 10
 	},
@@ -594,7 +692,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer mozzarella, red pepper, and arugula.',
 			'Close and wrap tightly for a picnic-friendly option.'
 		],
-		tags: ['sandwich', 'cold', 'vegetarian', 'italian', 'pesto'],
+		tags: ['sandwich', 'cold', 'vegetarian', 'italian', 'pesto', 'gluten-free', 'fast', 'easy'],
 		nutrition: '510 calories, 24g fat, 52g carbs, 20g protein',
 		time: 10
 	},
@@ -616,7 +714,7 @@ export const Sandwiches: Recipe[] = [
 			'Spread mixture on bread, top with lettuce.',
 			'Close and serve chilled.'
 		],
-		tags: ['sandwich', 'cold', 'tuna', 'lunch', 'protein'],
+		tags: ['sandwich', 'cold', 'tuna', 'lunch', 'protein', 'gluten-free', 'fast', 'easy'],
 		nutrition: '450 calories, 21g fat, 38g carbs, 31g protein',
 		time: 10
 	},
@@ -638,7 +736,18 @@ export const Sandwiches: Recipe[] = [
 			'Close sandwich and slice in half.',
 			'Serve cold.'
 		],
-		tags: ['sandwich', 'cold', 'vegan', 'healthy', 'vegetable'],
+		tags: [
+			'sandwich',
+			'cold',
+			'vegan',
+			'healthy',
+			'vegetable',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy',
+			'vegetarian'
+		],
 		nutrition: '380 calories, 12g fat, 50g carbs, 15g protein',
 		time: 10
 	},
@@ -658,7 +767,17 @@ export const Sandwiches: Recipe[] = [
 			'Layer cheddar, apple, and spinach.',
 			'Close sandwich and serve cold or lightly toasted.'
 		],
-		tags: ['sandwich', 'cold', 'vegetarian', 'cheddar', 'fruit'],
+		tags: [
+			'sandwich',
+			'cold',
+			'vegetarian',
+			'cheddar',
+			'fruit',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '440 calories, 20g fat, 46g carbs, 19g protein',
 		time: 10
 	},
@@ -678,7 +797,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer gouda, avocado, and arugula.',
 			'Close and slice to serve cold.'
 		],
-		tags: ['sandwich', 'cold', 'vegetarian', 'cheese', 'avocado'],
+		tags: ['sandwich', 'cold', 'vegetarian', 'cheese', 'avocado', 'gluten-free', 'fast', 'easy'],
 		nutrition: '480 calories, 23g fat, 45g carbs, 21g protein',
 		time: 10
 	},
@@ -699,7 +818,17 @@ export const Sandwiches: Recipe[] = [
 			'Close sandwich and slice in half.',
 			'Serve warm or at room temperature.'
 		],
-		tags: ['sandwich', 'toasted', 'bacon', 'classic', 'lunch'],
+		tags: [
+			'sandwich',
+			'toasted',
+			'bacon',
+			'classic',
+			'lunch',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '520 calories, 32g fat, 36g carbs, 24g protein',
 		time: 15
 	},
@@ -720,7 +849,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer turkey, bacon, and lettuce.',
 			'Assemble as triple-decker and slice diagonally.'
 		],
-		tags: ['sandwich', 'toasted', 'turkey', 'club', 'holiday'],
+		tags: ['sandwich', 'toasted', 'turkey', 'club', 'holiday', 'gluten-free', 'economic', 'easy'],
 		nutrition: '650 calories, 34g fat, 48g carbs, 38g protein',
 		time: 20
 	},
@@ -740,12 +869,12 @@ export const Sandwiches: Recipe[] = [
 			'Butter the outside and grill until cheese melts and bread is golden.',
 			'Serve warm.'
 		],
-		tags: ['sandwich', 'toasted', 'beef', 'melt', 'savory'],
+		tags: ['sandwich', 'toasted', 'beef', 'melt', 'savory', 'fast', 'easy'],
 		nutrition: '580 calories, 28g fat, 40g carbs, 36g protein',
 		time: 15
 	},
 	{
-		id: 136,
+		id: 36,
 		name: 'Italian Deli Sub',
 		servings: '2',
 		ingredients: [
@@ -762,7 +891,7 @@ export const Sandwiches: Recipe[] = [
 			'Drizzle with Italian dressing.',
 			'Close and serve cold.'
 		],
-		tags: ['sandwich', 'cold', 'italian', 'ham', 'deli'],
+		tags: ['sandwich', 'cold', 'italian', 'ham', 'deli', 'fast', 'easy'],
 		nutrition: '610 calories, 31g fat, 42g carbs, 40g protein',
 		time: 10
 	},
@@ -782,7 +911,7 @@ export const Sandwiches: Recipe[] = [
 			'Butter outside and grill until golden brown and cheese melts.',
 			'Serve warm.'
 		],
-		tags: ['sandwich', 'toasted', 'ham', 'cheese', 'comfort food'],
+		tags: ['sandwich', 'toasted', 'ham', 'cheese', 'comfort food', 'fast', 'easy'],
 		nutrition: '490 calories, 25g fat, 40g carbs, 28g protein',
 		time: 10
 	},
@@ -802,7 +931,7 @@ export const Sandwiches: Recipe[] = [
 			'Press sandwich on skillet or serve cold.',
 			'Cut and serve.'
 		],
-		tags: ['sandwich', 'toasted', 'pastrami', 'deli', 'reuben-style'],
+		tags: ['sandwich', 'toasted', 'pastrami', 'deli', 'reuben-style', 'fast', 'easy'],
 		nutrition: '580 calories, 27g fat, 44g carbs, 35g protein',
 		time: 15
 	},
@@ -822,21 +951,46 @@ export const Sandwiches: Recipe[] = [
 			'Spread on ciabatta, sprinkle Parmesan, and close sandwich.',
 			'Serve chilled or lightly toasted.'
 		],
-		tags: ['sandwich', 'cold', 'chicken', 'caesar', 'salad'],
+		tags: [
+			'sandwich',
+			'cold',
+			'chicken',
+			'caesar',
+			'salad',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '470 calories, 20g fat, 38g carbs, 36g protein',
 		time: 10
 	},
 	{
 		id: 40,
-		name: 'Pulled Pork BBQ Sandwich',
+		name: 'Pulled Chicken BBQ Sandwich',
 		servings: '2',
-		ingredients: ['2 brioche buns', '1 cup pulled pork', '¼ cup barbecue sauce', '¼ cup coleslaw'],
+		ingredients: [
+			'2 brioche buns',
+			'1 cup pulled chicken',
+			'¼ cup barbecue sauce',
+			'¼ cup coleslaw'
+		],
 		instructions: [
-			'Warm pulled pork and toss in barbecue sauce.',
+			'Warm pulled chicken and toss in barbecue sauce.',
 			'Pile onto buns and top with coleslaw.',
 			'Serve warm.'
 		],
-		tags: ['sandwich', 'toasted', 'pork', 'bbq', 'southern'],
+		tags: [
+			'sandwich',
+			'toasted',
+			'chicken',
+			'bbq',
+			'southern',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '620 calories, 28g fat, 52g carbs, 40g protein',
 		time: 15
 	},
@@ -856,7 +1010,17 @@ export const Sandwiches: Recipe[] = [
 			'Butter outside and grill in panini press until golden.',
 			'Serve hot.'
 		],
-		tags: ['sandwich', 'toasted', 'turkey', 'pesto', 'panini'],
+		tags: [
+			'sandwich',
+			'toasted',
+			'turkey',
+			'pesto',
+			'panini',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '540 calories, 26g fat, 40g carbs, 34g protein',
 		time: 12
 	},
@@ -878,7 +1042,7 @@ export const Sandwiches: Recipe[] = [
 			'Butter outside and press in skillet until crisp and melty.',
 			'Serve hot.'
 		],
-		tags: ['sandwich', 'toasted', 'pork', 'cuban', 'grilled'],
+		tags: ['sandwich', 'toasted', 'pork', 'cuban', 'grilled', 'gluten-free', 'fast', 'easy'],
 		nutrition: '680 calories, 34g fat, 44g carbs, 48g protein',
 		time: 15
 	},
@@ -898,7 +1062,16 @@ export const Sandwiches: Recipe[] = [
 			'Layer chicken, bacon, and cheddar on bread.',
 			'Grill until toasted and cheese melts.'
 		],
-		tags: ['sandwich', 'toasted', 'chicken', 'ranch', 'comfort food'],
+		tags: [
+			'sandwich',
+			'toasted',
+			'chicken',
+			'ranch',
+			'comfort food',
+			'gluten-free',
+			'fast',
+			'easy'
+		],
 		nutrition: '610 calories, 30g fat, 42g carbs, 40g protein',
 		time: 15
 	},
@@ -940,7 +1113,17 @@ export const Sandwiches: Recipe[] = [
 			'Assemble sandwich with tuna, tomato, and cheddar.',
 			'Butter outside and grill until cheese melts and bread is golden.'
 		],
-		tags: ['sandwich', 'toasted', 'tuna', 'cheese', 'melt'],
+		tags: [
+			'sandwich',
+			'toasted',
+			'tuna',
+			'cheese',
+			'melt',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '510 calories, 22g fat, 42g carbs, 34g protein',
 		time: 10
 	},
@@ -960,7 +1143,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer turkey, brie, and spinach.',
 			'Close sandwich and serve cold or lightly warmed.'
 		],
-		tags: ['sandwich', 'cold', 'turkey', 'brie', 'fancy'],
+		tags: ['sandwich', 'cold', 'turkey', 'brie', 'fancy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '520 calories, 24g fat, 40g carbs, 34g protein',
 		time: 10
 	},
@@ -980,7 +1163,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer roast beef, cheddar, and lettuce.',
 			'Close and serve cold or lightly toasted.'
 		],
-		tags: ['sandwich', 'cold', 'beef', 'cheddar', 'deli'],
+		tags: ['sandwich', 'cold', 'beef', 'cheddar', 'deli', 'gluten-free', 'fast', 'easy'],
 		nutrition: '600 calories, 28g fat, 44g carbs, 40g protein',
 		time: 10
 	},
@@ -1002,7 +1185,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer chicken, lettuce, tomato, onion, and cheese.',
 			'Roll tightly and slice in half.'
 		],
-		tags: ['wrap', 'chicken', 'fancy', 'lunch'],
+		tags: ['wrap', 'chicken', 'fancy', 'lunch', 'gluten-free', 'fast', 'easy'],
 		nutrition: '520 calories, 22g fat, 38g carbs, 42g protein',
 		time: 10
 	},
@@ -1023,7 +1206,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer turkey, bacon, lettuce, and tomato.',
 			'Roll tightly and cut in half.'
 		],
-		tags: ['wrap', 'turkey', 'bacon', 'classic'],
+		tags: ['wrap', 'turkey', 'bacon', 'classic', 'gluten-free', 'fast', 'easy'],
 		nutrition: '480 calories, 20g fat, 35g carbs, 38g protein',
 		time: 10
 	},
@@ -1044,7 +1227,7 @@ export const Sandwiches: Recipe[] = [
 			'Add buffalo chicken, lettuce, cheese, and celery.',
 			'Roll tightly and slice.'
 		],
-		tags: ['wrap', 'chicken', 'spicy', 'ranch'],
+		tags: ['wrap', 'chicken', 'spicy', 'ranch', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '550 calories, 26g fat, 40g carbs, 38g protein',
 		time: 12
 	},
@@ -1065,7 +1248,7 @@ export const Sandwiches: Recipe[] = [
 			'Add to tortilla with parmesan and croutons.',
 			'Roll up and serve.'
 		],
-		tags: ['wrap', 'chicken', 'salad', 'caesar'],
+		tags: ['wrap', 'chicken', 'salad', 'caesar', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '490 calories, 22g fat, 35g carbs, 36g protein',
 		time: 10
 	},
@@ -1085,7 +1268,7 @@ export const Sandwiches: Recipe[] = [
 			'Add roast beef, Swiss cheese, and spinach.',
 			'Roll tightly and slice diagonally.'
 		],
-		tags: ['wrap', 'beef', 'swiss', 'deli'],
+		tags: ['wrap', 'beef', 'swiss', 'deli', 'gluten-free', 'fast', 'easy'],
 		nutrition: '560 calories, 27g fat, 36g carbs, 42g protein',
 		time: 8
 	},
@@ -1108,7 +1291,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer meats, cheese, lettuce, and tomato.',
 			'Roll tightly and cut in half.'
 		],
-		tags: ['wrap', 'italian', 'meat', 'provolone'],
+		tags: ['wrap', 'italian', 'meat', 'provolone', 'gluten-free', 'fast', 'easy'],
 		nutrition: '600 calories, 30g fat, 38g carbs, 44g protein',
 		time: 10
 	},
@@ -1130,7 +1313,7 @@ export const Sandwiches: Recipe[] = [
 			'Add chicken, lettuce, tomato, cucumber, and feta.',
 			'Roll up tightly and slice.'
 		],
-		tags: ['wrap', 'chicken', 'greek', 'tzatziki'],
+		tags: ['wrap', 'chicken', 'greek', 'tzatziki', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '500 calories, 20g fat, 42g carbs, 38g protein',
 		time: 10
 	},
@@ -1150,7 +1333,7 @@ export const Sandwiches: Recipe[] = [
 			'Add to tortilla with coleslaw and cheese.',
 			'Roll tightly and serve warm or cold.'
 		],
-		tags: ['wrap', 'pork', 'bbq', 'southern'],
+		tags: ['wrap', 'pork', 'bbq', 'southern', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '610 calories, 25g fat, 45g carbs, 42g protein',
 		time: 12
 	},
@@ -1170,7 +1353,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer ham, Swiss, and lettuce.',
 			'Roll tightly and slice.'
 		],
-		tags: ['wrap', 'ham', 'swiss', 'ranch'],
+		tags: ['wrap', 'ham', 'swiss', 'ranch', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '470 calories, 18g fat, 35g carbs, 38g protein',
 		time: 8
 	},
@@ -1192,7 +1375,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer steak, beans, corn, tomato, and cheese.',
 			'Roll tightly and slice in half.'
 		],
-		tags: ['wrap', 'steak', 'southwest', 'spicy'],
+		tags: ['wrap', 'steak', 'southwest', 'spicy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '590 calories, 24g fat, 44g carbs, 46g protein',
 		time: 12
 	},
@@ -1213,7 +1396,7 @@ export const Sandwiches: Recipe[] = [
 			'Add chicken, bacon, lettuce, and cheese.',
 			'Roll tightly and slice.'
 		],
-		tags: ['wrap', 'chicken', 'bacon', 'ranch'],
+		tags: ['wrap', 'chicken', 'bacon', 'ranch', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '540 calories, 25g fat, 38g carbs, 41g protein',
 		time: 10
 	},
@@ -1234,7 +1417,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer pastrami, Swiss, lettuce, and pickles.',
 			'Roll tightly and serve cold.'
 		],
-		tags: ['wrap', 'pastrami', 'swiss', 'deli'],
+		tags: ['wrap', 'pastrami', 'swiss', 'deli', 'gluten-free', 'fast', 'easy'],
 		nutrition: '560 calories, 28g fat, 36g carbs, 42g protein',
 		time: 8
 	},
@@ -1255,7 +1438,7 @@ export const Sandwiches: Recipe[] = [
 			'Add chicken, spinach, sun-dried tomatoes, and provolone.',
 			'Roll tightly and slice diagonally.'
 		],
-		tags: ['wrap', 'chicken', 'pesto', 'italian'],
+		tags: ['wrap', 'chicken', 'pesto', 'italian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '530 calories, 23g fat, 38g carbs, 39g protein',
 		time: 10
 	},
@@ -1275,7 +1458,7 @@ export const Sandwiches: Recipe[] = [
 			'Add tuna salad, lettuce, and tomato.',
 			'Roll up and slice in half.'
 		],
-		tags: ['wrap', 'tuna', 'seafood', 'lunch'],
+		tags: ['wrap', 'tuna', 'seafood', 'lunch', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '490 calories, 22g fat, 34g carbs, 36g protein',
 		time: 8
 	},
@@ -1295,7 +1478,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer turkey and spinach.',
 			'Roll tightly and slice.'
 		],
-		tags: ['wrap', 'turkey', 'sweet-savory', 'holiday'],
+		tags: ['wrap', 'turkey', 'sweet-savory', 'holiday', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '460 calories, 17g fat, 38g carbs, 34g protein',
 		time: 8
 	},
@@ -1316,7 +1499,7 @@ export const Sandwiches: Recipe[] = [
 			'Add chicken, peppers, lettuce, and provolone.',
 			'Roll tightly and slice diagonally.'
 		],
-		tags: ['wrap', 'chicken', 'italian', 'provolone'],
+		tags: ['wrap', 'chicken', 'italian', 'provolone', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '510 calories, 21g fat, 40g carbs, 37g protein',
 		time: 10
 	},
@@ -1337,7 +1520,7 @@ export const Sandwiches: Recipe[] = [
 			'Add ham, pork, Swiss, and pickles.',
 			'Roll tightly and serve warm or cold.'
 		],
-		tags: ['wrap', 'pork', 'ham', 'swiss', 'cuban'],
+		tags: ['wrap', 'pork', 'ham', 'swiss', 'cuban', 'gluten-free', 'fast', 'easy'],
 		nutrition: '580 calories, 26g fat, 38g carbs, 41g protein',
 		time: 10
 	},
@@ -1358,7 +1541,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer smoked salmon, cucumber, onion, and capers.',
 			'Top with remaining bread and cut diagonally.'
 		],
-		tags: ['sandwich', 'gourmet', 'salmon', 'cold', 'brunch'],
+		tags: ['sandwich', 'gourmet', 'salmon', 'cold', 'brunch', 'gluten-free', 'fast', 'easy'],
 		nutrition: '520 calories, 28g fat, 38g carbs, 28g protein',
 		time: 10
 	},
@@ -1380,7 +1563,7 @@ export const Sandwiches: Recipe[] = [
 			'Drizzle with honey and close sandwich.',
 			'Serve warm or at room temperature.'
 		],
-		tags: ['sandwich', 'vegetarian', 'brie', 'apple', 'fancy'],
+		tags: ['sandwich', 'vegetarian', 'brie', 'apple', 'fancy', 'gluten-free', 'fast', 'easy'],
 		nutrition: '610 calories, 29g fat, 54g carbs, 24g protein',
 		time: 12
 	},
@@ -1401,7 +1584,16 @@ export const Sandwiches: Recipe[] = [
 			'Layer prosciutto, goat cheese, and arugula.',
 			'Brush with olive oil and press in panini maker until golden.'
 		],
-		tags: ['sandwich', 'gourmet', 'prosciutto', 'panini', 'sweet-savory'],
+		tags: [
+			'sandwich',
+			'gourmet',
+			'prosciutto',
+			'panini',
+			'sweet-savory',
+			'gluten-free',
+			'fast',
+			'easy'
+		],
 		nutrition: '640 calories, 31g fat, 52g carbs, 32g protein',
 		time: 15
 	},
@@ -1422,7 +1614,16 @@ export const Sandwiches: Recipe[] = [
 			'Layer mozzarella, tomato, and basil.',
 			'Drizzle with balsamic glaze and close sandwich.'
 		],
-		tags: ['sandwich', 'vegetarian', 'caprese', 'italian', 'focaccia'],
+		tags: [
+			'sandwich',
+			'vegetarian',
+			'caprese',
+			'italian',
+			'focaccia',
+			'gluten-free',
+			'fast',
+			'easy'
+		],
 		nutrition: '580 calories, 26g fat, 56g carbs, 28g protein',
 		time: 10
 	},
@@ -1443,7 +1644,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer steak, caramelized onions, blue cheese, and arugula.',
 			'Press lightly and serve warm.'
 		],
-		tags: ['sandwich', 'steak', 'blue cheese', 'gourmet', 'hot'],
+		tags: ['sandwich', 'steak', 'blue cheese', 'gourmet', 'hot', 'gluten-free'],
 		nutrition: '700 calories, 35g fat, 45g carbs, 48g protein',
 		time: 20
 	},
@@ -1464,7 +1665,7 @@ export const Sandwiches: Recipe[] = [
 			'Mix lobster, aioli, celery, and chives.',
 			'Spoon mixture into rolls and serve chilled or slightly warm.'
 		],
-		tags: ['sandwich', 'seafood', 'lobster', 'gourmet', 'brunch'],
+		tags: ['sandwich', 'seafood', 'lobster', 'gourmet', 'brunch', 'gluten-free', 'fast'],
 		nutrition: '620 calories, 32g fat, 42g carbs, 38g protein',
 		time: 15
 	},
@@ -1484,7 +1685,7 @@ export const Sandwiches: Recipe[] = [
 			'Add duck and arugula.',
 			'Butter exterior and grill until golden and heated through.'
 		],
-		tags: ['sandwich', 'duck', 'fancy', 'sweet-savory', 'gourmet'],
+		tags: ['sandwich', 'duck', 'fancy', 'sweet-savory', 'gourmet', 'gluten-free', 'fast'],
 		nutrition: '720 calories, 38g fat, 44g carbs, 46g protein',
 		time: 20
 	},
@@ -1504,7 +1705,7 @@ export const Sandwiches: Recipe[] = [
 			'Assemble sandwich with mushrooms and gruyère.',
 			'Butter exterior and grill until melted and crisp.'
 		],
-		tags: ['sandwich', 'vegetarian', 'mushroom', 'truffle', 'melt'],
+		tags: ['sandwich', 'vegetarian', 'mushroom', 'truffle', 'melt', 'gluten-free', 'fast'],
 		nutrition: '640 calories, 34g fat, 44g carbs, 28g protein',
 		time: 15
 	},
@@ -1524,7 +1725,7 @@ export const Sandwiches: Recipe[] = [
 			'Add lamb, arugula, and pickled onions.',
 			'Fold and serve warm or cold.'
 		],
-		tags: ['sandwich', 'lamb', 'gourmet', 'flatbread', 'fusion'],
+		tags: ['sandwich', 'lamb', 'gourmet', 'flatbread', 'fusion', 'gluten-free', 'fast'],
 		nutrition: '620 calories, 28g fat, 42g carbs, 44g protein',
 		time: 12
 	},
@@ -1543,7 +1744,17 @@ export const Sandwiches: Recipe[] = [
 			'Top with slaw and pickles.',
 			'Close sandwich and serve warm.'
 		],
-		tags: ['sandwich', 'chicken', 'crispy', 'gourmet', 'brunch'],
+		tags: [
+			'sandwich',
+			'chicken',
+			'crispy',
+			'gourmet',
+			'brunch',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '780 calories, 38g fat, 60g carbs, 46g protein',
 		time: 20
 	},
@@ -1563,7 +1774,17 @@ export const Sandwiches: Recipe[] = [
 			'Spread hummus and layer roasted vegetables and spinach.',
 			'Close sandwich and serve warm.'
 		],
-		tags: ['sandwich', 'vegetarian', 'roasted', 'hummus', 'mediterranean'],
+		tags: [
+			'sandwich',
+			'vegetarian',
+			'roasted',
+			'hummus',
+			'mediterranean',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '550 calories, 22g fat, 58g carbs, 22g protein',
 		time: 15
 	},
@@ -1583,7 +1804,7 @@ export const Sandwiches: Recipe[] = [
 			'Spread avocado on rolls.',
 			'Top with crab mixture and serve chilled.'
 		],
-		tags: ['sandwich', 'seafood', 'crab', 'gourmet', 'brunch'],
+		tags: ['sandwich', 'seafood', 'crab', 'gourmet', 'brunch', 'gluten-free', 'fast', 'easy'],
 		nutrition: '580 calories, 30g fat, 40g carbs, 36g protein',
 		time: 12
 	},
@@ -1623,7 +1844,7 @@ export const Sandwiches: Recipe[] = [
 			'Layer turkey, brie, and cranberry relish.',
 			'Warm in oven until cheese softens.'
 		],
-		tags: ['sandwich', 'turkey', 'brie', 'croissant', 'holiday'],
+		tags: ['sandwich', 'turkey', 'brie', 'croissant', 'holiday', 'gluten-free', 'fast', 'easy'],
 		nutrition: '610 calories, 32g fat, 40g carbs, 34g protein',
 		time: 12
 	},
@@ -1643,7 +1864,7 @@ export const Sandwiches: Recipe[] = [
 			'Add shrimp, lettuce, and tomato.',
 			'Close and serve immediately.'
 		],
-		tags: ['sandwich', 'shrimp', 'southern', 'fried', 'gourmet'],
+		tags: ['sandwich', 'shrimp', 'southern', 'fried', 'gourmet', 'gluten-free', 'economic'],
 		nutrition: '720 calories, 36g fat, 54g carbs, 44g protein',
 		time: 18
 	}

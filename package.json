@@ -1,6 +1,6 @@
 {
 			"name": "table-tango",
-			"version": "2.2.1",
+			"version": "2.3.1",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run prepack",

@@ -118,103 +118,6 @@
 	}
 
 
-	/* Wild west themed grid  */
-
-	.grid-Western {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-		gap: 2rem; 
-		border-radius: 12px;
-	}
-
-	/* Unified western block */
-	.blk-Western {
-		background:var(--gradient);
-		border: var(--bord);
-		border-radius: var(--rad-Sm);
-		padding: 1.5rem;
-		position: relative;
-		margin: 0 5vw;
-		width: 90%;
-
-		& h2 {
-			margin: 4vh 4vw;
-		}
-
-		& h3 {
-			color: var(--txt-1);
-			background: var(--accent-2);
-			text-align: center;
-			margin: -2vh -3vw 1rem -4vw;
-			padding: 0.75rem 1rem;
-			width: 110%;
-			border-top-left-radius: 10px;
-			border-top-right-radius: 10px;
-
-				@media (min-width: 768px) { 
-					margin:0 10%;  
-					width: 80%;
-					font-size: var(--size-5);
-				}
-		}
-
-		& article {
-			padding: 0.8rem;
-			display: flex;
-			flex-direction: column;
-			gap: 0.3rem;
-			border-bottom: 1px dashed var(--border-color);
-			
-			& :last-child {
-				border-bottom: none;
-			}
-		}
-
-		& p {
-			color: var(--txt-2);
-			margin: 0;
-			align-self: center;
-		}
-
-		& a { 	
-			color: var(--color-active);
-			text-shadow: var(--shdw-Txt);
-			font-weight: bold;
-		}
-
-		& .pointA {
-			font-weight: bold;
-			font-size: 1.2rem;
-
-			color: var(--hover);
-		}
-
-		& .pointB {
-			font-style: italic;
-			color: var(--txt-1);
-		}
-
-		& .pointD {
-			display: flex;
-			justify-content: space-between;
-			border-bottom: 1px dashed var(--border-color);
- 
-
-			& strong {
-				padding-left: var(--size-8);
-			}
-
-			& :last-child {
-				border-bottom: none;
-			}
-		}
-
-		& :last-child {
-			border-bottom: none;
-		}
-	}
-
-
 	/* Glassmorphism flip cards grid */
 
 		.glass-flip-grid {
@@ -324,8 +227,6 @@
 		text-decoration: none;
 		font-weight: bold;
 	}
-
-	
 
 /* MAIN GRID */
 .grid-Main {
@@ -471,7 +372,7 @@
 		border-radius: var(--rad-Sm);
 		cursor: pointer;
 		user-select: none;
-		background: var(--gradient);
+		background: var(--accent-1);
 		transition: all 0.2s ease;
 	}
 	

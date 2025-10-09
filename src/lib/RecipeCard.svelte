@@ -62,13 +62,11 @@
 	}
 
 	h2 {
-		font-size: 1.5rem;
 		margin-bottom: 0.25rem;
 	}
 
 	h3 {
 		margin-top: 1rem;
-		font-size: 1.2rem;
 		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 		padding-bottom: 0;
 	}
@@ -86,6 +84,5 @@
 		margin-top: 0.25rem;
 		padding: 0.25rem 0.75rem;
 		border-radius: 9999px;
-		font-size: 0.85rem;
 	}
 </style>

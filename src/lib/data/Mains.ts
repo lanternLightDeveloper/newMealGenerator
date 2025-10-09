@@ -20,7 +20,7 @@ export const Mains: Recipe[] = [
 			'Add chicken, skin-side down, and sear 3–4 minutes per side.',
 			'Transfer skillet to oven and bake 20 minutes. Sprinkle with parsley before serving.'
 		],
-		tags: ['baked', 'buttery', 'savory', 'main', 'gluten-free'],
+		tags: ['baked', 'buttery', 'savory', 'main', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '310 calories, 24g fat, 0g carbs, 23g protein',
 		time: 35
 	},
@@ -41,7 +41,7 @@ export const Mains: Recipe[] = [
 			'Heat olive oil in skillet, add chicken, cook 6 minutes per side.',
 			'Pour sauce over chicken and simmer 5 minutes until thickened.'
 		],
-		tags: ['stovetop', 'sweet-savory', 'quick', 'main', 'gluten-free'],
+		tags: ['stovetop', 'sweet-savory', 'quick', 'main', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '290 calories, 8g fat, 18g carbs, 36g protein',
 		time: 25
 	},
@@ -63,7 +63,7 @@ export const Mains: Recipe[] = [
 			'Stuff cavity with lemon halves and rosemary.',
 			'Roast 1 hour 15 minutes or until juices run clear.'
 		],
-		tags: ['roasted', 'herbed', 'classic', 'main', 'gluten-free'],
+		tags: ['roasted', 'herbed', 'classic', 'main', 'gluten-free', 'economic', 'easy'],
 		nutrition: '380 calories, 25g fat, 0g carbs, 38g protein',
 		time: 90
 	},
@@ -85,7 +85,17 @@ export const Mains: Recipe[] = [
 			'Add garlic and cream, simmer 3 minutes.',
 			'Stir in Parmesan until smooth, toss with pasta and chicken.'
 		],
-		tags: ['pasta', 'creamy', 'italian', 'main', 'gluten-free'],
+		tags: [
+			'pasta',
+			'creamy',
+			'italian',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '640 calories, 32g fat, 45g carbs, 42g protein',
 		time: 30
 	},
@@ -106,7 +116,7 @@ export const Mains: Recipe[] = [
 			'Dredge chicken in flour, egg, then breadcrumbs mixed with paprika and salt.',
 			'Place on baking sheet and bake 18–20 minutes, flipping once.'
 		],
-		tags: ['baked', 'crispy', 'kid-friendly', 'main'],
+		tags: ['baked', 'crispy', 'kid-friendly', 'main', 'economic', 'fast', 'easy'],
 		nutrition: '310 calories, 9g fat, 22g carbs, 33g protein',
 		time: 25
 	},
@@ -127,7 +137,17 @@ export const Mains: Recipe[] = [
 			'Add vegetables and cook 3 more minutes.',
 			'Stir in soy sauce, sriracha, and ginger; cook 2 more minutes.'
 		],
-		tags: ['asian', 'spicy', 'quick', 'main', 'gluten-free'],
+		tags: [
+			'asian',
+			'spicy',
+			'quick',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '280 calories, 10g fat, 12g carbs, 32g protein',
 		time: 20
 	},
@@ -147,7 +167,7 @@ export const Mains: Recipe[] = [
 			'Brush chicken with oil and seasonings.',
 			'Grill 6–7 minutes per side, brushing with BBQ sauce until glazed.'
 		],
-		tags: ['grilled', 'bbq', 'summer', 'main', 'gluten-free'],
+		tags: ['grilled', 'bbq', 'summer', 'main', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '330 calories, 15g fat, 18g carbs, 34g protein',
 		time: 25
 	},
@@ -168,7 +188,7 @@ export const Mains: Recipe[] = [
 			'Remove chicken, add mushrooms, and cook 3 minutes.',
 			'Pour in Marsala wine, simmer 5 minutes, return chicken to pan, and cook until sauce thickens.'
 		],
-		tags: ['italian', 'sautéed', 'wine sauce', 'main'],
+		tags: ['italian', 'sautéed', 'wine sauce', 'main', 'fast'],
 		nutrition: '420 calories, 22g fat, 14g carbs, 35g protein',
 		time: 30
 	},
@@ -190,7 +210,17 @@ export const Mains: Recipe[] = [
 			'Pour in coconut milk and fish sauce, simmer 10 minutes.',
 			'Add bell peppers and cook until tender.'
 		],
-		tags: ['thai', 'curry', 'spicy', 'main', 'gluten-free'],
+		tags: [
+			'thai',
+			'curry',
+			'spicy',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '460 calories, 29g fat, 10g carbs, 38g protein',
 		time: 25
 	},
@@ -211,29 +241,43 @@ export const Mains: Recipe[] = [
 			'Add rice, paprika, and broth; bring to a boil.',
 			'Reduce heat, cover, and simmer 20 minutes until rice is cooked.'
 		],
-		tags: ['one-pan', 'hearty', 'comfort', 'main', 'gluten-free'],
+		tags: [
+			'one-pan',
+			'hearty',
+			'comfort',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '390 calories, 14g fat, 32g carbs, 32g protein',
 		time: 30
 	},
 	{
 		id: 11,
-		name: 'Buffalo Chicken Wraps',
+		name: 'Kbbq Marinated Slow Cooker Chicken Wraps',
 		servings: '4',
 		ingredients: [
 			'2 cups cooked shredded chicken',
-			'¼ cup buffalo sauce',
+			'¼ cup kbbq sauce',
 			'4 tortillas',
-			'½ cup lettuce, shredded',
+			'¼ cup lettuce, shredded',
+			'¼ cup cabbage, shredded',
 			'¼ cup ranch dressing'
 		],
 		instructions: [
-			'Toss shredded chicken in buffalo sauce.',
-			'Lay out tortillas and layer lettuce, chicken, and ranch.',
-			'Roll tightly and serve warm or cold.'
+			'Toss shredded chicken in Kbbq sauce.',
+			'Lay out tortillas and layer lettuce and cabbage, chicken, and ranch.',
+			'Roll tightly.',
+			'Place on hot skillet or frying pan for 3-4 minutes.',
+			'Turn and cook another 3-4 minutes.',
+			'Remove from heat and cut in half.'
 		],
-		tags: ['wrap', 'spicy', 'easy', 'main', 'gluten-free'],
+		tags: ['wrap', 'spicy', 'easy', 'main', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '310 calories, 12g fat, 25g carbs, 25g protein',
-		time: 10
+		time: 20
 	},
 	{
 		id: 12,
@@ -252,7 +296,7 @@ export const Mains: Recipe[] = [
 			'Add cream, tomatoes, and garlic powder; simmer 3 minutes.',
 			'Add spinach and return chicken to pan, simmer until sauce thickens.'
 		],
-		tags: ['creamy', 'italian', 'rich', 'main', 'gluten-free'],
+		tags: ['creamy', 'italian', 'rich', 'main', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '480 calories, 30g fat, 10g carbs, 42g protein',
 		time: 30
 	},
@@ -271,7 +315,17 @@ export const Mains: Recipe[] = [
 			'Heat oil in skillet, add chicken and cook 5 minutes.',
 			'Add peppers, onion, and seasoning; cook 5 more minutes until tender.'
 		],
-		tags: ['mexican', 'quick', 'stovetop', 'main', 'gluten-free'],
+		tags: [
+			'mexican',
+			'quick',
+			'stovetop',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '280 calories, 10g fat, 12g carbs, 34g protein',
 		time: 15
 	},
@@ -292,7 +346,7 @@ export const Mains: Recipe[] = [
 			'In saucepan, whisk flour, broth, and milk to make sauce.',
 			'Add chicken and vegetables, pour into crust, top with second crust, and bake 30 minutes.'
 		],
-		tags: ['baked', 'comfort', 'classic', 'main'],
+		tags: ['baked', 'comfort', 'classic', 'main', 'vegetarian', 'economic'],
 		nutrition: '430 calories, 22g fat, 34g carbs, 25g protein',
 		time: 45
 	},
@@ -312,7 +366,17 @@ export const Mains: Recipe[] = [
 			'Add teriyaki sauce and simmer 5 minutes.',
 			'Serve over rice with broccoli and sprinkle sesame seeds on top.'
 		],
-		tags: ['asian', 'sweet-savory', 'bowl', 'main', 'gluten-free'],
+		tags: [
+			'asian',
+			'sweet-savory',
+			'bowl',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '480 calories, 15g fat, 52g carbs, 32g protein',
 		time: 25
 	},
@@ -340,7 +404,17 @@ export const Mains: Recipe[] = [
 			'Repeat layers and finish with mozzarella on top.',
 			'Bake 40 minutes, rest 10 minutes before slicing.'
 		],
-		tags: ['italian', 'baked', 'pasta', 'comfort', 'main', 'gluten-free'],
+		tags: [
+			'italian',
+			'baked',
+			'pasta',
+			'comfort',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'easy'
+		],
 		nutrition: '620 calories, 32g fat, 38g carbs, 42g protein',
 		time: 60
 	},
@@ -366,7 +440,17 @@ export const Mains: Recipe[] = [
 			'Return beef to pan, stir in sour cream, and heat gently.',
 			'Serve over noodles.'
 		],
-		tags: ['russian', 'creamy', 'comfort', 'main', 'gluten-free'],
+		tags: [
+			'russian',
+			'creamy',
+			'comfort',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '540 calories, 27g fat, 36g carbs, 38g protein',
 		time: 35
 	},
@@ -389,7 +473,7 @@ export const Mains: Recipe[] = [
 			'Top with cheese during final minute of cooking.',
 			'Assemble burgers with lettuce, tomato, and mayonnaise.'
 		],
-		tags: ['grilled', 'american', 'classic', 'main', 'gluten-free'],
+		tags: ['grilled', 'american', 'classic', 'main', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '520 calories, 28g fat, 28g carbs, 34g protein',
 		time: 20
 	},
@@ -412,7 +496,7 @@ export const Mains: Recipe[] = [
 			'Warm tortillas and fill with beef, lettuce, tomato, and cheese.',
 			'Top with sour cream and serve.'
 		],
-		tags: ['mexican', 'quick', 'spicy', 'main', 'gluten-free'],
+		tags: ['mexican', 'quick', 'spicy', 'main', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '410 calories, 22g fat, 25g carbs, 29g protein',
 		time: 20
 	},
@@ -435,7 +519,18 @@ export const Mains: Recipe[] = [
 			'Add broccoli and garlic, cook 3 minutes.',
 			'Pour sauce over and simmer 3–5 minutes until thickened.'
 		],
-		tags: ['asian', 'stir-fry', 'quick', 'main', 'gluten-free'],
+		tags: [
+			'asian',
+			'stir-fry',
+			'quick',
+			'main',
+			'gluten-free',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '360 calories, 18g fat, 18g carbs, 32g protein',
 		time: 25
 	},
@@ -458,7 +553,17 @@ export const Mains: Recipe[] = [
 			'Spread in baking dish, top with mashed potatoes.',
 			'Bake 20 minutes until golden brown.'
 		],
-		tags: ['baked', 'comfort', 'casserole', 'main', 'gluten-free'],
+		tags: [
+			'baked',
+			'comfort',
+			'casserole',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '430 calories, 23g fat, 28g carbs, 29g protein',
 		time: 40
 	},
@@ -480,7 +585,7 @@ export const Mains: Recipe[] = [
 			'Add tomatoes, beans, broth, and seasonings.',
 			'Simmer 30 minutes, stirring occasionally.'
 		],
-		tags: ['spicy', 'hearty', 'one-pot', 'main', 'gluten-free'],
+		tags: ['spicy', 'hearty', 'one-pot', 'main', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '390 calories, 15g fat, 26g carbs, 32g protein',
 		time: 40
 	},
@@ -502,7 +607,17 @@ export const Mains: Recipe[] = [
 			'Fill tortillas with beef, roll up, and place seam-side down in dish.',
 			'Pour remaining sauce on top, sprinkle with cheese, and bake 20 minutes.'
 		],
-		tags: ['mexican', 'baked', 'spicy', 'main', 'gluten-free'],
+		tags: [
+			'mexican',
+			'baked',
+			'spicy',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '460 calories, 25g fat, 28g carbs, 32g protein',
 		time: 30
 	},
@@ -523,7 +638,7 @@ export const Mains: Recipe[] = [
 			'Sear in skillet 2 minutes per side, add marinara sauce.',
 			'Simmer 20 minutes until cooked through. Sprinkle with Parmesan before serving.'
 		],
-		tags: ['italian', 'simmered', 'comfort', 'main', 'gluten-free'],
+		tags: ['italian', 'simmered', 'comfort', 'main', 'economic', 'fast', 'easy'],
 		nutrition: '420 calories, 26g fat, 10g carbs, 34g protein',
 		time: 30
 	},
@@ -544,7 +659,7 @@ export const Mains: Recipe[] = [
 			'Add garlic, soy sauce, and brown sugar; cook 3 minutes.',
 			'Serve over rice and garnish with green onions.'
 		],
-		tags: ['asian', 'sweet-savory', 'quick', 'main', 'gluten-free'],
+		tags: ['asian', 'sweet-savory', 'quick', 'main', 'gluten-free', 'fast', 'easy'],
 		nutrition: '430 calories, 17g fat, 38g carbs, 31g protein',
 		time: 20
 	},
@@ -564,7 +679,17 @@ export const Mains: Recipe[] = [
 			'Brown beef and add taco seasoning with ½ cup water.',
 			'Layer bowls with rice, beef, beans, corn, and salsa.'
 		],
-		tags: ['mexican', 'bowl', 'easy', 'main', 'gluten-free'],
+		tags: [
+			'mexican',
+			'bowl',
+			'easy',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '480 calories, 16g fat, 52g carbs, 32g protein',
 		time: 20
 	},
@@ -585,7 +710,17 @@ export const Mains: Recipe[] = [
 			'Cook beef and mix with rice, tomato sauce, and oregano.',
 			'Fill peppers, top with cheese, and bake 30 minutes.'
 		],
-		tags: ['baked', 'low-carb', 'comfort', 'main', 'gluten-free'],
+		tags: [
+			'baked',
+			'low-carb',
+			'comfort',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '420 calories, 21g fat, 22g carbs, 33g protein',
 		time: 45
 	},
@@ -606,7 +741,7 @@ export const Mains: Recipe[] = [
 			'Grill 4–5 minutes per side, top with cheese during last minute.',
 			'Serve on buns with desired toppings.'
 		],
-		tags: ['burger', 'grilled', 'savory', 'main', 'gluten-free'],
+		tags: ['burger', 'grilled', 'savory', 'main', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '480 calories, 25g fat, 28g carbs, 34g protein',
 		time: 25
 	},
@@ -627,13 +762,13 @@ export const Mains: Recipe[] = [
 			'Brown beef in sesame oil; add vegetables and soy sauce.',
 			'Toss noodles with beef mixture and cook 2 minutes.'
 		],
-		tags: ['asian', 'noodle', 'quick', 'main', 'gluten-free'],
+		tags: ['asian', 'noodle', 'quick', 'main', 'economic', 'fast', 'easy'],
 		nutrition: '460 calories, 20g fat, 38g carbs, 33g protein',
 		time: 20
 	},
 	{
 		id: 30,
-		name: 'Beef Meatloaf',
+		name: 'Meatloaf',
 		servings: '6',
 		ingredients: [
 			'1½ lbs ground beef',
@@ -649,7 +784,7 @@ export const Mains: Recipe[] = [
 			'Bake 45–50 minutes, brushing top with extra ketchup halfway through.',
 			'Rest 10 minutes before slicing.'
 		],
-		tags: ['baked', 'classic', 'comfort', 'main', 'gluten-free'],
+		tags: ['baked', 'classic', 'comfort', 'main', 'economic', 'easy'],
 		nutrition: '480 calories, 27g fat, 22g carbs, 34g protein',
 		time: 60
 	},
@@ -673,7 +808,7 @@ export const Mains: Recipe[] = [
 			'Add lemon juice, season with salt and pepper, and toss with parsley.',
 			'Serve immediately with rice or pasta.'
 		],
-		tags: ['shrimp', 'seafood', 'quick', 'garlic', 'dinner', 'gluten-free'],
+		tags: ['shrimp', 'seafood', 'quick', 'garlic', 'dinner', 'gluten-free', 'fast', 'easy'],
 		nutrition: '310 calories, 2g carbs, 22g fat, 24g protein',
 		time: 20
 	},
@@ -695,7 +830,7 @@ export const Mains: Recipe[] = [
 			'Bake 12–15 minutes or until flaky and tender.',
 			'Serve warm with vegetables or rice.'
 		],
-		tags: ['salmon', 'healthy', 'baked', 'omega-3', 'quick', 'gluten-free'],
+		tags: ['salmon', 'healthy', 'baked', 'omega-3', 'quick', 'gluten-free', 'fast', 'easy'],
 		nutrition: '365 calories, 0g carbs, 23g fat, 34g protein',
 		time: 25
 	},
@@ -725,7 +860,7 @@ export const Mains: Recipe[] = [
 			'Add seafood on top, cover, and cook another 10–12 minutes until rice and seafood are done.',
 			'Serve with lemon wedges.'
 		],
-		tags: ['spanish', 'rice', 'seafood', 'one-pan', 'saffron', 'gluten-free'],
+		tags: ['spanish', 'rice', 'seafood', 'one-pan', 'saffron', 'gluten-free', 'fast'],
 		nutrition: '540 calories, 58g carbs, 18g fat, 30g protein',
 		time: 45
 	},
@@ -753,7 +888,17 @@ export const Mains: Recipe[] = [
 			'Add shrimp and cook until pink, about 4 minutes.',
 			'Stir in lime juice and garnish with cilantro.'
 		],
-		tags: ['thai', 'shrimp', 'curry', 'spicy', 'coconut', 'gluten-free'],
+		tags: [
+			'thai',
+			'shrimp',
+			'curry',
+			'spicy',
+			'coconut',
+			'gluten-free',
+			'vegetarian',
+			'gluten-free',
+			'fast'
+		],
 		nutrition: '420 calories, 10g carbs, 30g fat, 26g protein',
 		time: 30
 	},
@@ -778,7 +923,18 @@ export const Mains: Recipe[] = [
 			'Warm tortillas and assemble tacos with fish, slaw, and cilantro.',
 			'Serve with lime wedges.'
 		],
-		tags: ['mexican', 'tacos', 'fish', 'fresh', 'lime', 'gluten-free'],
+		tags: [
+			'mexican',
+			'tacos',
+			'fish',
+			'fresh',
+			'lime',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '385 calories, 30g carbs, 16g fat, 28g protein',
 		time: 25
 	},
@@ -800,7 +956,7 @@ export const Mains: Recipe[] = [
 			'Place cod on baking sheet, season, and top with breadcrumb mixture.',
 			'Bake 10–12 minutes until flaky and golden.'
 		],
-		tags: ['cod', 'baked', 'crispy', 'healthy', 'easy', 'gluten-free'],
+		tags: ['cod', 'baked', 'crispy', 'healthy', 'easy', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '290 calories, 10g carbs, 14g fat, 28g protein',
 		time: 20
 	},
@@ -821,7 +977,7 @@ export const Mains: Recipe[] = [
 			'Sear tuna 1–2 minutes per side for medium-rare.',
 			'Serve immediately with rice or salad.'
 		],
-		tags: ['tuna', 'asian', 'quick', 'low-carb', 'grilled', 'gluten-free'],
+		tags: ['tuna', 'asian', 'quick', 'low-carb', 'grilled', 'gluten-free', 'economic', 'fast'],
 		nutrition: '320 calories, 2g carbs, 20g fat, 32g protein',
 		time: 15
 	},
@@ -845,7 +1001,18 @@ export const Mains: Recipe[] = [
 			'Add shrimp, cook 3 minutes until pink.',
 			'Pour in wine and lemon juice, toss with pasta and parsley.'
 		],
-		tags: ['italian', 'pasta', 'shrimp', 'garlic', 'quick', 'gluten-free'],
+		tags: [
+			'italian',
+			'pasta',
+			'shrimp',
+			'garlic',
+			'quick',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '520 calories, 62g carbs, 16g fat, 28g protein',
 		time: 25
 	},
@@ -864,7 +1031,17 @@ export const Mains: Recipe[] = [
 			'Cook in a hot skillet 3–4 minutes per side until blackened and cooked through.',
 			'Serve with lemon wedges.'
 		],
-		tags: ['southern', 'spicy', 'catfish', 'grilled', 'quick'],
+		tags: [
+			'southern',
+			'spicy',
+			'catfish',
+			'grilled',
+			'quick',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '310 calories, 2g carbs, 22g fat, 26g protein',
 		time: 20
 	},
@@ -888,7 +1065,16 @@ export const Mains: Recipe[] = [
 			'Pan-fry in olive oil 3–4 minutes per side until golden.',
 			'Serve with remoulade sauce or lemon wedges.'
 		],
-		tags: ['crab', 'southern', 'pan-fried', 'crispy', 'appetizer'],
+		tags: [
+			'crab',
+			'southern',
+			'pan-fried',
+			'crispy',
+			'appetizer',
+			'vegetarian',
+			'gluten-free',
+			'economic'
+		],
 		nutrition: '420 calories, 14g carbs, 28g fat, 26g protein',
 		time: 30
 	},
@@ -910,7 +1096,17 @@ export const Mains: Recipe[] = [
 			'Cook in skillet 4–5 minutes per side, spooning glaze over top.',
 			'Serve with rice and vegetables.'
 		],
-		tags: ['asian', 'salmon', 'glazed', 'sweet-savory', 'healthy'],
+		tags: [
+			'asian',
+			'salmon',
+			'glazed',
+			'sweet-savory',
+			'healthy',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '410 calories, 20g carbs, 22g fat, 32g protein',
 		time: 30
 	},
@@ -933,7 +1129,7 @@ export const Mains: Recipe[] = [
 			'Stir in cheese until smooth, season with salt and pepper.',
 			'Fold in lobster and pasta, bake 20 minutes at 375°F (190°C).'
 		],
-		tags: ['lobster', 'comfort food', 'cheesy', 'baked', 'rich'],
+		tags: ['lobster', 'comfort food', 'cheesy', 'baked', 'rich', 'gluten-free', 'easy'],
 		nutrition: '640 calories, 55g carbs, 32g fat, 35g protein',
 		time: 45
 	},
@@ -955,7 +1151,17 @@ export const Mains: Recipe[] = [
 			'Discard unopened mussels, stir in lemon juice and parsley.',
 			'Serve with crusty bread.'
 		],
-		tags: ['french', 'mussels', 'wine', 'buttery', 'quick'],
+		tags: [
+			'french',
+			'mussels',
+			'wine',
+			'buttery',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '390 calories, 9g carbs, 23g fat, 30g protein',
 		time: 25
 	},
@@ -977,7 +1183,17 @@ export const Mains: Recipe[] = [
 			'Toss in pasta and parsley, adding pasta water to loosen sauce.',
 			'Serve with lemon wedges.'
 		],
-		tags: ['italian', 'pasta', 'clam', 'seafood', 'garlic'],
+		tags: [
+			'italian',
+			'pasta',
+			'clam',
+			'seafood',
+			'garlic',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '480 calories, 62g carbs, 12g fat, 26g protein',
 		time: 30
 	},
@@ -999,7 +1215,7 @@ export const Mains: Recipe[] = [
 			'Remove scallops, stir lemon juice into pan drippings for sauce.',
 			'Drizzle sauce over scallops and serve.'
 		],
-		tags: ['scallops', 'elegant', 'quick', 'buttery', 'date night'],
+		tags: ['scallops', 'elegant', 'quick', 'buttery', 'date night', 'gluten-free', 'fast', 'easy'],
 		nutrition: '330 calories, 4g carbs, 20g fat, 32g protein',
 		time: 20
 	},
@@ -1021,7 +1237,7 @@ export const Mains: Recipe[] = [
 			'Dip fish fillets and fry 4–5 minutes until golden and crisp.',
 			'Drain on paper towels and serve with fries and tartar sauce.'
 		],
-		tags: ['british', 'fried', 'classic', 'crispy', 'comfort food'],
+		tags: ['british', 'fried', 'classic', 'crispy', 'comfort food', 'economic', 'fast', 'easy'],
 		nutrition: '720 calories, 68g carbs, 36g fat, 34g protein',
 		time: 40
 	},
@@ -1047,7 +1263,7 @@ export const Mains: Recipe[] = [
 			'Brush with egg wash and bake at 400°F (200°C) for 35 minutes.',
 			'Simmer red wine with butter for sauce. Slice and serve with reduction.'
 		],
-		tags: ['beef', 'french', 'holiday', 'main', 'luxury'],
+		tags: ['beef', 'french', 'holiday', 'main', 'luxury', 'gluten-free', 'easy'],
 		nutrition: '850 calories, 25g carbs, 45g fat, 60g protein',
 		time: 90
 	},
@@ -1071,7 +1287,7 @@ export const Mains: Recipe[] = [
 			'Add mustard and cheese, then fold in lobster meat.',
 			'Spoon mixture into shells, sprinkle cheese, and broil until golden.'
 		],
-		tags: ['seafood', 'french', 'elegant', 'main'],
+		tags: ['seafood', 'french', 'elegant', 'main', 'gluten-free'],
 		nutrition: '720 calories, 12g carbs, 48g fat, 55g protein',
 		time: 60
 	},
@@ -1095,7 +1311,7 @@ export const Mains: Recipe[] = [
 			'Reduce, then add Grand Marnier and zest.',
 			'Slice duck and drizzle orange sauce over top.'
 		],
-		tags: ['duck', 'french', 'classic', 'main', 'holiday'],
+		tags: ['duck', 'french', 'classic', 'main', 'holiday', 'gluten-free'],
 		nutrition: '880 calories, 15g carbs, 65g fat, 55g protein',
 		time: 120
 	},
@@ -1118,7 +1334,7 @@ export const Mains: Recipe[] = [
 			'Add cream and saffron, simmer until thick.',
 			'Plate scallops with saffron cream drizzled on top.'
 		],
-		tags: ['seafood', 'gourmet', 'fine dining', 'main'],
+		tags: ['seafood', 'gourmet', 'fine dining', 'main', 'gluten-free', 'fast'],
 		nutrition: '600 calories, 10g carbs, 45g fat, 32g protein',
 		time: 35
 	},
@@ -1140,7 +1356,7 @@ export const Mains: Recipe[] = [
 			'Simmer stock, wine, and rosemary for jus.',
 			'Slice lamb and drizzle rosemary jus before serving.'
 		],
-		tags: ['lamb', 'french', 'holiday', 'main'],
+		tags: ['lamb', 'french', 'holiday', 'main', 'gluten-free'],
 		nutrition: '780 calories, 5g carbs, 55g fat, 60g protein',
 		time: 60
 	},
@@ -1160,7 +1376,17 @@ export const Mains: Recipe[] = [
 			'Add broccoli and 2 tbsp water, stir-fry 4–5 minutes.',
 			'Add soy sauce and sesame seeds, toss and serve.'
 		],
-		tags: ['asian', 'quick', 'vegan', 'stir-fry', 'vegatarian'],
+		tags: [
+			'asian',
+			'quick',
+			'vegan',
+			'stir-fry',
+			'vegatarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '100 calories, 6g fat, 8g carbs, 4g protein',
 		time: 10
 	},
@@ -1227,7 +1453,7 @@ export const Mains: Recipe[] = [
 			'Deglaze with wine, add stock, and simmer 1 hour.',
 			'Toss cooked pasta with ragù and butter, then serve.'
 		],
-		tags: ['italian', 'Waygu', 'pasta', 'fine dining'],
+		tags: ['italian', 'Waygu', 'pasta', 'fine dining', 'gluten-free'],
 		nutrition: '720 calories, 65g carbs, 28g fat, 40g protein',
 		time: 90
 	},
@@ -1250,7 +1476,7 @@ export const Mains: Recipe[] = [
 			'Fold packet and bake at 375°F (190°C) for 20 minutes.',
 			'Serve in parchment for presentation.'
 		],
-		tags: ['seafood', 'healthy', 'french', 'fine dining'],
+		tags: ['seafood', 'healthy', 'french', 'fine dining', 'fast', 'easy'],
 		nutrition: '420 calories, 12g carbs, 24g fat, 35g protein',
 		time: 35
 	},
@@ -1259,7 +1485,7 @@ export const Mains: Recipe[] = [
 		name: 'Osso Buco alla Milanese',
 		servings: '4',
 		ingredients: [
-			'4 veal shanks',
+			'4 waygu steaks',
 			'1 onion, diced',
 			'2 carrots, diced',
 			'1 cup white wine',
@@ -1269,7 +1495,7 @@ export const Mains: Recipe[] = [
 			'Gremolata (lemon zest, garlic, parsley)'
 		],
 		instructions: [
-			'Brown veal shanks in oil, remove.',
+			'Brown waygu in oil, remove.',
 			'Sauté vegetables, deglaze with wine.',
 			'Add broth and tomatoes, return veal, and simmer 1½ hours.',
 			'Top with gremolata and serve with risotto.'
@@ -1295,7 +1521,16 @@ export const Mains: Recipe[] = [
 			'Broil or bake at 425°F (220°C) for 10–12 minutes until caramelized.',
 			'Serve with steamed vegetables.'
 		],
-		tags: ['japanese', 'seafood', 'fine dining', 'main'],
+		tags: [
+			'japanese',
+			'seafood',
+			'fine dining',
+			'main',
+			'vegetarian',
+			'gluten-free',
+			'fast',
+			'easy'
+		],
 		nutrition: '510 calories, 14g carbs, 32g fat, 38g protein',
 		time: 45
 	},
@@ -1317,7 +1552,7 @@ export const Mains: Recipe[] = [
 			'Simmer blackberries with wine and honey until thick.',
 			'Slice venison and drizzle reduction over top.'
 		],
-		tags: ['game', 'fine dining', 'european', 'main'],
+		tags: ['game', 'fine dining', 'european', 'main', 'gluten-free', 'easy'],
 		nutrition: '690 calories, 22g carbs, 32g fat, 58g protein',
 		time: 60
 	},
@@ -1339,7 +1574,7 @@ export const Mains: Recipe[] = [
 			'Pan-sear sea bass until golden and flaky.',
 			'Serve with Champagne sauce and lemon.'
 		],
-		tags: ['seafood', 'french', 'luxury', 'fine dining'],
+		tags: ['seafood', 'french', 'luxury', 'fine dining', 'gluten-free', 'economic', 'fast'],
 		nutrition: '520 calories, 5g carbs, 34g fat, 45g protein',
 		time: 40
 	},
@@ -1405,7 +1640,17 @@ export const Mains: Recipe[] = [
 			'Mix rice, broccoli, carrots, soup, milk, cheese, and garlic powder.',
 			'Pour into casserole dish and bake 25 minutes until bubbly.'
 		],
-		tags: ['baked', 'rice', 'comfort food', 'side', 'vegatarian'],
+		tags: [
+			'baked',
+			'rice',
+			'comfort food',
+			'side',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '280 calories, 15g fat, 25g carbs, 10g protein',
 		time: 35
 	},
@@ -1430,7 +1675,7 @@ export const Mains: Recipe[] = [
 			'Add garlic and vegetables, cook 5–7 minutes.',
 			'Pour in sauce and stir until thickened.'
 		],
-		tags: ['stir-fry', 'tofu', 'vegetarian', 'gluten-free', 'quick'],
+		tags: ['stir-fry', 'tofu', 'quick', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '260 calories, 12g fat, 18g carbs, 20g protein',
 		time: 25
 	},
@@ -1453,7 +1698,7 @@ export const Mains: Recipe[] = [
 			'Add tomatoes, chickpeas, and coconut milk; simmer 15 minutes.',
 			'Stir in spinach until wilted.'
 		],
-		tags: ['curry', 'chickpea', 'vegetarian', 'gluten-free', 'one-pot'],
+		tags: ['curry', 'chickpea', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy', 'one-pot'],
 		nutrition: '310 calories, 14g fat, 30g carbs, 12g protein',
 		time: 30
 	},
@@ -1474,34 +1719,12 @@ export const Mains: Recipe[] = [
 			'Place on half of each tortilla with cheese.',
 			'Fold and cook in skillet until golden on both sides.'
 		],
-		tags: ['mexican', 'cheese', 'quick', 'vegetarian'],
+		tags: ['mexican', 'cheese', 'quick', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '320 calories, 18g fat, 28g carbs, 12g protein',
 		time: 20
 	},
 	{
-		id: 66,
-		name: 'Lentil Shepherd’s Pie',
-		servings: '6',
-		ingredients: [
-			'2 cups cooked lentils',
-			'1 onion, diced',
-			'1 cup carrots, diced',
-			'1 cup peas',
-			'2 cups mashed potatoes',
-			'1 tbsp tomato paste',
-			'1 cup vegetable broth'
-		],
-		instructions: [
-			'Sauté onion and carrots, then add lentils, tomato paste, and broth.',
-			'Simmer 10 minutes; stir in peas.',
-			'Spread in baking dish, top with mashed potatoes, and bake at 375°F for 25 minutes.'
-		],
-		tags: ['baked', 'comfort food', 'vegetarian'],
-		nutrition: '350 calories, 8g fat, 55g carbs, 16g protein',
-		time: 45
-	},
-	{
-		id: 7,
+		id: 67,
 		name: 'Stuffed Bell Peppers',
 		servings: '4',
 		ingredients: [
@@ -1516,12 +1739,12 @@ export const Mains: Recipe[] = [
 			'Mix quinoa, beans, corn, salsa, and cheese.',
 			'Stuff into peppers and bake at 375°F for 25–30 minutes.'
 		],
-		tags: ['baked', 'vegetarian', 'gluten-free'],
+		tags: ['baked', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '290 calories, 9g fat, 38g carbs, 12g protein',
 		time: 40
 	},
 	{
-		id: 8,
+		id: 68,
 		name: 'Creamy Tomato Pasta',
 		servings: '4',
 		ingredients: [
@@ -1537,12 +1760,12 @@ export const Mains: Recipe[] = [
 			'Sauté garlic in olive oil, then add tomato sauce and basil.',
 			'Stir in cream and simmer 5 minutes. Toss with pasta.'
 		],
-		tags: ['pasta', 'vegetarian', 'quick'],
+		tags: ['pasta', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '380 calories, 14g fat, 50g carbs, 10g protein',
 		time: 25
 	},
 	{
-		id: 9,
+		id: 69,
 		name: 'Vegetable Fried Rice',
 		servings: '4',
 		ingredients: [
@@ -1558,12 +1781,12 @@ export const Mains: Recipe[] = [
 			'Add vegetables and rice; stir-fry 5 minutes.',
 			'Add soy sauce and mix well.'
 		],
-		tags: ['rice', 'stir-fry', 'quick', 'vegetarian'],
+		tags: ['rice', 'stir-fry', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '310 calories, 10g fat, 45g carbs, 10g protein',
 		time: 20
 	},
 	{
-		id: 10,
+		id: 70,
 		name: 'Black Bean Tacos',
 		servings: '4',
 		ingredients: [
@@ -1579,12 +1802,12 @@ export const Mains: Recipe[] = [
 			'Mash beans with cumin and chili powder.',
 			'Warm tortillas and fill with bean mixture, lettuce, salsa, and cheese.'
 		],
-		tags: ['mexican', 'taco', 'quick', 'vegetarian', 'gluten-free'],
+		tags: ['mexican', 'taco', 'quick', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '270 calories, 9g fat, 35g carbs, 11g protein',
 		time: 20
 	},
 	{
-		id: 11,
+		id: 71,
 		name: 'Spinach and Ricotta Stuffed Shells',
 		servings: '4',
 		ingredients: [
@@ -1599,12 +1822,12 @@ export const Mains: Recipe[] = [
 			'Cook shells, then fill with ricotta and spinach.',
 			'Spread marinara in baking dish, add shells, top with mozzarella, and bake 25 minutes.'
 		],
-		tags: ['pasta', 'baked', 'italian', 'vegetarian'],
+		tags: ['pasta', 'baked', 'italian', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '340 calories, 12g fat, 42g carbs, 14g protein',
 		time: 40
 	},
 	{
-		id: 12,
+		id: 72,
 		name: 'Vegetarian Chili',
 		servings: '6',
 		ingredients: [
@@ -1619,12 +1842,12 @@ export const Mains: Recipe[] = [
 			'Sauté onion, then add all ingredients.',
 			'Simmer 30 minutes until thick and hearty.'
 		],
-		tags: ['chili', 'one-pot', 'vegetarian', 'gluten-free'],
+		tags: ['chili', 'one-pot', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '280 calories, 5g fat, 48g carbs, 12g protein',
 		time: 40
 	},
 	{
-		id: 13,
+		id: 73,
 		name: 'Caprese Stuffed Portobellos',
 		servings: '4',
 		ingredients: [
@@ -1639,12 +1862,12 @@ export const Mains: Recipe[] = [
 			'Top with tomatoes and mozzarella, return to oven for 5 minutes.',
 			'Drizzle with balsamic glaze before serving.'
 		],
-		tags: ['baked', 'mushroom', 'italian', 'vegetarian', 'gluten-free'],
+		tags: ['baked', 'mushroom', 'italian', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '230 calories, 13g fat, 10g carbs, 14g protein',
 		time: 25
 	},
 	{
-		id: 14,
+		id: 74,
 		name: 'Sweet Potato and Black Bean Enchiladas',
 		servings: '6',
 		ingredients: [
@@ -1658,12 +1881,12 @@ export const Mains: Recipe[] = [
 			'Mix sweet potatoes and beans, roll into tortillas, and place in baking dish.',
 			'Top with enchilada sauce and cheese; bake at 375°F for 25 minutes.'
 		],
-		tags: ['baked', 'mexican', 'vegetarian', 'gluten-free'],
+		tags: ['baked', 'mexican', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '310 calories, 9g fat, 48g carbs, 11g protein',
 		time: 40
 	},
 	{
-		id: 15,
+		id: 75,
 		name: 'Vegetable Frittata',
 		servings: '4',
 		ingredients: [
@@ -1679,16 +1902,17 @@ export const Mains: Recipe[] = [
 			'Sauté vegetables in olive oil, then pour egg mixture over.',
 			'Cook on stovetop 5 minutes, then bake at 375°F for 10 minutes until set.'
 		],
-		tags: ['eggs', 'baked', 'breakfast', 'vegetarian', 'gluten-free'],
+		tags: ['eggs', 'baked', 'breakfast', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '290 calories, 20g fat, 6g carbs, 20g protein',
 		time: 25
 	},
 	{
-		id: 6,
-		name: 'Mushroom Stroganoff',
+		id: 76,
+		name: 'Mushroom and Carrot Stroganoff',
 		servings: '4',
 		ingredients: [
 			'12 oz mushrooms, sliced',
+			'1 cup carrots, diced',
 			'1 onion, diced',
 			'1 cup sour cream',
 			'2 tbsp flour',
@@ -1702,7 +1926,16 @@ export const Mains: Recipe[] = [
 			'Add flour and paprika, then broth. Simmer until thickened.',
 			'Stir in sour cream and serve over noodles.'
 		],
-		tags: ['pasta', 'mushroom', 'comfort food', 'vegetarian'],
+		tags: [
+			'pasta',
+			'mushroom',
+			'comfort food',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '400 calories, 14g fat, 50g carbs, 15g protein',
 		time: 35
 	},
@@ -1728,7 +1961,7 @@ export const Mains: Recipe[] = [
 			'Gradually add broth, stirring constantly until creamy.',
 			'Stir in butter, Parmesan, and drizzle with truffle oil before serving.'
 		],
-		tags: ['risotto', 'italian', 'fancy', 'vegetarian', 'gourmet'],
+		tags: ['risotto', 'italian', 'fancy', 'vegetarian', 'gourmet', 'vegetarian', 'gluten-free'],
 		nutrition: '460 calories, 17g fat, 55g carbs, 12g protein',
 		time: 50
 	},
@@ -1748,7 +1981,7 @@ export const Mains: Recipe[] = [
 			'Melt butter in a skillet until golden brown; add sage leaves.',
 			'Toss ravioli in sage butter and top with Parmesan.'
 		],
-		tags: ['italian', 'pasta', 'fancy', 'vegetarian'],
+		tags: ['italian', 'pasta', 'fancy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '410 calories, 18g fat, 48g carbs, 12g protein',
 		time: 25
 	},
@@ -1769,7 +2002,16 @@ export const Mains: Recipe[] = [
 			'Layer eggplant, ricotta, and tomato coulis into stacks.',
 			'Top with Parmesan and bake 10 minutes; garnish with basil.'
 		],
-		tags: ['eggplant', 'italian', 'baked', 'vegetarian', 'fancy'],
+		tags: [
+			'eggplant',
+			'italian',
+			'baked',
+			'fancy',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast'
+		],
 		nutrition: '320 calories, 20g fat, 18g carbs, 16g protein',
 		time: 40
 	},
@@ -1810,7 +2052,7 @@ export const Mains: Recipe[] = [
 			'Roast at 425°F (220°C) for 25 minutes until golden.',
 			'Serve with romesco sauce and garnish with parsley.'
 		],
-		tags: ['vegan', 'gluten-free', 'fancy', 'vegetarian'],
+		tags: ['vegan', 'fancy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '230 calories, 16g fat, 18g carbs, 5g protein',
 		time: 30
 	},
@@ -1831,7 +2073,7 @@ export const Mains: Recipe[] = [
 			'Layer phyllo with butter, adding filling in center.',
 			'Fold and bake at 375°F (190°C) for 30 minutes until crisp and golden.'
 		],
-		tags: ['greek', 'baked', 'fancy', 'vegetarian'],
+		tags: ['greek', 'baked', 'fancy', 'vegetarian', 'fast'],
 		nutrition: '340 calories, 20g fat, 30g carbs, 10g protein',
 		time: 45
 	},
@@ -1852,7 +2094,7 @@ export const Mains: Recipe[] = [
 			'Boil until they float.',
 			'Simmer cream with lemon zest and juice; toss gnocchi and top with Parmesan.'
 		],
-		tags: ['italian', 'pasta', 'fancy', 'vegetarian'],
+		tags: ['italian', 'pasta', 'fancy', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '390 calories, 18g fat, 42g carbs, 14g protein',
 		time: 35
 	},
@@ -1873,7 +2115,7 @@ export const Mains: Recipe[] = [
 			'Deglaze with wine and simmer to reduce.',
 			'Grill polenta slices and top with mushroom ragù.'
 		],
-		tags: ['fancy', 'italian', 'vegetarian', 'gluten-free'],
+		tags: ['fancy', 'italian', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '330 calories, 14g fat, 36g carbs, 10g protein',
 		time: 40
 	},
@@ -1893,7 +2135,7 @@ export const Mains: Recipe[] = [
 			'Spread on puff pastry, top with cheese and thyme.',
 			'Bake at 400°F for 20 minutes until golden and flaky.'
 		],
-		tags: ['baked', 'fancy', 'vegetarian', 'tart'],
+		tags: ['baked', 'fancy', 'tart', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '380 calories, 23g fat, 30g carbs, 9g protein',
 		time: 45
 	},
@@ -1915,7 +2157,7 @@ export const Mains: Recipe[] = [
 			'Bake at 375°F (190°C) for 35–40 minutes until tender.',
 			'Drizzle with herb oil before serving.'
 		],
-		tags: ['french', 'baked', 'fancy', 'vegetarian', 'vegan', 'gluten-free'],
+		tags: ['french', 'baked', 'fancy', 'vegan', 'vegetarian', 'gluten-free', 'economic'],
 		nutrition: '220 calories, 14g fat, 18g carbs, 4g protein',
 		time: 50
 	},
@@ -1938,7 +2180,7 @@ export const Mains: Recipe[] = [
 			'Add wine and cook until absorbed, then gradually add broth until creamy.',
 			'Stir in Parmesan before serving.'
 		],
-		tags: ['risotto', 'italian', 'fancy', 'vegetarian', 'spring'],
+		tags: ['risotto', 'italian', 'fancy', 'spring', 'vegetarian', 'gluten-free', 'economic'],
 		nutrition: '420 calories, 15g fat, 55g carbs, 12g protein',
 		time: 45
 	},
@@ -1960,7 +2202,16 @@ export const Mains: Recipe[] = [
 			'Stuff zucchini halves and drizzle with olive oil.',
 			'Bake 25–30 minutes until tender.'
 		],
-		tags: ['baked', 'fancy', 'vegetarian', 'gluten-free', 'mediterranean'],
+		tags: [
+			'baked',
+			'fancy',
+			'mediterranean',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '310 calories, 14g fat, 30g carbs, 12g protein',
 		time: 40
 	},
@@ -2001,7 +2252,7 @@ export const Mains: Recipe[] = [
 			'Fill crêpes with mixture and fold.',
 			'Top with Mornay sauce and bake 10 minutes until warmed through.'
 		],
-		tags: ['french', 'fancy', 'crepe', 'vegetarian'],
+		tags: ['french', 'fancy', 'crepe', 'vegetarian', 'economic', 'fast', 'easy'],
 		nutrition: '360 calories, 19g fat, 32g carbs, 13g protein',
 		time: 40
 	},
@@ -2022,7 +2273,17 @@ export const Mains: Recipe[] = [
 			'Sprinkle with sage and nutmeg.',
 			'Bake at 375°F (190°C) for 35–40 minutes until golden and bubbly.'
 		],
-		tags: ['italian', 'baked', 'lasagna', 'fancy', 'vegetarian'],
+		tags: [
+			'italian',
+			'baked',
+			'lasagna',
+			'fancy',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '410 calories, 18g fat, 45g carbs, 17g protein',
 		time: 55
 	},
@@ -2042,7 +2303,7 @@ export const Mains: Recipe[] = [
 			'Fold edges and brush with egg wash.',
 			'Bake 30–35 minutes until golden brown.'
 		],
-		tags: ['baked', 'fancy', 'vegetarian', 'tart', 'gourmet'],
+		tags: ['baked', 'fancy', 'tart', 'gourmet', 'vegetarian', 'economic', 'fast', 'easy'],
 		nutrition: '370 calories, 21g fat, 32g carbs, 10g protein',
 		time: 45
 	},
@@ -2063,7 +2324,7 @@ export const Mains: Recipe[] = [
 			'Stuff shells with ricotta, spinach, and artichokes.',
 			'Top with cream sauce and Parmesan, bake 25 minutes.'
 		],
-		tags: ['pasta', 'fancy', 'baked', 'vegetarian'],
+		tags: ['pasta', 'fancy', 'baked', 'vegetarian', 'gluten-free', 'economic', 'fast'],
 		nutrition: '420 calories, 19g fat, 45g carbs, 18g protein',
 		time: 45
 	},
@@ -2083,7 +2344,16 @@ export const Mains: Recipe[] = [
 			'Grill halloumi until golden on both sides.',
 			'Serve with vegetables and drizzle with pesto.'
 		],
-		tags: ['grilled', 'fancy', 'vegetarian', 'mediterranean', 'gluten-free'],
+		tags: [
+			'grilled',
+			'fancy',
+			'mediterranean',
+			'vegetarian',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy'
+		],
 		nutrition: '360 calories, 24g fat, 10g carbs, 22g protein',
 		time: 30
 	},
@@ -2106,8 +2376,30 @@ export const Mains: Recipe[] = [
 			'Add cheese and truffle oil; mix with pasta.',
 			'Top with crispy shallots before serving.'
 		],
-		tags: ['pasta', 'comfort food', 'fancy', 'vegetarian'],
+		tags: ['pasta', 'comfort food', 'fancy', 'vegetarian', 'gluten-free', 'fast', 'easy'],
 		nutrition: '540 calories, 28g fat, 48g carbs, 19g protein',
 		time: 40
+	},
+	{
+		id: 96,
+		name: 'Lentil Shepherd’s Pie',
+		servings: '6',
+		ingredients: [
+			'2 cups cooked lentils',
+			'1 onion, diced',
+			'1 cup carrots, diced',
+			'1 cup peas',
+			'2 cups mashed potatoes',
+			'1 tbsp tomato paste',
+			'1 cup vegetable broth'
+		],
+		instructions: [
+			'Sauté onion and carrots, then add lentils, tomato paste, and broth.',
+			'Simmer 10 minutes; stir in peas.',
+			'Spread in baking dish, top with mashed potatoes, and bake at 375°F for 25 minutes.'
+		],
+		tags: ['baked', 'comfort food', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
+		nutrition: '350 calories, 8g fat, 55g carbs, 16g protein',
+		time: 45
 	}
 ];
