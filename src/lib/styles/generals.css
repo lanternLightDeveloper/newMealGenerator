@@ -92,27 +92,27 @@ ul {
     list-style-type: none;
 }
 
-:is(h1, h2, h3, h4, p, ul, .marg_Also) {
+:is(h1, h2, h3, h4, p, .marg_Also) {
     margin: var(--space-Qtr);
 }
 
     /* Tablet Screen  */
 @media (min-width: 768px) {
-:is(h1, h2, h3, h4, p, ul, .marg_Also) {
+:is(h1, h2, h3, h4, p, .marg_Also) {
     margin: var(--space-Half);
 }
 }
 
     /* Desktop Screen */
 @media (min-width: 1024px) {
-    :is(h1, h2, h3, h4, p, ul, .marg_Also) {
+    :is(h1, h2, h3, h4, p, .marg_Also) {
     margin: var(--space-Med);
 }
 } 
 
     /* Large Screen */
 @media (min-width: 1440px) {
-    :is(h1, h2, h3, h4, p, ul, .marg_Also) {
+    :is(h1, h2, h3, h4, p, .marg_Also) {
     margin: var(--space-Lg);
 }
 } 
