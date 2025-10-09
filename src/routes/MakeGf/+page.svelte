@@ -160,3 +160,30 @@
 		</article>
 	</section>
 </main>
+
+<style>
+	:is(ul) {
+		margin: var(--space-Qtr);
+	}
+
+	/* Tablet Screen  */
+	@media (min-width: 768px) {
+		:is(ul) {
+			margin: var(--space-Half);
+		}
+	}
+
+	/* Desktop Screen */
+	@media (min-width: 1024px) {
+		:is(ul) {
+			margin: var(--space-Sm);
+		}
+	}
+
+	/* Large Screen */
+	@media (min-width: 1440px) {
+		:is(ul) {
+			margin: var(--space-Lg);
+		}
+	}
+</style>
