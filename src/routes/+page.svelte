@@ -29,27 +29,56 @@
 		dessert?: Recipe;
 	}>({});
 
+	let selectedStarch = $state({
+		rice: false,
+		potatoes: false,
+		noodles: false
+	});
+
+	let selectedVeggie = $state({
+		tofu: false,
+		broccoli: false,
+		carrots: false,
+		corn: false,
+		mushrooms: false
+	});
+
+	let selectedProtein = $state({
+		chicken: false,
+		pork: false,
+		beef: false,
+		tuna: false,
+		salmon: false,
+		shrimp: false
+	});
+
 	function generateMeal() {
 		const newMeal: typeof meal = {};
 
 		function getRandomRecipe(list) {
 			let filtered = list;
-			if (glutenFreeOnly) {
-				filtered = list.filter((r) => r.tags?.includes('gluten-free'));
+
+			// Tag filters (keep your current logic)
+			if (glutenFreeOnly) filtered = filtered.filter((r) => r.tags?.includes('gluten-free'));
+			if (vegetarianFriendly) filtered = filtered.filter((r) => r.tags?.includes('vegetarian'));
+			if (economic) filtered = filtered.filter((r) => r.tags?.includes('economic'));
+			if (fastComplete) filtered = filtered.filter((r) => r.tags?.includes('fast'));
+			if (easyComplete) filtered = filtered.filter((r) => r.tags?.includes('easy'));
+
+			// Ingredient filters
+			const activeIngredients = Object.entries(selectedIngredients)
+				.filter(([_, checked]) => checked)
+				.map(([ingredient]) => ingredient.toLowerCase());
+
+			if (activeIngredients.length) {
+				filtered = filtered.filter((recipe) =>
+					activeIngredients.some((ing) =>
+						recipe.ingredients.some((i) => i.toLowerCase().includes(ing))
+					)
+				);
 			}
-			if (vegetarianFriendly) {
-				filtered = list.filter((r) => r.tags?.includes('vegetarian'));
-			}
-			if (economic) {
-				filtered = list.filter((r) => r.tags?.includes('economic'));
-			}
-			if (fastComplete) {
-				filtered = list.filter((r) => r.tags?.includes('fast'));
-			}
-			if (easyComplete) {
-				filtered = list.filter((r) => r.tags?.includes('easy'));
-			}
-			if (!filtered.length) return null; // no matching recipes
+
+			if (!filtered.length) return null;
 			return filtered[Math.floor(Math.random() * filtered.length)];
 		}
 
@@ -122,11 +151,24 @@
 		}
 	}
 
-	let isMenuOpen = $state(false);
+	let isMenuOpen = $state(true);
+	let isTuningOpen = $state(false);
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
 	}
+
+	function showMoreFineTuning() {
+		isTuningOpen = !isTuningOpen;
+	}
+
+	const allIngredients = Array.from(
+		new Set(
+			Mains.concat(Starch, Soups, Vegetables, Sandwiches, Desserts).flatMap((r) =>
+				r.ingredients.map((i) => i.split(',')[0].toLowerCase().trim())
+			)
+		)
+	);
 </script>
 
 <main>
@@ -135,7 +177,7 @@
 			<section class="block-Selection-List">
 				<p>Select to include</p>
 				<article class="controls">
-					<p class="double-Block">Keywords</p>
+					<p>Guides</p>
 					<br />
 					<label for="MakeGf">
 						<a style="color: var(--txt-1);" href="/MakeGf">Gluten free guide</a>
@@ -144,6 +186,8 @@
 					<label for="MakeVeg">
 						<a style="color: var(--txt-1);" href="/MakeVeg">Vegetarian swap guide</a>
 					</label>
+					<p class="double-Block">Keywords</p>
+
 					<label>
 						<input type="checkbox" bind:checked={glutenFreeOnly} /> Gluten-Free Only
 					</label>
@@ -160,7 +204,6 @@
 						<input type="checkbox" bind:checked={easyComplete} /> Easy
 					</label>
 
-					<br />
 					<p class="double-Block">Meal Options</p>
 					<br />
 					<label><input type="checkbox" bind:checked={includeStarch} /> Starch</label>
@@ -169,6 +212,45 @@
 					<label><input type="checkbox" bind:checked={includeSoup} /> Soup</label>
 					<label><input type="checkbox" bind:checked={includeMain} /> Main</label>
 					<label><input type="checkbox" bind:checked={includeDessert} /> Dessert</label>
+					<br />
+					<button
+						class="btn-Ghost double-Block"
+						onclick={showMoreFineTuning}
+						onkeydown={() => (isTuningOpen = false)}
+					>
+						Filter by ingredient & fine tune your choices
+					</button>
+
+					{#if isTuningOpen}
+						<br />
+						<section class="double-Block">
+							<div class="ingredient-filters">
+								<p>Pick a Starch</p>
+								{#each Object.entries(selectedStarch) as [ingredient, checked]}
+									<label>
+										<input type="checkbox" bind:checked={selectedStarch[ingredient]} />
+										{ingredient.charAt(0).toUpperCase() + ingredient.slice(1)}
+									</label>
+								{/each}
+								<p>Pick a Vegetable</p>
+								{#each Object.entries(selectedVeggie) as [ingredient, checked]}
+									<label>
+										<input type="checkbox" bind:checked={selectedVeggie[ingredient]} />
+										{ingredient.charAt(0).toUpperCase() + ingredient.slice(1)}
+									</label>
+								{/each}
+								<p>Pick a Protein</p>
+								{#each Object.entries(selectedProtein) as [ingredient, checked]}
+									<label>
+										<input type="checkbox" bind:checked={selectedProtein[ingredient]} />
+										{ingredient.charAt(0).toUpperCase() + ingredient.slice(1)}
+									</label>
+								{/each}
+							</div>
+						</section>
+					{/if}
+					<br />
+
 					<div class="double-Block">
 						<button class="btn-Fill" onclick={generateMeal}><span> Generate Meal </span></button>
 						<button class="btn-Fill" onclick={saveMealAsText} disabled={!Object.keys(meal).length}>
