@@ -231,7 +231,7 @@
 						<section class="double-Block">
 							<div class="ingredient-filters">
 								{#each Object.entries(selectedIngredients) as [group, items]}
-									<h3>{group.charAt(0).toUpperCase() + group.slice(1)}</h3>
+									<p>{group.charAt(0).toUpperCase() + group.slice(1)}</p>
 									<div class="filter-group">
 										{#each Object.entries(items) as [ingredient, checked]}
 											<label>
