@@ -163,7 +163,7 @@
 		}
 	}
 
-	let isMenuOpen = $state(false);
+	let isMenuOpen = $state(true);
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
@@ -180,7 +180,6 @@
 	<div class:open={isMenuOpen}>
 		{#if isMenuOpen}
 			<section class="block-Selection-List">
-				<p>Select to include</p>
 				<article class="controls">
 					<p>Guides</p>
 					<br />
@@ -212,10 +211,10 @@
 					<br />
 					<p class="double-Block">Meal Options</p>
 					<br />
-					<label><input type="checkbox" bind:checked={includeStarch} /> Starch</label>
-					<label><input type="checkbox" bind:checked={includeVeg} /> Vegetable</label>
 					<label><input type="checkbox" bind:checked={includeSandwiches} /> Sandwiches</label>
 					<label><input type="checkbox" bind:checked={includeSoup} /> Soup</label>
+					<label><input type="checkbox" bind:checked={includeStarch} /> Starch</label>
+					<label><input type="checkbox" bind:checked={includeVeg} /> Vegetable</label>
 					<label><input type="checkbox" bind:checked={includeMain} /> Main</label>
 					<label><input type="checkbox" bind:checked={includeDessert} /> Dessert</label>
 
@@ -224,7 +223,7 @@
 						onclick={showMoreFineTuning}
 						onkeydown={() => (isTuningOpen = false)}
 					>
-						Filter by Ingredient & Fine tune your choices
+						Filter by Ingredients & Fine tune your choices
 					</button>
 
 					{#if isTuningOpen}
