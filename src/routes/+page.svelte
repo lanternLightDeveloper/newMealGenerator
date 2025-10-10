@@ -163,7 +163,7 @@
 		}
 	}
 
-	let isMenuOpen = $state(true);
+	let isMenuOpen = $state(false);
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
@@ -223,7 +223,7 @@
 						onclick={showMoreFineTuning}
 						onkeydown={() => (isTuningOpen = false)}
 					>
-						Filter by Ingredients & Fine tune your choices
+						Optional: Filter by Ingredients & Fine tune your choices
 					</button>
 
 					{#if isTuningOpen}
