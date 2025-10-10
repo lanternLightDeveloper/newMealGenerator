@@ -163,7 +163,7 @@
 		}
 	}
 
-	let isMenuOpen = $state(true);
+	let isMenuOpen = $state(false);
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
