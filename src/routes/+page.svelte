@@ -209,8 +209,15 @@
 						<input type="checkbox" bind:checked={easyComplete} /> Easy
 					</label>
 
-					<p class="double-Block">Filter by Ingredient</p>
 					<br />
+					<p class="double-Block">Meal Options</p>
+					<br />
+					<label><input type="checkbox" bind:checked={includeStarch} /> Starch</label>
+					<label><input type="checkbox" bind:checked={includeVeg} /> Vegetable</label>
+					<label><input type="checkbox" bind:checked={includeSandwiches} /> Sandwiches</label>
+					<label><input type="checkbox" bind:checked={includeSoup} /> Soup</label>
+					<label><input type="checkbox" bind:checked={includeMain} /> Main</label>
+					<label><input type="checkbox" bind:checked={includeDessert} /> Dessert</label>
 
 					<button
 						class="btn-Ghost double-Block"
@@ -241,15 +248,6 @@
 						</section>
 					{/if}
 
-					<br />
-					<p class="double-Block">Meal Options</p>
-					<br />
-					<label><input type="checkbox" bind:checked={includeStarch} /> Starch</label>
-					<label><input type="checkbox" bind:checked={includeVeg} /> Vegetable</label>
-					<label><input type="checkbox" bind:checked={includeSandwiches} /> Sandwiches</label>
-					<label><input type="checkbox" bind:checked={includeSoup} /> Soup</label>
-					<label><input type="checkbox" bind:checked={includeMain} /> Main</label>
-					<label><input type="checkbox" bind:checked={includeDessert} /> Dessert</label>
 					<div class="double-Block">
 						<button class="btn-Fill" onclick={generateMeal}><span> Generate Meal </span></button>
 						<button class="btn-Fill" onclick={saveMealAsText} disabled={!Object.keys(meal).length}>
