@@ -1,6 +1,11 @@
 <script lang="ts">
 	import RecipeCard from '$lib/RecipeCard.svelte';
 	import type { Recipe } from '$lib/data/Recipes';
+
+	import { BreakTater } from '$lib/data/BreakTater';
+	import { Eggs } from '$lib/data/Eggs';
+	import { ParfaitShakes } from '$lib/data/Parfait-Shakes';
+	import { Pancakes } from '$lib/data/Pancakes';
 	import { Starch } from '$lib/data/Starch';
 	import { Vegetables } from '$lib/data/Vegetables';
 	import { Sandwiches } from '$lib/data/Sandwiches';
@@ -8,12 +13,17 @@
 	import { Mains } from '$lib/data/Mains';
 	import { Desserts } from '$lib/data/Desserts';
 
-	let includeStarch = $state(true);
-	let includeVeg = $state(true);
-	let includeSandwiches = $state(true);
-	let includeSoup = $state(true);
-	let includeMain = $state(true);
-	let includeDessert = $state(true);
+	let includeBreakTater = $state(false);
+	let includeEggs = $state(false);
+	let includeParfait = $state(false);
+	let includePancakes = $state(false);
+	let includeStarch = $state(false);
+	let includeVeg = $state(false);
+	let includeSandwiches = $state(false);
+	let includeSoup = $state(false);
+	let includeMain = $state(false);
+	let includeDessert = $state(false);
+
 	let glutenFreeOnly = $state(false);
 	let vegetarianFriendly = $state(false);
 	let economic = $state(false);
@@ -21,6 +31,10 @@
 	let easyComplete = $state(false);
 
 	let meal = $state<{
+		breakTater?: Recipe;
+		eggs?: Recipe;
+		parfait?: Recipe;
+		pancakes?: Recipe;
 		starch?: Recipe;
 		veg?: Recipe;
 		sandwiches?: Recipe;
@@ -84,6 +98,10 @@
 			return filtered[Math.floor(Math.random() * filtered.length)];
 		}
 
+		if (includeBreakTater && BreakTater.length) newMeal.breakTater = getRandomRecipe(BreakTater);
+		if (includeEggs && Eggs.length) newMeal.eggs = getRandomRecipe(Eggs);
+		if (includeParfait && ParfaitShakes.length) newMeal.parfait = getRandomRecipe(ParfaitShakes);
+		if (includePancakes && Pancakes.length) newMeal.pancakes = getRandomRecipe(Pancakes);
 		if (includeStarch && Starch.length) newMeal.starch = getRandomRecipe(Starch);
 		if (includeVeg && Vegetables.length) newMeal.veg = getRandomRecipe(Vegetables);
 		if (includeSandwiches && Sandwiches.length) newMeal.sandwiches = getRandomRecipe(Sandwiches);
@@ -121,6 +139,10 @@
 
 	function reroll(category: keyof typeof meal) {
 		const sources = {
+			breakTater: BreakTater,
+			eggs: Eggs,
+			parfait: ParfaitShakes,
+			pancakes: Pancakes,
 			starch: Starch,
 			veg: Vegetables,
 			sandwiches: Sandwiches,
@@ -163,7 +185,7 @@
 		}
 	}
 
-	let isMenuOpen = $state(false);
+	let isMenuOpen = $state(true);
 
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
@@ -209,10 +231,21 @@
 					</label>
 
 					<br />
+					<br />
 					<p class="double-Block">Meal Options</p>
 					<br />
+					<br />
+					<p class="double-Block">Breakfast</p>
+					<label><input type="checkbox" bind:checked={includeBreakTater} /> Breakfast Starch</label>
+					<label><input type="checkbox" bind:checked={includeEggs} /> Eggs</label>
+					<label><input type="checkbox" bind:checked={includePancakes} /> Pancakes+</label>
+					<label><input type="checkbox" bind:checked={includeParfait} /> Shakes/Parfaits</label>
+					<br />
+					<p class="double-Block">Lunch</p>
 					<label><input type="checkbox" bind:checked={includeSandwiches} /> Sandwiches</label>
 					<label><input type="checkbox" bind:checked={includeSoup} /> Soup</label>
+					<br />
+					<p class="double-Block">Dinner</p>
 					<label><input type="checkbox" bind:checked={includeStarch} /> Starch</label>
 					<label><input type="checkbox" bind:checked={includeVeg} /> Vegetable</label>
 					<label><input type="checkbox" bind:checked={includeMain} /> Main</label>
@@ -267,6 +300,35 @@
 		Menu
 	</button>
 	<section class="grid-Main">
+		{#if meal.breakTater}
+			<div>
+				<button class="btn-Ghost" onclick={() => reroll('breakTater')}
+					>Reroll Breakfast Starch</button
+				>
+				<RecipeCard Recipes={meal.breakTater} />
+			</div>
+		{/if}
+
+		{#if meal.eggs}
+			<div>
+				<button class="btn-Ghost" onclick={() => reroll('eggs')}>Reroll Eggs</button>
+				<RecipeCard Recipes={meal.eggs} />
+			</div>
+		{/if}
+
+		{#if meal.pancakes}
+			<div>
+				<button class="btn-Ghost" onclick={() => reroll('pancakes')}>Reroll Pancakes+</button>
+				<RecipeCard Recipes={meal.pancakes} />
+			</div>
+		{/if}
+
+		{#if meal.parfait}
+			<div>
+				<button class="btn-Ghost" onclick={() => reroll('parfait')}>Reroll Shakes/Parfaits</button>
+				<RecipeCard Recipes={meal.parfait} />
+			</div>
+		{/if}
 		{#if meal.starch}
 			<div>
 				<button class="btn-Ghost" onclick={() => reroll('starch')}>Reroll Starch</button>
