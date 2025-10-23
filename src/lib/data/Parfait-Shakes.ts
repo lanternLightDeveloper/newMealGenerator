@@ -1,3 +1,5 @@
+// Current Recipe Count: 30
+
 export const ParfaitShakes: Recipe[] = [
 	{
 		id: 1,
@@ -15,7 +17,19 @@ export const ParfaitShakes: Recipe[] = [
 			'Repeat layers and drizzle with honey.',
 			'Serve chilled.'
 		],
-		tags: ['parfait', 'yogurt', 'berries', 'breakfast', 'vegetarian', 'easy', 'no-cook'],
+		tags: [
+			'parfait',
+			'yogurt',
+			'berries',
+			'breakfast',
+			'vegetarian',
+			'easy',
+			'no-cook',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '290 calories, 40g carbs, 7g fat, 15g protein',
 		time: 10
 	},
@@ -34,7 +48,19 @@ export const ParfaitShakes: Recipe[] = [
 			'Sprinkle shredded coconut on top.',
 			'Chill 10 minutes before serving.'
 		],
-		tags: ['parfait', 'mango', 'tropical', 'coconut', 'gluten-free', 'vegan'],
+		tags: [
+			'parfait',
+			'mango',
+			'tropical',
+			'coconut',
+			'gluten-free',
+			'vegan',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '260 calories, 32g carbs, 10g fat, 6g protein',
 		time: 10
 	},
@@ -54,7 +80,17 @@ export const ParfaitShakes: Recipe[] = [
 			'Top with cinnamon and honey drizzle.',
 			'Serve immediately or chill.'
 		],
-		tags: ['parfait', 'peach', 'dessert-style', 'sweet', 'vegetarian'],
+		tags: [
+			'parfait',
+			'peach',
+			'dessert-style',
+			'sweet',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '310 calories, 42g carbs, 9g fat, 12g protein',
 		time: 10
 	},
@@ -72,7 +108,17 @@ export const ParfaitShakes: Recipe[] = [
 			'Layer yogurt, strawberries, and pound cake pieces.',
 			'Top with whipped cream before serving.'
 		],
-		tags: ['parfait', 'strawberry', 'dessert-style', 'sweet', 'vegetarian'],
+		tags: [
+			'parfait',
+			'strawberry',
+			'dessert-style',
+			'sweet',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '340 calories, 45g carbs, 10g fat, 13g protein',
 		time: 10
 	},
@@ -90,7 +136,18 @@ export const ParfaitShakes: Recipe[] = [
 			'Layer yogurt, cooked apples, and granola.',
 			'Drizzle with maple syrup and serve warm or chilled.'
 		],
-		tags: ['parfait', 'apple', 'cinnamon', 'cozy', 'fall', 'vegetarian'],
+		tags: [
+			'parfait',
+			'apple',
+			'cinnamon',
+			'cozy',
+			'fall',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '280 calories, 38g carbs, 9g fat, 11g protein',
 		time: 12
 	},
@@ -108,7 +165,17 @@ export const ParfaitShakes: Recipe[] = [
 			'Layer yogurt, blueberries, and granola.',
 			'Top with lemon zest and chill before serving.'
 		],
-		tags: ['parfait', 'blueberry', 'lemon', 'fresh', 'vegetarian'],
+		tags: [
+			'parfait',
+			'blueberry',
+			'lemon',
+			'fresh',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '260 calories, 36g carbs, 6g fat, 12g protein',
 		time: 10
 	},
@@ -127,7 +194,18 @@ export const ParfaitShakes: Recipe[] = [
 			'Sprinkle with cocoa nibs and espresso powder.',
 			'Serve chilled for a morning caffeine boost.'
 		],
-		tags: ['parfait', 'coffee', 'mocha', 'energizing', 'dessert-style'],
+		tags: [
+			'parfait',
+			'coffee',
+			'mocha',
+			'energizing',
+			'dessert-style',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '310 calories, 34g carbs, 8g fat, 14g protein',
 		time: 10
 	},
@@ -145,7 +223,17 @@ export const ParfaitShakes: Recipe[] = [
 			'Layer yogurt and banana slices in a glass.',
 			'Top with walnuts and drizzle with honey.'
 		],
-		tags: ['parfait', 'banana', 'nuts', 'protein-rich', 'vegetarian'],
+		tags: [
+			'parfait',
+			'banana',
+			'nuts',
+			'protein-rich',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '330 calories, 35g carbs, 12g fat, 16g protein',
 		time: 8
 	},
@@ -160,7 +248,18 @@ export const ParfaitShakes: Recipe[] = [
 			'1 tsp agave syrup'
 		],
 		instructions: ['Layer yogurt, berries, and almonds.', 'Finish with a drizzle of agave syrup.'],
-		tags: ['parfait', 'berry', 'almond', 'vegan', 'gluten-free'],
+		tags: [
+			'parfait',
+			'berry',
+			'almond',
+			'vegan',
+			'gluten-free',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '250 calories, 28g carbs, 9g fat, 9g protein',
 		time: 8
 	},
@@ -178,7 +277,18 @@ export const ParfaitShakes: Recipe[] = [
 			'Layer pumpkin puree, yogurt, and graham crackers.',
 			'Sprinkle with pumpkin pie spice and chill.'
 		],
-		tags: ['parfait', 'pumpkin', 'fall', 'spiced', 'dessert-style'],
+		tags: [
+			'parfait',
+			'pumpkin',
+			'fall',
+			'spiced',
+			'dessert-style',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '280 calories, 42g carbs, 8g fat, 10g protein',
 		time: 10
 	},
@@ -196,7 +306,18 @@ export const ParfaitShakes: Recipe[] = [
 			'Layer chocolate yogurt with peanut butter swirls.',
 			'Top with pretzels and chocolate chips.'
 		],
-		tags: ['parfait', 'chocolate', 'peanut butter', 'sweet', 'dessert-style'],
+		tags: [
+			'parfait',
+			'chocolate',
+			'peanut butter',
+			'sweet',
+			'dessert-style',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '380 calories, 34g carbs, 18g fat, 15g protein',
 		time: 10
 	},
@@ -214,7 +335,17 @@ export const ParfaitShakes: Recipe[] = [
 			'Whisk matcha into yogurt until smooth.',
 			'Layer yogurt, granola, and kiwi slices.'
 		],
-		tags: ['parfait', 'matcha', 'green tea', 'energizing', 'vegetarian'],
+		tags: [
+			'parfait',
+			'matcha',
+			'green tea',
+			'energizing',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '240 calories, 30g carbs, 7g fat, 10g protein',
 		time: 8
 	},
@@ -229,7 +360,18 @@ export const ParfaitShakes: Recipe[] = [
 			'1 tsp maple syrup'
 		],
 		instructions: ['Layer yogurt, granola, and pecans.', 'Drizzle with extra maple syrup.'],
-		tags: ['parfait', 'maple', 'pecan', 'sweet', 'cozy', 'vegetarian'],
+		tags: [
+			'parfait',
+			'maple',
+			'pecan',
+			'sweet',
+			'cozy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '310 calories, 35g carbs, 11g fat, 12g protein',
 		time: 8
 	},
@@ -244,7 +386,18 @@ export const ParfaitShakes: Recipe[] = [
 			'¼ cup granola'
 		],
 		instructions: ['Layer yogurt, raspberries, and granola.', 'Top with white chocolate chips.'],
-		tags: ['parfait', 'raspberry', 'white chocolate', 'sweet', 'dessert-style'],
+		tags: [
+			'parfait',
+			'raspberry',
+			'white chocolate',
+			'sweet',
+			'dessert-style',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '330 calories, 40g carbs, 10g fat, 13g protein',
 		time: 10
 	},
@@ -261,7 +414,17 @@ export const ParfaitShakes: Recipe[] = [
 			'Layer yogurt, cherries, and graham crackers.',
 			'Chill 30 minutes before serving for best flavor.'
 		],
-		tags: ['parfait', 'cherry', 'cheesecake', 'dessert-style', 'vegetarian'],
+		tags: [
+			'parfait',
+			'cherry',
+			'cheesecake',
+			'dessert-style',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '370 calories, 44g carbs, 12g fat, 14g protein',
 		time: 10
 	},
@@ -283,7 +446,19 @@ export const ParfaitShakes: Recipe[] = [
 			'Blend until smooth and creamy.',
 			'Pour into glasses and serve immediately.'
 		],
-		tags: ['shake', 'strawberry', 'banana', 'protein', 'breakfast', 'smoothie'],
+		tags: [
+			'shake',
+			'strawberry',
+			'banana',
+			'protein',
+			'breakfast',
+			'smoothie',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '280 calories, 40g carbs, 6g fat, 22g protein',
 		time: 5
 	},
@@ -302,7 +477,19 @@ export const ParfaitShakes: Recipe[] = [
 			'Blend all ingredients until smooth.',
 			'Pour into glasses and garnish with extra chia seeds if desired.'
 		],
-		tags: ['shake', 'tropical', 'mango', 'pineapple', 'healthy', 'breakfast'],
+		tags: [
+			'shake',
+			'tropical',
+			'mango',
+			'pineapple',
+			'healthy',
+			'breakfast',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '250 calories, 38g carbs, 8g fat, 8g protein',
 		time: 5
 	},
@@ -323,7 +510,19 @@ export const ParfaitShakes: Recipe[] = [
 			'Blend until smooth and creamy.',
 			'Serve immediately.'
 		],
-		tags: ['shake', 'chocolate', 'peanut butter', 'protein', 'sweet', 'breakfast'],
+		tags: [
+			'shake',
+			'chocolate',
+			'peanut butter',
+			'protein',
+			'sweet',
+			'breakfast',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '350 calories, 35g carbs, 14g fat, 20g protein',
 		time: 5
 	},
@@ -339,7 +538,19 @@ export const ParfaitShakes: Recipe[] = [
 			'1 tsp honey (optional)'
 		],
 		instructions: ['Blend all ingredients until smooth.', 'Pour into glasses and serve chilled.'],
-		tags: ['shake', 'blueberry', 'almond', 'breakfast', 'antioxidants', 'healthy'],
+		tags: [
+			'shake',
+			'blueberry',
+			'almond',
+			'breakfast',
+			'antioxidants',
+			'healthy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '260 calories, 32g carbs, 9g fat, 12g protein',
 		time: 5
 	},
@@ -359,7 +570,18 @@ export const ParfaitShakes: Recipe[] = [
 			'Blend all ingredients until creamy and smooth.',
 			'Serve immediately for a fresh green breakfast boost.'
 		],
-		tags: ['shake', 'green', 'spinach', 'avocado', 'healthy', 'vegetarian'],
+		tags: [
+			'shake',
+			'green',
+			'spinach',
+			'avocado',
+			'healthy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '280 calories, 34g carbs, 10g fat, 12g protein',
 		time: 5
 	},
@@ -378,7 +600,19 @@ export const ParfaitShakes: Recipe[] = [
 			'Blend all ingredients until smooth.',
 			'Serve chilled, garnished with a few papaya cubes.'
 		],
-		tags: ['shake', 'papaya', 'tropical', 'breakfast', 'fiber-rich', 'healthy'],
+		tags: [
+			'shake',
+			'papaya',
+			'tropical',
+			'breakfast',
+			'fiber-rich',
+			'healthy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '240 calories, 38g carbs, 5g fat, 10g protein',
 		time: 5
 	},
@@ -398,7 +632,19 @@ export const ParfaitShakes: Recipe[] = [
 			'Blend all ingredients until smooth.',
 			'Serve immediately for a warm cinnamon flavor.'
 		],
-		tags: ['shake', 'apple', 'cinnamon', 'protein', 'breakfast', 'healthy'],
+		tags: [
+			'shake',
+			'apple',
+			'cinnamon',
+			'protein',
+			'breakfast',
+			'healthy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '290 calories, 38g carbs, 7g fat, 20g protein',
 		time: 5
 	},
@@ -418,7 +664,19 @@ export const ParfaitShakes: Recipe[] = [
 			'Blend until smooth and creamy.',
 			'Serve immediately.'
 		],
-		tags: ['shake', 'raspberry', 'vanilla', 'breakfast', 'antioxidants', 'healthy'],
+		tags: [
+			'shake',
+			'raspberry',
+			'vanilla',
+			'breakfast',
+			'antioxidants',
+			'healthy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '260 calories, 35g carbs, 6g fat, 12g protein',
 		time: 5
 	},
@@ -438,7 +696,18 @@ export const ParfaitShakes: Recipe[] = [
 			'Blend all ingredients until smooth.',
 			'Serve immediately for a morning caffeine boost.'
 		],
-		tags: ['shake', 'coffee', 'chocolate', 'energizing', 'breakfast'],
+		tags: [
+			'shake',
+			'coffee',
+			'chocolate',
+			'energizing',
+			'breakfast',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '280 calories, 38g carbs, 5g fat, 15g protein',
 		time: 5
 	},
@@ -454,7 +723,18 @@ export const ParfaitShakes: Recipe[] = [
 			'1 tsp honey'
 		],
 		instructions: ['Blend all ingredients until creamy and smooth.', 'Serve immediately.'],
-		tags: ['shake', 'peanut butter', 'banana', 'protein', 'breakfast'],
+		tags: [
+			'shake',
+			'peanut butter',
+			'banana',
+			'protein',
+			'breakfast',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '330 calories, 34g carbs, 12g fat, 20g protein',
 		time: 5
 	},
@@ -473,7 +753,19 @@ export const ParfaitShakes: Recipe[] = [
 			'Blend all ingredients until smooth.',
 			'Serve chilled for a fresh, green breakfast start.'
 		],
-		tags: ['shake', 'kiwi', 'green', 'spinach', 'healthy', 'breakfast'],
+		tags: [
+			'shake',
+			'kiwi',
+			'green',
+			'spinach',
+			'healthy',
+			'breakfast',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '250 calories, 36g carbs, 5g fat, 12g protein',
 		time: 5
 	},
@@ -493,7 +785,18 @@ export const ParfaitShakes: Recipe[] = [
 			'Blend all berries with milk, yogurt, and protein powder until smooth.',
 			'Serve immediately.'
 		],
-		tags: ['shake', 'berry', 'protein', 'antioxidants', 'breakfast'],
+		tags: [
+			'shake',
+			'berry',
+			'protein',
+			'antioxidants',
+			'breakfast',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '280 calories, 38g carbs, 6g fat, 22g protein',
 		time: 5
 	},
@@ -512,7 +815,19 @@ export const ParfaitShakes: Recipe[] = [
 			'Blend all ingredients until smooth.',
 			'Serve chilled with a sprinkle of pumpkin pie spice.'
 		],
-		tags: ['shake', 'pumpkin', 'spice', 'fall', 'breakfast', 'healthy'],
+		tags: [
+			'shake',
+			'pumpkin',
+			'spice',
+			'fall',
+			'breakfast',
+			'healthy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '240 calories, 30g carbs, 5g fat, 12g protein',
 		time: 5
 	},
@@ -532,7 +847,19 @@ export const ParfaitShakes: Recipe[] = [
 			'Blend all ingredients until smooth.',
 			'Serve immediately for a refreshing chocolate-mint start.'
 		],
-		tags: ['shake', 'chocolate', 'mint', 'breakfast', 'protein', 'healthy'],
+		tags: [
+			'shake',
+			'chocolate',
+			'mint',
+			'breakfast',
+			'protein',
+			'healthy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '280 calories, 32g carbs, 6g fat, 15g protein',
 		time: 5
 	},
@@ -542,7 +869,19 @@ export const ParfaitShakes: Recipe[] = [
 		servings: '2',
 		ingredients: ['1 cup orange juice', '½ cup vanilla Greek yogurt', '½ cup milk', '1 tsp honey'],
 		instructions: ['Blend all ingredients until smooth and creamy.', 'Serve immediately chilled.'],
-		tags: ['shake', 'orange', 'citrus', 'breakfast', 'creamsicle', 'healthy'],
+		tags: [
+			'shake',
+			'orange',
+			'citrus',
+			'breakfast',
+			'creamsicle',
+			'healthy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '220 calories, 36g carbs, 5g fat, 10g protein',
 		time: 5
 	}

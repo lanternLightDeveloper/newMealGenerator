@@ -249,6 +249,7 @@
 					<label><input type="checkbox" bind:checked={includeStarch} /> Starch</label>
 					<label><input type="checkbox" bind:checked={includeVeg} /> Vegetable</label>
 					<label><input type="checkbox" bind:checked={includeMain} /> Main</label>
+					<p class="double-Block">Sweets</p>
 					<label><input type="checkbox" bind:checked={includeDessert} /> Dessert</label>
 
 					<button
@@ -261,6 +262,7 @@
 
 					{#if isTuningOpen}
 						<section class="double-Block">
+							<h2>Dinner filter</h2>
 							<div class="ingredient-filters">
 								{#each Object.entries(selectedIngredients) as [group, items]}
 									<p>{group.charAt(0).toUpperCase() + group.slice(1)}</p>

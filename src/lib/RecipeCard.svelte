@@ -1,5 +1,25 @@
 <script>
+	import { BaseRecipes } from './data/BaseRecipes.ts';
 	let { Recipes } = $props();
+
+	let selectedTerm = $state(null);
+	let showBaseRecipe = $state(false);
+
+	function handleGlossaryClick(term) {
+		if (selectedTerm === term && showBaseRecipe) {
+			showBaseRecipe = false;
+		} else {
+			selectedTerm = term;
+			showBaseRecipe = true;
+		}
+	}
+
+	// ✅ Correct reactivity for Svelte 5
+	let matchingBaseRecipes = $derived(
+		Object.keys(BaseRecipes).filter((term) =>
+			Recipes.ingredients.some((ing) => new RegExp(`\\b${term}\\b`, 'i').test(ing))
+		)
+	);
 </script>
 
 <article class="card">
@@ -10,8 +30,8 @@
 
 	<h3>Ingredients</h3>
 	<ul>
-		{#each Recipes.ingredients as ingredient}
-			<li>{ingredient}</li>
+		{#each Recipes.ingredients as ing}
+			<li>{ing}</li>
 		{/each}
 	</ul>
 
@@ -29,6 +49,41 @@
 				<li>{tag}</li>
 			{/each}
 		</ul>
+	{/if}
+
+	<!-- ✅ Only render if there’s at least one match -->
+	{#if matchingBaseRecipes.length}
+		<div>
+			<h3>Base Recipes</h3>
+			{#each matchingBaseRecipes as term}
+				<button class="btn-Ghost" onclick={() => handleGlossaryClick(term)}>
+					{term}
+				</button>
+			{/each}
+		</div>
+	{/if}
+
+	{#if showBaseRecipe && selectedTerm}
+		<div>
+			<h3>{BaseRecipes[selectedTerm].name}</h3>
+			<p><strong>Servings:</strong> {BaseRecipes[selectedTerm].servings}</p>
+			<p><strong>Time:</strong> {BaseRecipes[selectedTerm].time} minutes</p>
+			<p><strong>Nutrition:</strong> {BaseRecipes[selectedTerm].nutrition}</p>
+
+			<h3>Ingredients</h3>
+			<ul>
+				{#each BaseRecipes[selectedTerm].ingredients as ing}
+					<li>{ing}</li>
+				{/each}
+			</ul>
+
+			<h3>Instructions</h3>
+			<ol>
+				{#each BaseRecipes[selectedTerm].instructions as step}
+					<li>{step}</li>
+				{/each}
+			</ol>
+		</div>
 	{/if}
 </article>
 
@@ -84,5 +139,24 @@
 		margin-top: 0.25rem;
 		padding: 0.25rem 0.75rem;
 		border-radius: 9999px;
+	}
+
+	.glossary-term {
+		position: relative;
+		cursor: help;
+		text-decoration: underline dotted;
+	}
+
+	.glossary-term:hover::after {
+		content: attr(data-term);
+		position: absolute;
+		top: 1.5em;
+		left: 0;
+		background: #333;
+		color: #fff;
+		padding: 4px 8px;
+		border-radius: 6px;
+		font-size: 0.8rem;
+		white-space: nowrap;
 	}
 </style>

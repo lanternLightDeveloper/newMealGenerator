@@ -43,7 +43,7 @@ export const Soups: Recipe[] = [
 			'Add tofu and wakame, simmer 2–3 minutes.',
 			'Top with green onions before serving.'
 		],
-		tags: ['soup', 'broth', 'japanese', , 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
+		tags: ['soup', 'broth', 'japanese', 'vegetarian', 'gluten-free', 'economic', 'fast', 'easy'],
 		nutrition: '120 calories, 4g fat, 10g carbs, 10g protein',
 		time: 15
 	},

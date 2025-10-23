@@ -1,3 +1,5 @@
+// Current Recipe Count: 40
+
 export const BreakTater: Recipe[] = [
 	{
 		id: 1,
@@ -29,7 +31,6 @@ export const BreakTater: Recipe[] = [
 			'herbs',
 			'vegetarian',
 			'economic',
-			'fast',
 			'easy',
 			'gluten-free'
 		],
@@ -75,7 +76,17 @@ export const BreakTater: Recipe[] = [
 			'Add potatoes and seasonings; cook until tender and crispy, about 15 minutes.',
 			'Toss with cilantro before serving.'
 		],
-		tags: ['savory', 'spicy', 'brunch', 'pan-fried', 'vegetarian', 'gluten-free'],
+		tags: [
+			'savory',
+			'spicy',
+			'brunch',
+			'pan-fried',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '210 calories, 30g carbs, 8g fat, 4g protein',
 		time: 25
 	},
@@ -95,7 +106,17 @@ export const BreakTater: Recipe[] = [
 			'Top with cheese and cover until melted.',
 			'Sprinkle green onions before serving.'
 		],
-		tags: ['cheesy', 'comfort', 'easy', 'brunch', 'vegetarian'],
+		tags: [
+			'cheesy',
+			'comfort',
+			'easy',
+			'brunch',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '260 calories, 29g carbs, 13g fat, 6g protein',
 		time: 25
 	},
@@ -116,7 +137,17 @@ export const BreakTater: Recipe[] = [
 			'Cook until crispy and browned, about 10–12 minutes.',
 			'Season with paprika, salt, and pepper.'
 		],
-		tags: ['classic', 'brunch', 'crispy', 'pan-fried', 'vegetarian', 'gluten-free'],
+		tags: [
+			'classic',
+			'brunch',
+			'crispy',
+			'pan-fried',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '220 calories, 26g carbs, 11g fat, 3g protein',
 		time: 25
 	},
@@ -136,7 +167,7 @@ export const BreakTater: Recipe[] = [
 			'Top with bacon, cheese, and green onions.',
 			'Add eggs on top and serve hot.'
 		],
-		tags: ['loaded', 'hearty', 'brunch', 'bacon', 'cheese'],
+		tags: ['loaded', 'hearty', 'brunch', 'bacon', 'cheese', 'fast', 'easy', 'gluten-free'],
 		nutrition: '380 calories, 27g carbs, 22g fat, 15g protein',
 		time: 25
 	},
@@ -156,7 +187,16 @@ export const BreakTater: Recipe[] = [
 			'Add onion and pepper and cook until all are tender and caramelized.',
 			'Season and serve.'
 		],
-		tags: ['sweet potato', 'healthy', 'gluten-free', 'vegetarian', 'brunch'],
+		tags: [
+			'sweet potato',
+			'healthy',
+			'brunch',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '190 calories, 27g carbs, 8g fat, 3g protein',
 		time: 25
 	},
@@ -177,7 +217,17 @@ export const BreakTater: Recipe[] = [
 			'Layer potatoes, sausage, and cheese in a greased dish.',
 			'Whisk eggs and milk, pour over mixture, and bake 30–35 minutes until set.'
 		],
-		tags: ['baked', 'brunch', 'hearty', 'meal-prep', 'family'],
+		tags: [
+			'baked',
+			'brunch',
+			'hearty',
+			'meal-prep',
+			'family',
+			'vegetarian',
+			'economic',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '310 calories, 22g carbs, 18g fat, 18g protein',
 		time: 45
 	},
@@ -197,7 +247,7 @@ export const BreakTater: Recipe[] = [
 			'Toss wedges with oil, Parmesan, and seasonings.',
 			'Bake 30 minutes, turning halfway, until crisp and golden.'
 		],
-		tags: ['crispy', 'baked', 'cheesy', 'vegetarian', 'easy'],
+		tags: ['crispy', 'baked', 'cheesy', 'easy', 'vegetarian', 'economic', 'easy', 'gluten-free'],
 		nutrition: '230 calories, 30g carbs, 9g fat, 5g protein',
 		time: 35
 	},
@@ -216,7 +266,18 @@ export const BreakTater: Recipe[] = [
 			'Sauté potatoes in olive oil until tender.',
 			'Beat eggs with milk, pour into skillet, and scramble with potatoes until set.'
 		],
-		tags: ['simple', 'one-pan', 'protein', 'breakfast', 'quick'],
+		tags: [
+			'simple',
+			'one-pan',
+			'protein',
+			'breakfast',
+			'quick',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '280 calories, 22g carbs, 14g fat, 12g protein',
 		time: 15
 	},
@@ -236,7 +297,7 @@ export const BreakTater: Recipe[] = [
 			'Roast at 425°F (220°C) for 25 minutes or until crisp.',
 			'Serve warm.'
 		],
-		tags: ['spiced', 'roasted', 'easy', 'vegetarian', 'gluten-free'],
+		tags: ['spiced', 'roasted', 'easy', 'vegetarian', 'economic', 'easy', 'gluten-free'],
 		nutrition: '200 calories, 27g carbs, 8g fat, 3g protein',
 		time: 30
 	},
@@ -256,7 +317,17 @@ export const BreakTater: Recipe[] = [
 			'Cook onions in oil until soft, then add potatoes.',
 			'Fry until crisp and browned, about 10 minutes.'
 		],
-		tags: ['classic', 'brunch', 'crispy', 'comfort', 'vegetarian'],
+		tags: [
+			'classic',
+			'brunch',
+			'crispy',
+			'comfort',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '210 calories, 25g carbs, 9g fat, 3g protein',
 		time: 20
 	},
@@ -274,7 +345,17 @@ export const BreakTater: Recipe[] = [
 			'Roast sweet potato cubes at 400°F (200°C) for 25 minutes.',
 			'Top with eggs, bacon, and green onions before serving.'
 		],
-		tags: ['sweet potato', 'loaded', 'protein', 'brunch', 'gluten-free'],
+		tags: [
+			'sweet potato',
+			'loaded',
+			'protein',
+			'brunch',
+			'gluten-free',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '350 calories, 26g carbs, 18g fat, 17g protein',
 		time: 30
 	},
@@ -295,7 +376,18 @@ export const BreakTater: Recipe[] = [
 			'Roast at 425°F (220°C) for 25 minutes until crispy.',
 			'Sprinkle parsley before serving.'
 		],
-		tags: ['crispy', 'fun', 'vegetarian', 'brunch', 'gluten-free'],
+		tags: [
+			'crispy',
+			'fun',
+			'vegetarian',
+			'brunch',
+			'gluten-free',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '200 calories, 27g carbs, 8g fat, 3g protein',
 		time: 35
 	},
@@ -315,7 +407,17 @@ export const BreakTater: Recipe[] = [
 			'Add potatoes, onion, and pepper; cook until tender and crisp.',
 			'Season and serve hot.'
 		],
-		tags: ['spicy', 'meaty', 'brunch', 'one-pan', 'hearty'],
+		tags: [
+			'spicy',
+			'meaty',
+			'brunch',
+			'one-pan',
+			'hearty',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '380 calories, 25g carbs, 24g fat, 14g protein',
 		time: 25
 	},
@@ -339,7 +441,7 @@ export const BreakTater: Recipe[] = [
 			'Drizzle truffle oil over hot potatoes and toss with Parmesan, chives, and parsley.',
 			'Serve immediately for the best aroma and texture.'
 		],
-		tags: ['fancy', 'potato', 'roasted', 'truffle', 'brunch', 'vegetarian'],
+		tags: ['fancy', 'potato', 'roasted', 'truffle', 'brunch', 'vegetarian', 'easy', 'gluten-free'],
 		nutrition: '230 calories, 26g carbs, 11g fat, 4g protein',
 		time: 40
 	},
@@ -364,7 +466,16 @@ export const BreakTater: Recipe[] = [
 			'Cook 5–6 minutes per side until golden and crisp.',
 			'Top with smoked salmon, a dollop of crème fraîche, capers, dill, and a squeeze of lemon.'
 		],
-		tags: ['fancy', 'rösti', 'smoked salmon', 'brunch', 'seafood'],
+		tags: [
+			'fancy',
+			'rösti',
+			'smoked salmon',
+			'brunch',
+			'seafood',
+			'economic',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '290 calories, 22g carbs, 17g fat, 12g protein',
 		time: 30
 	},
@@ -386,7 +497,7 @@ export const BreakTater: Recipe[] = [
 			'Add potatoes and cook until golden and crisp, stirring occasionally.',
 			'Season with salt, pepper, and parsley before serving.'
 		],
-		tags: ['fancy', 'potato', 'duck fat', 'french', 'brunch', 'gluten-free'],
+		tags: ['fancy', 'potato', 'duck fat', 'french', 'brunch', 'economic', 'easy', 'gluten-free'],
 		nutrition: '250 calories, 27g carbs, 12g fat, 4g protein',
 		time: 35
 	},
@@ -409,7 +520,7 @@ export const BreakTater: Recipe[] = [
 			'Pour cream over layers, sprinkle with nutmeg, and cover with foil.',
 			'Bake 40 minutes, uncover, and bake 10–15 more until golden and bubbly.'
 		],
-		tags: ['fancy', 'gratin', 'cheesy', 'brunch', 'vegetarian'],
+		tags: ['fancy', 'gratin', 'cheesy', 'brunch', 'easy', 'gluten-free'],
 		nutrition: '310 calories, 24g carbs, 18g fat, 10g protein',
 		time: 55
 	},
@@ -433,7 +544,7 @@ export const BreakTater: Recipe[] = [
 			'Top each serving with a poached egg and drizzle with hollandaise.',
 			'Garnish with fresh chives and serve immediately.'
 		],
-		tags: ['fancy', 'sweet potato', 'hash', 'brunch', 'vegetarian'],
+		tags: ['fancy', 'sweet potato', 'hash', 'brunch', 'economic', 'fast', 'easy', 'gluten-free'],
 		nutrition: '340 calories, 29g carbs, 19g fat, 9g protein',
 		time: 25
 	},
@@ -448,7 +559,19 @@ export const BreakTater: Recipe[] = [
 			'Cook for 20–25 minutes, stirring often, until creamy.',
 			'Stir in butter before serving.'
 		],
-		tags: ['grits', 'southern', 'classic', 'savory', 'vegetarian', 'gluten-free'],
+		tags: [
+			'grits',
+			'southern',
+			'classic',
+			'savory',
+			'vegetarian',
+			'gluten-free',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '180 calories, 30g carbs, 6g fat, 4g protein',
 		time: 30
 	},
@@ -470,7 +593,17 @@ export const BreakTater: Recipe[] = [
 			'Add grits and simmer until thickened, about 25 minutes.',
 			'Stir in cheese, butter, salt, and pepper until smooth.'
 		],
-		tags: ['grits', 'cheesy', 'savory', 'comfort food', 'vegetarian'],
+		tags: [
+			'grits',
+			'cheesy',
+			'savory',
+			'comfort food',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '280 calories, 25g carbs, 14g fat, 9g protein',
 		time: 30
 	},
@@ -493,7 +626,7 @@ export const BreakTater: Recipe[] = [
 			'Cook shrimp in bacon fat with butter and Cajun seasoning until pink.',
 			'Serve shrimp mixture over hot grits and top with green onion and bacon.'
 		],
-		tags: ['grits', 'seafood', 'southern', 'bacon', 'brunch'],
+		tags: ['grits', 'seafood', 'southern', 'bacon', 'brunch', 'easy', 'gluten-free'],
 		nutrition: '320 calories, 28g carbs, 15g fat, 20g protein',
 		time: 35
 	},
@@ -514,7 +647,17 @@ export const BreakTater: Recipe[] = [
 			'Simmer 5–7 minutes until thick.',
 			'Stir in brown sugar and maple syrup before serving.'
 		],
-		tags: ['oatmeal', 'sweet', 'classic', 'vegetarian', 'easy'],
+		tags: [
+			'oatmeal',
+			'sweet',
+			'classic',
+			'easy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '260 calories, 44g carbs, 6g fat, 8g protein',
 		time: 10
 	},
@@ -535,7 +678,17 @@ export const BreakTater: Recipe[] = [
 			'Stir in butter and Parmesan.',
 			'Top each bowl with a poached egg and cracked pepper.'
 		],
-		tags: ['grits', 'savory', 'brunch', 'egg', 'vegetarian'],
+		tags: [
+			'grits',
+			'savory',
+			'brunch',
+			'egg',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '290 calories, 25g carbs, 14g fat, 13g protein',
 		time: 25
 	},
@@ -556,7 +709,17 @@ export const BreakTater: Recipe[] = [
 			'Stir in honey and vanilla.',
 			'Top with blueberries and almonds.'
 		],
-		tags: ['oatmeal', 'blueberry', 'sweet', 'healthy', 'vegetarian'],
+		tags: [
+			'oatmeal',
+			'blueberry',
+			'sweet',
+			'healthy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '240 calories, 40g carbs, 7g fat, 7g protein',
 		time: 10
 	},
@@ -577,7 +740,18 @@ export const BreakTater: Recipe[] = [
 			'Stir in butter, cheese, and jalapeño until melted and creamy.',
 			'Serve warm with extra slices of jalapeño.'
 		],
-		tags: ['grits', 'spicy', 'cheesy', 'southern', 'savory'],
+		tags: [
+			'grits',
+			'spicy',
+			'cheesy',
+			'southern',
+			'savory',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '300 calories, 26g carbs, 15g fat, 10g protein',
 		time: 25
 	},
@@ -598,7 +772,17 @@ export const BreakTater: Recipe[] = [
 			'Stir in apples, brown sugar, and spices.',
 			'Simmer 3 more minutes until apples are tender.'
 		],
-		tags: ['oatmeal', 'apple', 'sweet', 'vegetarian', 'warm'],
+		tags: [
+			'oatmeal',
+			'apple',
+			'sweet',
+			'warm',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '270 calories, 46g carbs, 6g fat, 8g protein',
 		time: 12
 	},
@@ -619,7 +803,17 @@ export const BreakTater: Recipe[] = [
 			'Sauté sausage and bell pepper with Cajun seasoning until browned.',
 			'Serve over grits with butter on top.'
 		],
-		tags: ['grits', 'savory', 'spicy', 'sausage', 'brunch'],
+		tags: [
+			'grits',
+			'savory',
+			'spicy',
+			'sausage',
+			'brunch',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '340 calories, 29g carbs, 18g fat, 15g protein',
 		time: 25
 	},
@@ -640,7 +834,17 @@ export const BreakTater: Recipe[] = [
 			'Stir in honey and cinnamon.',
 			'Top with banana slices and walnuts.'
 		],
-		tags: ['oatmeal', 'banana', 'sweet', 'vegetarian', 'nutty'],
+		tags: [
+			'oatmeal',
+			'banana',
+			'sweet',
+			'nutty',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '310 calories, 45g carbs, 11g fat, 9g protein',
 		time: 10
 	},
@@ -661,7 +865,17 @@ export const BreakTater: Recipe[] = [
 			'Sauté mushrooms with butter and thyme until golden.',
 			'Top grits with mushrooms and season to taste.'
 		],
-		tags: ['grits', 'savory', 'mushroom', 'herbs', 'vegetarian'],
+		tags: [
+			'grits',
+			'savory',
+			'mushroom',
+			'herbs',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '250 calories, 28g carbs, 10g fat, 6g protein',
 		time: 25
 	},
@@ -682,7 +896,17 @@ export const BreakTater: Recipe[] = [
 			'Add peach, sugar, and spices and cook 3 minutes more.',
 			'Serve warm, topped with extra peaches.'
 		],
-		tags: ['oatmeal', 'peach', 'sweet', 'fruit', 'vegetarian'],
+		tags: [
+			'oatmeal',
+			'peach',
+			'sweet',
+			'fruit',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '280 calories, 48g carbs, 6g fat, 8g protein',
 		time: 12
 	},
@@ -703,7 +927,7 @@ export const BreakTater: Recipe[] = [
 			'Stir in butter, cheese, and crumbled bacon.',
 			'Serve hot with black pepper.'
 		],
-		tags: ['grits', 'savory', 'bacon', 'cheesy', 'southern'],
+		tags: ['grits', 'savory', 'bacon', 'cheesy', 'southern', 'fast', 'easy', 'gluten-free'],
 		nutrition: '330 calories, 27g carbs, 18g fat, 13g protein',
 		time: 25
 	},
@@ -724,7 +948,17 @@ export const BreakTater: Recipe[] = [
 			'Stir in pumpkin, maple syrup, and spice until smooth.',
 			'Serve warm with extra drizzle of syrup.'
 		],
-		tags: ['oatmeal', 'pumpkin', 'sweet', 'seasonal', 'vegetarian'],
+		tags: [
+			'oatmeal',
+			'pumpkin',
+			'sweet',
+			'seasonal',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '260 calories, 44g carbs, 6g fat, 8g protein',
 		time: 10
 	},
@@ -746,7 +980,17 @@ export const BreakTater: Recipe[] = [
 			'Slowly add milk to make gravy; cook until thick.',
 			'Serve sausage gravy over creamy grits.'
 		],
-		tags: ['grits', 'sausage', 'gravy', 'southern', 'savory'],
+		tags: [
+			'grits',
+			'sausage',
+			'gravy',
+			'southern',
+			'savory',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '420 calories, 29g carbs, 25g fat, 18g protein',
 		time: 30
 	},
@@ -766,7 +1010,17 @@ export const BreakTater: Recipe[] = [
 			'Stir in honey and vanilla.',
 			'Top with fresh berries before serving.'
 		],
-		tags: ['oatmeal', 'berries', 'sweet', 'healthy', 'vegetarian'],
+		tags: [
+			'oatmeal',
+			'berries',
+			'sweet',
+			'healthy',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '250 calories, 42g carbs, 6g fat, 8g protein',
 		time: 8
 	},
@@ -787,7 +1041,7 @@ export const BreakTater: Recipe[] = [
 			'Sauté spinach in olive oil until wilted.',
 			'Top grits with spinach and feta before serving.'
 		],
-		tags: ['grits', 'savory', 'vegetarian', 'feta', 'brunch'],
+		tags: ['grits', 'savory', 'vegetarian', 'feta', 'brunch', 'fast', 'easy', 'gluten-free'],
 		nutrition: '260 calories, 23g carbs, 12g fat, 9g protein',
 		time: 20
 	},
@@ -806,7 +1060,7 @@ export const BreakTater: Recipe[] = [
 			'Cook oats in coconut milk until creamy.',
 			'Stir in honey and top with mango and coconut flakes.'
 		],
-		tags: ['oatmeal', 'tropical', 'sweet', 'fruit', 'vegetarian'],
+		tags: ['oatmeal', 'tropical', 'sweet', 'fruit', 'vegetarian', 'fast', 'easy', 'gluten-free'],
 		nutrition: '290 calories, 43g carbs, 9g fat, 7g protein',
 		time: 10
 	},
@@ -827,7 +1081,7 @@ export const BreakTater: Recipe[] = [
 			'Mix cooked grits, sausage, cheese, eggs, milk, and pepper.',
 			'Pour into greased dish and bake 30 minutes until golden.'
 		],
-		tags: ['grits', 'casserole', 'brunch', 'savory', 'cheesy'],
+		tags: ['grits', 'casserole', 'brunch', 'savory', 'cheesy', 'economic', 'easy', 'gluten-free'],
 		nutrition: '390 calories, 28g carbs, 20g fat, 18g protein',
 		time: 40
 	},
@@ -847,7 +1101,17 @@ export const BreakTater: Recipe[] = [
 			'Stir in cocoa, peanut butter, and honey until smooth.',
 			'Serve warm.'
 		],
-		tags: ['oatmeal', 'chocolate', 'sweet', 'protein', 'vegetarian'],
+		tags: [
+			'oatmeal',
+			'chocolate',
+			'sweet',
+			'protein',
+			'vegetarian',
+			'economic',
+			'fast',
+			'easy',
+			'gluten-free'
+		],
 		nutrition: '330 calories, 42g carbs, 12g fat, 10g protein',
 		time: 10
 	}
