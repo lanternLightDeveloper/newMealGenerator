@@ -17,10 +17,10 @@
 	let includeEggs = $state(false);
 	let includeParfait = $state(false);
 	let includePancakes = $state(false);
-	let includeStarch = $state(false);
-	let includeVeg = $state(false);
 	let includeSandwiches = $state(false);
 	let includeSoup = $state(false);
+	let includeStarch = $state(false);
+	let includeVeg = $state(false);
 	let includeMain = $state(false);
 	let includeDessert = $state(false);
 
@@ -69,7 +69,7 @@
 	function generateMeal() {
 		const newMeal: typeof meal = {};
 
-		function getRandomRecipe(list) {
+		function getRandomRecipe(list, category) {
 			let filtered = list;
 
 			// Tag filters
@@ -79,35 +79,42 @@
 			if (fastComplete) filtered = filtered.filter((r) => r.tags?.includes('fast'));
 			if (easyComplete) filtered = filtered.filter((r) => r.tags?.includes('easy'));
 
-			// ✅ Ingredient filters (fixed for nested structure)
-			const activeIngredients = Object.entries(selectedIngredients).flatMap(([_, group]) =>
-				Object.entries(group)
-					.filter(([_, checked]) => checked)
-					.map(([ingredient]) => ingredient.toLowerCase())
-			);
-
-			if (activeIngredients.length) {
-				filtered = filtered.filter((recipe) =>
-					activeIngredients.some((ing) =>
-						recipe.ingredients.some((i) => i.toLowerCase().includes(ing))
-					)
+			// ✅ Only apply ingredient filters to dinner categories
+			const dinnerCategories = ['starch', 'veg', 'main'];
+			if (dinnerCategories.includes(category)) {
+				const activeIngredients = Object.entries(selectedIngredients).flatMap(([_, group]) =>
+					Object.entries(group)
+						.filter(([_, checked]) => checked)
+						.map(([ingredient]) => ingredient.toLowerCase())
 				);
+
+				if (activeIngredients.length) {
+					filtered = filtered.filter((recipe) =>
+						activeIngredients.some((ing) =>
+							recipe.ingredients.some((i) => i.toLowerCase().includes(ing))
+						)
+					);
+				}
 			}
 
 			if (!filtered.length) return null;
 			return filtered[Math.floor(Math.random() * filtered.length)];
 		}
 
-		if (includeBreakTater && BreakTater.length) newMeal.breakTater = getRandomRecipe(BreakTater);
-		if (includeEggs && Eggs.length) newMeal.eggs = getRandomRecipe(Eggs);
-		if (includeParfait && ParfaitShakes.length) newMeal.parfait = getRandomRecipe(ParfaitShakes);
-		if (includePancakes && Pancakes.length) newMeal.pancakes = getRandomRecipe(Pancakes);
-		if (includeStarch && Starch.length) newMeal.starch = getRandomRecipe(Starch);
-		if (includeVeg && Vegetables.length) newMeal.veg = getRandomRecipe(Vegetables);
-		if (includeSandwiches && Sandwiches.length) newMeal.sandwiches = getRandomRecipe(Sandwiches);
-		if (includeSoup && Soups.length) newMeal.soup = getRandomRecipe(Soups);
-		if (includeMain && Mains.length) newMeal.main = getRandomRecipe(Mains);
-		if (includeDessert && Desserts.length) newMeal.dessert = getRandomRecipe(Desserts);
+		if (includeBreakTater && BreakTater.length)
+			newMeal.breakTater = getRandomRecipe(BreakTater, 'breakTater');
+		if (includeEggs && Eggs.length) newMeal.eggs = getRandomRecipe(Eggs, 'eggs');
+		if (includeParfait && ParfaitShakes.length)
+			newMeal.parfait = getRandomRecipe(ParfaitShakes, 'parfait');
+		if (includePancakes && Pancakes.length)
+			newMeal.pancakes = getRandomRecipe(Pancakes, 'pancakes');
+		if (includeStarch && Starch.length) newMeal.starch = getRandomRecipe(Starch, 'starch');
+		if (includeVeg && Vegetables.length) newMeal.veg = getRandomRecipe(Vegetables, 'veg');
+		if (includeSandwiches && Sandwiches.length)
+			newMeal.sandwiches = getRandomRecipe(Sandwiches, 'sandwiches');
+		if (includeSoup && Soups.length) newMeal.soup = getRandomRecipe(Soups, 'soup');
+		if (includeMain && Mains.length) newMeal.main = getRandomRecipe(Mains, 'main');
+		if (includeDessert && Desserts.length) newMeal.dessert = getRandomRecipe(Desserts, 'dessert');
 
 		meal = newMeal;
 	}
@@ -156,26 +163,29 @@
 
 		let filtered = list;
 
-		// Tag filters
+		// ✅ Tag filters (apply to all categories)
 		if (glutenFreeOnly) filtered = filtered.filter((r) => r.tags?.includes('gluten-free'));
 		if (vegetarianFriendly) filtered = filtered.filter((r) => r.tags?.includes('vegetarian'));
 		if (economic) filtered = filtered.filter((r) => r.tags?.includes('economic'));
 		if (fastComplete) filtered = filtered.filter((r) => r.tags?.includes('fast'));
 		if (easyComplete) filtered = filtered.filter((r) => r.tags?.includes('easy'));
 
-		// ✅ Ingredient filters (for nested structure)
-		const activeIngredients = Object.entries(selectedIngredients).flatMap(([_, group]) =>
-			Object.entries(group)
-				.filter(([_, checked]) => checked)
-				.map(([ingredient]) => ingredient.toLowerCase())
-		);
-
-		if (activeIngredients.length) {
-			filtered = filtered.filter((recipe) =>
-				activeIngredients.some((ing) =>
-					recipe.ingredients.some((i) => i.toLowerCase().includes(ing))
-				)
+		// ✅ Ingredient filters — only for dinner categories
+		const dinnerCategories = ['starch', 'veg', 'main'];
+		if (dinnerCategories.includes(category)) {
+			const activeIngredients = Object.entries(selectedIngredients).flatMap(([_, group]) =>
+				Object.entries(group)
+					.filter(([_, checked]) => checked)
+					.map(([ingredient]) => ingredient.toLowerCase())
 			);
+
+			if (activeIngredients.length) {
+				filtered = filtered.filter((recipe) =>
+					activeIngredients.some((ing) =>
+						recipe.ingredients.some((i) => i.toLowerCase().includes(ing))
+					)
+				);
+			}
 		}
 
 		// ✅ Pick random filtered recipe (if any left)
@@ -249,6 +259,7 @@
 					<label><input type="checkbox" bind:checked={includeStarch} /> Starch</label>
 					<label><input type="checkbox" bind:checked={includeVeg} /> Vegetable</label>
 					<label><input type="checkbox" bind:checked={includeMain} /> Main</label>
+					<br />
 					<p class="double-Block">Sweets</p>
 					<label><input type="checkbox" bind:checked={includeDessert} /> Dessert</label>
 
@@ -301,6 +312,7 @@
 	>
 		Menu
 	</button>
+
 	<section class="grid-Main">
 		{#if meal.breakTater}
 			<div>
