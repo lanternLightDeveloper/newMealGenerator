@@ -33,7 +33,7 @@ h1 {
 
 h2 {
     font-size: var(--size-6);
-    color: var(--accent-1);
+    color: var(--txt-2);
     border-bottom: var(--bord);
 }
 

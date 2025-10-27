@@ -13,6 +13,8 @@
 	import { Mains } from '$lib/data/Mains';
 	import { Desserts } from '$lib/data/Desserts';
 
+	//  🦕  🦖🦖🦖 🦕 🦕    Vari      💀= 💣 🌠
+
 	let includeBreakTater = $state(false);
 	let includeEggs = $state(false);
 	let includeParfait = $state(false);
@@ -66,20 +68,20 @@
 		}
 	});
 
+	//  🦕  🦖🦖🦖 🦕 🦕    Generate Meal button      💀= 💣 🌠
+
 	function generateMeal() {
 		const newMeal: typeof meal = {};
 
 		function getRandomRecipe(list, category) {
 			let filtered = list;
 
-			// Tag filters
 			if (glutenFreeOnly) filtered = filtered.filter((r) => r.tags?.includes('gluten-free'));
 			if (vegetarianFriendly) filtered = filtered.filter((r) => r.tags?.includes('vegetarian'));
 			if (economic) filtered = filtered.filter((r) => r.tags?.includes('economic'));
 			if (fastComplete) filtered = filtered.filter((r) => r.tags?.includes('fast'));
 			if (easyComplete) filtered = filtered.filter((r) => r.tags?.includes('easy'));
 
-			// ✅ Only apply ingredient filters to dinner categories
 			const dinnerCategories = ['starch', 'veg', 'main'];
 			if (dinnerCategories.includes(category)) {
 				const activeIngredients = Object.entries(selectedIngredients).flatMap(([_, group]) =>
@@ -119,6 +121,8 @@
 		meal = newMeal;
 	}
 
+	//  🦕  🦖🦖🦖 🦕 🦕    Save Meal as .TXT      💀= 💣 🌠
+
 	function saveMealAsText() {
 		let text = '--- Your Meal ---\n\n';
 
@@ -134,7 +138,6 @@
 			text += '\n----------------------\n\n';
 		}
 
-		// create a blob and trigger download
 		const blob = new Blob([text], { type: 'text/plain' });
 		const url = URL.createObjectURL(blob);
 		const a = document.createElement('a');
@@ -143,6 +146,8 @@
 		a.click();
 		URL.revokeObjectURL(url);
 	}
+
+	//  🦕  🦖🦖🦖 🦕 🦕    Reroll button      💀= 💣 🌠
 
 	function reroll(category: keyof typeof meal) {
 		const sources = {
@@ -163,14 +168,12 @@
 
 		let filtered = list;
 
-		// ✅ Tag filters (apply to all categories)
 		if (glutenFreeOnly) filtered = filtered.filter((r) => r.tags?.includes('gluten-free'));
 		if (vegetarianFriendly) filtered = filtered.filter((r) => r.tags?.includes('vegetarian'));
 		if (economic) filtered = filtered.filter((r) => r.tags?.includes('economic'));
 		if (fastComplete) filtered = filtered.filter((r) => r.tags?.includes('fast'));
 		if (easyComplete) filtered = filtered.filter((r) => r.tags?.includes('easy'));
 
-		// ✅ Ingredient filters — only for dinner categories
 		const dinnerCategories = ['starch', 'veg', 'main'];
 		if (dinnerCategories.includes(category)) {
 			const activeIngredients = Object.entries(selectedIngredients).flatMap(([_, group]) =>
@@ -188,12 +191,13 @@
 			}
 		}
 
-		// ✅ Pick random filtered recipe (if any left)
 		if (filtered.length) {
 			const randomRecipe = filtered[Math.floor(Math.random() * filtered.length)];
 			meal = { ...meal, [category]: randomRecipe };
 		}
 	}
+
+	//  🦕  🦖🦖🦖 🦕 🦕    Menus/Filters      💀= 💣 🌠
 
 	let isMenuOpen = $state(false);
 
@@ -225,7 +229,7 @@
 					<p class="double-Block">Keywords</p>
 
 					<label>
-						<input type="checkbox" bind:checked={glutenFreeOnly} /> Gluten-Free Only
+						<input type="checkbox" bind:checked={glutenFreeOnly} /> Gluten-Free
 					</label>
 					<label>
 						<input type="checkbox" bind:checked={vegetarianFriendly} /> Vegetarian

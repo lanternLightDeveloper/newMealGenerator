@@ -107,8 +107,8 @@
 /* Ghost button */
 .btn-Ghost {
 	background-color: transparent;
-	border: 2px solid var(--accent-1);
-	color: var(--txt-2	);
+	border: var(--bord);
+	color: var(--txt-1	);
 	padding: var(--size-4);
 	text-align: center;
 	text-decoration: none;

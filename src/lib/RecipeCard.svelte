@@ -89,14 +89,12 @@
 
 <style>
 	.card {
-		background: #222;
-		color: #fff;
+		background: var(--bg-2);
 		padding: 1.5rem;
 		border-radius: 1rem;
 		border: var(--bord);
 		display: flex;
 		flex-direction: column;
-		box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 		margin: 1rem auto;
 		width: fit-content;
 		max-width: 100%;
@@ -105,8 +103,12 @@
 	h2,
 	h3,
 	p {
-		margin: 0;
+		margin: 0.5rem 0;
 		padding: 0;
+	}
+
+	h3 {
+		border-bottom: var(--bord);
 	}
 
 	ol {
@@ -116,18 +118,9 @@
 		}
 	}
 
-	h2 {
-		margin-bottom: 0.25rem;
-	}
-
-	h3 {
-		margin-top: 1rem;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-		padding-bottom: 0;
-	}
-
 	.tags {
 		display: flex;
+		text-transform: capitalize;
 		flex-wrap: wrap;
 		gap: 0.5rem;
 		list-style: none;
@@ -135,28 +128,10 @@
 	}
 
 	.tags li {
-		background: #444;
+		background: var(--hover);
+		color: var(--bg-1);
 		margin-top: 0.25rem;
 		padding: 0.25rem 0.75rem;
 		border-radius: 9999px;
-	}
-
-	.glossary-term {
-		position: relative;
-		cursor: help;
-		text-decoration: underline dotted;
-	}
-
-	.glossary-term:hover::after {
-		content: attr(data-term);
-		position: absolute;
-		top: 1.5em;
-		left: 0;
-		background: #333;
-		color: #fff;
-		padding: 4px 8px;
-		border-radius: 6px;
-		font-size: 0.8rem;
-		white-space: nowrap;
 	}
 </style>
